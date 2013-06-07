@@ -1,0 +1,35 @@
+Testing for DDoS attacks with:
+Hthreshold of 1.244841--0.414479
+Chgthreshold of 0.237142
+-----------------------------------------------
+...
+-----------------------------------------------
+REPORT: Probable 95% DDoS attack at Sun Apr 16 16:00:03 2000
+REPORT: Hurst change of 0.363007 seen between window 1986 and 1987
+REPORT: Values of 0.535514 and 0.172507
+-----------------------------------------------
+REPORT: Probable 95% DDoS attack at Sun Apr 16 16:01:36 2000
+REPORT: Hurst change of 0.275785 seen between window 2079 and 2080
+REPORT: Values of 0.688822 and 0.413037
+-----------------------------------------------
+REPORT: Probable 95% DDoS attack at Sun Apr 16 16:02:30 2000
+REPORT: Hurst change of 0.308394 seen between window 2133 and 2134
+REPORT: Values of 0.488609 and 0.180216
+-----------------------------------------------
+REPORT: Probable 95% DDoS attack at Sun Apr 16 16:04:20 2000
+REPORT: Hurst change of 0.353363 seen between window 2243 and 2244
+REPORT: Values of 0.466236 and 0.112873
+-----------------------------------------------
+REPORT: Probable 95% DDoS attack at Sun Apr 16 16:07:39 2000
+REPORT: Hurst change of 0.258397 seen between window 2442 and 2443
+REPORT: Values of 0.638034 and 0.379636
+-----------------------------------------------
+REPORT: Probable 95% DDoS attack at Sun Apr 16 16:08:50 2000
+REPORT: Hurst change of 0.346732 seen between window 2513 and 2514
+REPORT: Values of 0.557514 and 0.210782
+-----------------------------------------------
+REPORT: Probable 95% DDoS attack at Sun Apr 16 16:10:29 2000
+REPORT: Hurst change of 0.378521 seen between window 2612 and 2613
+REPORT: Values of 0.656764 and 0.278243
+-----------------------------------------------
+...

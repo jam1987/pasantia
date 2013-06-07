@@ -1,0 +1,27 @@
+\BOOKMARK [0][-]{dedication.0}{Dedication}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{\315ndice general}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{\315ndice de cuadros}{}% 3
+\BOOKMARK [0][-]{chapter*.4}{\315ndice de figuras}{}% 4
+\BOOKMARK [0][-]{chapter*.4}{Introducci\363n}{}% 5
+\BOOKMARK [0][-]{chapter.1}{Marco te\363rico}{}% 6
+\BOOKMARK [1][-]{section.1.1}{Procesos autosimilares}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.1}{Definiciones}{section.1.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.2}{Propiedades}{section.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.3}{Dependencia de corto y largo alcance}{section.1.1}% 10
+\BOOKMARK [1][-]{section.1.2}{M\351todos para la estimaci\363n del par\341metro de Hurst}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.2.1}{Estad\355stico R/S}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.2}{Gr\341ficas varianza-tiempo}{section.1.2}% 13
+\BOOKMARK [2][-]{subsection.1.2.3}{Varianza modificada de Allan}{section.1.2}% 14
+\BOOKMARK [1][-]{section.1.3}{Problemas con la estimaci\363n del par\341metro de Hurst}{chapter.1}% 15
+\BOOKMARK [0][-]{chapter.2}{Planteamiento del problema}{}% 16
+\BOOKMARK [1][-]{section.2.1}{Requerimientos}{chapter.2}% 17
+\BOOKMARK [0][-]{chapter.3}{Resultados}{}% 18
+\BOOKMARK [1][-]{section.3.1}{M\341quina de prueba}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.2}{Validaci\363n de los estimados}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{Conclusiones y recomendaciones}{}% 21
+\BOOKMARK [0][-]{chapter*.13}{Bibliograf\355a}{}% 22
+\BOOKMARK [0][-]{appendix.Alph1}{Informaci\363n adicional de d2Hgr}{}% 23
+\BOOKMARK [1][-]{section.Alph1.1}{Requerimientos de software y hardware}{appendix.Alph1}% 24
+\BOOKMARK [1][-]{section.Alph1.2}{Ayuda de la l\355nea de comando}{appendix.Alph1}% 25
+\BOOKMARK [1][-]{section.Alph1.3}{Archivos del programa}{appendix.Alph1}% 26
+\BOOKMARK [1][-]{section.Alph1.4}{Creaci\363n de Xtdata}{appendix.Alph1}% 27

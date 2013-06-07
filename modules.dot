@@ -1,0 +1,58 @@
+digraph g {
+
+    subgraph {
+        rank = same;
+        cap [ shape=box, label = "Captura de paquetes\n(tcpdump)" ];
+        R [ shape=box, label = "Generación de datos\n(R)" ];
+    }
+
+    subgraph {
+        rank = same;
+        tcpdump [ shape=ellipse, label="Archivo producido\npor tcpdump" ];
+        paxson [ shape=ellipse, label="Archivo de datos" ];
+    }
+
+    cap -> tcpdump;
+    R -> paxson;
+
+    subgraph cluster_program {
+        labelloc = b;
+        label = "d2Hgr";
+
+        xtcreate [ shape=box, label = "Creación de serie de tiempo" ];
+        xtdata [ shape=hexagon, label="Xtdata" ];
+
+        est [ shape=box, label = "Estimación del parámetro de Hurst" ];
+
+        xtcreate -> xtdata;
+
+        xtdata -> est [ label="'w' y 's'" ];
+
+        change [ shape=hexagon, label="Estimación de\nvarias ventanas" ];
+        window [ shape=hexagon, label="Estimación de\nuna ventana" ];
+        detect [ shape=box,label = "Detección de ataques" ];
+        graphics [ shape=box,label = "Graficación" ];
+
+        est -> change;
+        est -> window;
+
+        change -> detect;
+        change -> graphics;
+
+        window -> graphics;
+    }
+
+    tcpdump -> xtcreate [ label="'c'" ];
+    paxson -> xtcreate;
+
+    subgraph {
+        rank = same;
+        graphs [ shape=ellipse, label="Gráficas" ];
+        points [ shape=invtriangle, label="Ataques" ];
+        stats [ shape=invtriangle, label="Información\ngeneral" ];
+    }
+
+    xtcreate -> stats;
+    detect -> points;
+    graphics -> graphs;
+}

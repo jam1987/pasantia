@@ -1,0 +1,76 @@
+% Pagina del acta final
+\begin{titlepage}
+\begin{center}
+
+% Upper part
+\includegraphics[scale=0.5,type=png,ext=.png,read=.png]{figures/cebolla} \\
+
+\textsc {\large UNIVERSIDAD SIM'ON BOL'IVAR} \\
+\textsc{DECANATO DE ESTUDIOS PROFESIONALES\\
+COORDINACI'ON DE INGENIER'IA DE LA COMPUTACI'ON}
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+% Title
+\textsc{ACTA FINAL PROYECTO DE GRADO}
+
+\bigskip
+\bigskip
+
+% Aqui coloca el nombre de su proyecto de grado/pasantia larga.
+\textsc{\bfseries ESTIMACI'ON DEL PAR'AMETRO DE HURST PARA LA DETECCI'ON DE
+ATAQUES DE DENEGACI'ON DE SERVICIO}
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\begin{minipage}{\textwidth}
+\centering
+Presentado por: \\
+% Aqui coloca su nombre.
+\textsc{\bfseries JAIRO EDUARDO L'OPEZ FUENTES NACARINO} \\
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+Este Proyecto de Grado ha sido aprobado por el siguiente jurado examinador: \\
+
+\bigskip
+\bigskip
+
+% Despues de cada line coloca el (los) nombre(s) de
+% cada uno de los integrantes del jurado.
+\line(1,0){200} \\
+Prof. Mariela Curiel \\
+
+\bigskip
+\bigskip
+
+\line(1,0){200} \\
+Prof. Isabel Llatas \\
+
+\bigskip
+\bigskip
+
+\line(1,0){200} \\
+Prof. Angela Di Serio \\
+\end{minipage}
+
+\bigskip
+\bigskip
+\vfill
+
+% Date/Fecha
+{\large \bfseries Sartenejas, 22/02/2010}
+
+\end{center}
+\end{titlepage}

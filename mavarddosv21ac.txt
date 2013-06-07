@@ -1,0 +1,13 @@
+REPORT: Probable 95% DDoS attack at Sun Apr 16 16:07:39 2000
+REPORT: Hurst change of 0.258397 seen between window 2442 and 2443
+REPORT: Values of 0.638034 and 0.379636
+-----------------------------------------------
+REPORT: Probable 95% DDoS attack at Sun Apr 16 16:08:50 2000
+REPORT: Hurst change of 0.346732 seen between window 2513 and 2514
+REPORT: Values of 0.557514 and 0.210782
+-----------------------------------------------
+REPORT: Probable 95% DDoS attack at Sun Apr 16 16:10:29 2000
+REPORT: Hurst change of 0.378521 seen between window 2612 and 2613
+REPORT: Values of 0.656764 and 0.278243
+-----------------------------------------------
+...
