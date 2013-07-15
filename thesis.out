@@ -3,25 +3,27 @@
 \BOOKMARK [0][-]{chapter*.3}{\315ndice de cuadros}{}% 3
 \BOOKMARK [0][-]{chapter*.4}{\315ndice de figuras}{}% 4
 \BOOKMARK [0][-]{chapter*.4}{Introducci\363n}{}% 5
-\BOOKMARK [0][-]{chapter.1}{Marco te\363rico}{}% 6
-\BOOKMARK [1][-]{section.1.1}{Procesos autosimilares}{chapter.1}% 7
-\BOOKMARK [2][-]{subsection.1.1.1}{Definiciones}{section.1.1}% 8
-\BOOKMARK [2][-]{subsection.1.1.2}{Propiedades}{section.1.1}% 9
-\BOOKMARK [2][-]{subsection.1.1.3}{Dependencia de corto y largo alcance}{section.1.1}% 10
-\BOOKMARK [1][-]{section.1.2}{M\351todos para la estimaci\363n del par\341metro de Hurst}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.2.1}{Estad\355stico R/S}{section.1.2}% 12
-\BOOKMARK [2][-]{subsection.1.2.2}{Gr\341ficas varianza-tiempo}{section.1.2}% 13
-\BOOKMARK [2][-]{subsection.1.2.3}{Varianza modificada de Allan}{section.1.2}% 14
-\BOOKMARK [1][-]{section.1.3}{Problemas con la estimaci\363n del par\341metro de Hurst}{chapter.1}% 15
-\BOOKMARK [0][-]{chapter.2}{Planteamiento del problema}{}% 16
-\BOOKMARK [1][-]{section.2.1}{Requerimientos}{chapter.2}% 17
-\BOOKMARK [0][-]{chapter.3}{Resultados}{}% 18
-\BOOKMARK [1][-]{section.3.1}{M\341quina de prueba}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.2}{Validaci\363n de los estimados}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{Conclusiones y recomendaciones}{}% 21
-\BOOKMARK [0][-]{chapter*.13}{Bibliograf\355a}{}% 22
-\BOOKMARK [0][-]{appendix.Alph1}{Informaci\363n adicional de d2Hgr}{}% 23
-\BOOKMARK [1][-]{section.Alph1.1}{Requerimientos de software y hardware}{appendix.Alph1}% 24
-\BOOKMARK [1][-]{section.Alph1.2}{Ayuda de la l\355nea de comando}{appendix.Alph1}% 25
-\BOOKMARK [1][-]{section.Alph1.3}{Archivos del programa}{appendix.Alph1}% 26
-\BOOKMARK [1][-]{section.Alph1.4}{Creaci\363n de Xtdata}{appendix.Alph1}% 27
+\BOOKMARK [0][-]{chapter.1}{Entorno Empresarial}{}% 6
+\BOOKMARK [1][-]{section.1.1}{Descripci\363n General}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.2}{Misi\363n}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.3}{Visi\363n}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.4}{Estructura Organizacional}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.5}{Ubicaci\363n del Pasante}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{Marco te\363rico}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Sistemas de Informaci\363n ERP}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.1.1}{Definiciones}{section.2.1}% 14
+\BOOKMARK [1][-]{section.2.2}{SAP}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.1}{Definici\363n}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.2}{}{section.2.2}% 17
+\BOOKMARK [0][-]{chapter.3}{Planteamiento del problema}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Requerimientos}{chapter.3}% 19
+\BOOKMARK [0][-]{chapter.4}{Resultados}{}% 20
+\BOOKMARK [1][-]{section.4.1}{M\341quina de prueba}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{Validaci\363n de los estimados}{chapter.4}% 22
+\BOOKMARK [0][-]{chapter.5}{Conclusiones y recomendaciones}{}% 23
+\BOOKMARK [0][-]{chapter*.10}{Bibliograf\355a}{}% 24
+\BOOKMARK [0][-]{appendix.Alph1}{Informaci\363n adicional de d2Hgr}{}% 25
+\BOOKMARK [1][-]{section.Alph1.1}{Requerimientos de software y hardware}{appendix.Alph1}% 26
+\BOOKMARK [1][-]{section.Alph1.2}{Ayuda de la l\355nea de comando}{appendix.Alph1}% 27
+\BOOKMARK [1][-]{section.Alph1.3}{Archivos del programa}{appendix.Alph1}% 28
+\BOOKMARK [1][-]{section.Alph1.4}{Creaci\363n de Xtdata}{appendix.Alph1}% 29
