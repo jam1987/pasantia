@@ -36,20 +36,25 @@
 \BOOKMARK [2][-]{subsection.2.3.3}{Proceso de Ventas utilizando el M\363dulo SD}{section.2.3}% 36
 \BOOKMARK [2][-]{subsection.2.3.4}{Relaci\363n existente entre el M\363dulo SD y otros M\363dulos}{section.2.3}% 37
 \BOOKMARK [1][-]{section.2.4}{Lenguaje de Programaci\363n ABAP/4}{chapter.2}% 38
-\BOOKMARK [1][-]{section.2.5}{Metodolog\355a Ascendant SAP}{chapter.2}% 39
-\BOOKMARK [2][-]{subsection.2.5.1}{Fase 1: Preparaci\363n del Proyecto}{section.2.5}% 40
-\BOOKMARK [2][-]{subsection.2.5.2}{Fase 2: Business Blueprint}{section.2.5}% 41
-\BOOKMARK [2][-]{subsection.2.5.3}{Fase 3: Realizaci\363n}{section.2.5}% 42
-\BOOKMARK [2][-]{subsection.2.5.4}{Fase 4: Preparaci\363n Final}{section.2.5}% 43
-\BOOKMARK [0][-]{chapter.3}{Planteamiento del problema}{}% 44
-\BOOKMARK [1][-]{section.3.1}{Requerimientos}{chapter.3}% 45
-\BOOKMARK [0][-]{chapter.4}{Resultados}{}% 46
-\BOOKMARK [1][-]{section.4.1}{M\341quina de prueba}{chapter.4}% 47
-\BOOKMARK [1][-]{section.4.2}{Validaci\363n de los estimados}{chapter.4}% 48
-\BOOKMARK [0][-]{chapter.5}{Conclusiones y recomendaciones}{}% 49
-\BOOKMARK [0][-]{chapter*.11}{Bibliograf\355a}{}% 50
-\BOOKMARK [0][-]{appendix.Alph1}{Informaci\363n adicional de d2Hgr}{}% 51
-\BOOKMARK [1][-]{section.Alph1.1}{Requerimientos de software y hardware}{appendix.Alph1}% 52
-\BOOKMARK [1][-]{section.Alph1.2}{Ayuda de la l\355nea de comando}{appendix.Alph1}% 53
-\BOOKMARK [1][-]{section.Alph1.3}{Archivos del programa}{appendix.Alph1}% 54
-\BOOKMARK [1][-]{section.Alph1.4}{Creaci\363n de Xtdata}{appendix.Alph1}% 55
+\BOOKMARK [0][-]{chapter.3}{Marco Metodol\363gico}{}% 39
+\BOOKMARK [1][-]{section.3.1}{Descripci\363n de la metodolog\355a}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.2}{Caracter\355sticas Principales}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.3}{Fases de la metodolog\355a ASAP}{chapter.3}% 42
+\BOOKMARK [2][-]{subsection.3.3.1}{Fase 1: Preparaci\363n del Proyecto}{section.3.3}% 43
+\BOOKMARK [2][-]{subsection.3.3.2}{Fase 2: Business Blueprint}{section.3.3}% 44
+\BOOKMARK [2][-]{subsection.3.3.3}{Fase 3: Realizaci\363n}{section.3.3}% 45
+\BOOKMARK [3][-]{subsubsection.3.3.3.1}{Simulaci\363n}{subsection.3.3.3}% 46
+\BOOKMARK [3][-]{subsubsection.3.3.3.2}{Validaci\363n}{subsection.3.3.3}% 47
+\BOOKMARK [3][-]{subsubsection.3.3.3.3}{Uni\363n y Pruebas de Integraci\363n}{subsection.3.3.3}% 48
+\BOOKMARK [2][-]{subsection.3.3.4}{Fase 4: Preparaci\363n Final}{section.3.3}% 49
+\BOOKMARK [1][-]{section.3.4}{Requerimientos}{chapter.3}% 50
+\BOOKMARK [0][-]{chapter.4}{Resultados}{}% 51
+\BOOKMARK [1][-]{section.4.1}{M\341quina de prueba}{chapter.4}% 52
+\BOOKMARK [1][-]{section.4.2}{Validaci\363n de los estimados}{chapter.4}% 53
+\BOOKMARK [0][-]{chapter.5}{Conclusiones y recomendaciones}{}% 54
+\BOOKMARK [0][-]{chapter*.11}{Bibliograf\355a}{}% 55
+\BOOKMARK [0][-]{appendix.Alph1}{Informaci\363n adicional de d2Hgr}{}% 56
+\BOOKMARK [1][-]{section.Alph1.1}{Requerimientos de software y hardware}{appendix.Alph1}% 57
+\BOOKMARK [1][-]{section.Alph1.2}{Ayuda de la l\355nea de comando}{appendix.Alph1}% 58
+\BOOKMARK [1][-]{section.Alph1.3}{Archivos del programa}{appendix.Alph1}% 59
+\BOOKMARK [1][-]{section.Alph1.4}{Creaci\363n de Xtdata}{appendix.Alph1}% 60
