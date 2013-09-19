@@ -93,63 +93,72 @@ Una decisi'on fundamental que se toma en esta fase es la definici'on de una estr
 \item Sus costos son bajos
 \item Los riesgos se reducen al m'inimo
 \end{itemize}
-\subsection{Fase 4: Preparaci'on Final}
+Las pruebas de todo el sistema implementado se realiza en dos grandes grupos: El primer grupo es el conjunto de pruebas unitarias. Estas consisten en realizar pruebas a peque\~nas transacciones, como por ejemplo: crear una orden de venta, crear un cliente, etc. Para esto, se hace por cada 'area funcional o m'odulo cumpliendo un ciclo b'asico, como por ejemplo, en Ventas y Distribuci'on el ciclo b'asico consiste en: Realizar el pedido de Venta, luego efectuar la entrega para as'i finalmente generar la factura correspondiente. 
+El segundo grupo de pruebas est'a conformado por las \textbf{Pruebas Integrales}. 'Estas consisten en crear un conjunto de escenarios que involucren todas las 'areas funcionales implementadas. Estas pruebas son dise\~nadas con una perspectiva orientada a procesos. Por ejemplo, se prueba cada paso requerido para realizar un Pedido de Venta. En este punto, es fundamental contar con la presencia de los usuarios finales, ya que son ellos los que pueden brindar una retroalimentaci'on oportuna, y as'i poder detectar posibles fallas.
+	Existen dos maneras de aplicar estas pruebas unitarias. La primera, se conoce como \textbf{Aseguramiento de Calidad (QA por su nombre en ingl'es)}, es realizada por un conjunto de miembros de tiempo completo en compa\~n'ia de usuarios del negocio pertenecientes a las distintas 'areas funcionales. Cada grupo es asignado a un peque\~no escenario, y es responsable de verificar que todo el proceso involucrado se lleve a cabo sin errores desde el inicio hasta el final. La segunda opci'on es tener distintos grupos que realizen las distintas pruebas por cada 'area funcional. En el caso de que la prueba involucre varias 'areas funcionales, por ejemplo, se tienen las 'areas funcionales A, B y C. En el momento en que el 'area A necesite enviar recursos al 'area B, la responsabilidad de las pruebas pasa del miembro del equipo A que est'a ejecutando la prueba, a alg'un miembro del equipo B.
 
-AQU\'I VA EL DESARROLLO DEL PLANTEAMIENTO DEL PROBLEMA.
-%Puedes quitar esto(es opcional)
-\vspace{5 mm}
-
-Para verificar si los m'etodos para detecci'on de ataques de denegaci'on de
-servicio mediante el uso del par'ametro de Hurst, descritos en la secci'on
-son utilizables en tiempo real necesitamos implementarlos e incluirlos en 
-una herramienta que adem'as maneje las trazas y sea capaz de graficar los resultados. 
-
-
-Los requerimientos funcionales y no funcionales para la creaci'on del programa,
-son descritos en las secci'on \ref{sect:requirements}. 
-
-\section{Requerimientos} \label{sect:requirements}
-
-Los requerimientos de la herramienta o software a implementar se mencionan a
-continuaci'on: 
-
+\subsubsection{Conversi'on y Carga de los Datos}
+	Para que el sistema implementado en SAP pueda funcionar correctamente, es necesario realizar la carga de una gran cantidad de datos. 
+	Existen dos m'etodos para la migraci'on de los datos dentro del sistema SAP, estos son los que se listan a continuaci'on:
 \begin{itemize}
-\item Por posibles cuestiones legales, la implementaci'on de la soluci'on 
-debe ser de c'odigo libre para poder, luego de su validaci'on, ser
-modificados y los m'odulos e incluidos en el AIR-NMS del laboratorio Kinoshita
-de la Universidad de Tohoku.
-\item La herramienta de l'inea de comando debe desarrollarse en el lenguaje
-{\tt C}, ya que se quiere utilizar la librer'ia {\tt libpcap} para manipular
-las trazas de red como fuese necesario.
-\item Con el uso de la liber'ia {\tt libpcap} se debe extraer todo la
-informaci'on posible sobre los tiempos de llegada, cantidad y tama~no de los
-paquetes de distintos protocolos que componen TCP/IP en la traza que alimenta
-el programa.
-\item Debido a que algunos m'etodos de estimaci'on del par'ametro de Hurst
-utilizan gr'aficas, la herramienta debe tener capacidades gr'aficas. 
-El software debe tambi'en poder graficar el cambio del par'ametro en el tiempo
-cuando se usa el mecanismo de ventanas deslizantes, y la serie de tiempo
-creada a partir de la velocidad de captura ($c$).
-\item El programa debe ser flexible. Esto incluye el hacer todos los aspectos
-importantes de la estimaci'on parametrizables, tales como la velocidad de 
-captura ($c$), el tama~no de la ventana ($w$) y el tama~no de la ventana
-deslizante ($s$).
-\item El programa debe incluir al menos 3 m'etodos para la estimaci'on del 
-par'ametro de Hurst. Dichos m'etodos fueron escogidos desde un principio por
-el laboratorio Kinoshita y los criterios de selecci'on se exponen a
-continuaci'on. Ellos ya ten'ian una implementaci'on del estad'istico R/S y
-quer'ian seguir teniendo este m'etodo como alternativa. Debido a los art'iculos 
-\cite{intelligentfuzzy} y \cite{xiang:292} d'onde se hace un an'alisis
-exhaustivo de la estimaci'on del par'ametro de Hurst mediante las gr'aficas
-varianza-tiempo y su comportamiento en ataques de denegaci'on de servicio era
-tambi'en razonable su implementaci'on. Por 'ultimo, el m'etodo de la varianza
-modificada de Allan fue seleccionado ya que hoy en d'ia es uno de los m'etodos 
-m'as novedosos utilizados para la estimaci'on del par'ametro de Hurst y se ha
-demostrado que es bastante preciso, especialmente con muestras peque~nas
-\cite{MAVARStefano}. 
-\item  Por tratarse de un prototipo, todas sus funciones ser'ian para el 
-an'alisis de forma {\it offline}. Los resultados dar'ian una idea del
-comportamiento en un ambiente real.
+\item Entrada por Lote: Consiste en simular la entrada de datos a trav'es de las pantallas de las distintas transacciones.
+\item Entrada Directa: Se recibe el archivo de forma directa, se procesa, se realizan los chequeos previos a los datos, y luego se realiza la actualizaci'on en la Base de Datos.
 \end{itemize}
+	Es importante que la migraci'on de los datos se realice lo m'as temprano posible. Se recomienda agrupar los datos en peque\~nos grupos, e ir carg'andolos poco a poco. Sin embargo, esto deriva en una limitaci'on de la efectividad a la hora de continuar con las configuraciones, dado que el sistema se encuentra incompleto y puede presentar fallas a la hora de la carga de estos datos.
+	En SAP, los datos se pueden agrupar en 5 grupos principales:
+\begin{itemize}
+\item Datos Maestros Automatizados
+\item Datos Maestros Manuales
+\item Datos de Transacci'on Automatizados
+\item Datos de Transacci'on Manuales
+\item Datos de Limpieza
+\end{itemize}
+	Existe un problema muy importante que hay que tomar en cuenta, y que por lo general se ignora o no se le da la debida importancia: El problema de los datos sucios o inconsistentes. Esto es fundamental, ya que pueden generar prblemas con el sistema implementado en SAP por la calidad de los datos que han sido cargados. 
+	Otro problema con el que se debe estar alerta es con la duplicidad de los datos, ya que por ejemplo, se puede tener un material con m'ultiples entradas. Esto se debe a que dentro de la entrada de un material, el 'unico campo un'ivoco correspondiente a dicho material es un c'odigo asignado por SAP. 
+	Existen dos maneras de chequear que los datos no tengan duplicados: La primera, se realiza en el sistema original de donde provienen los datos. La segunda, se realiza una vez que los datos hayan sido ingresados a SAP, se procede a su chequeo correspondiente.
+	Las personas encargadas del chequeo de los datos son los usuarios finales, ya que, son ellos quienes conocen dichos datos y pueden ser capaces de descartar cualquier inconsistencia que pueda ser encontrada.
 
+\subsubsection{Interfaces, Ampliaciones y Reportes}
 
+	Para poder asegurar aquellos peque\~nos sub-sistemas que se pierden del sistema original a la hora de adaptar el negocio de una empresa en SAP, es necesario la creaci'on de interfaces. Las interfaces en SAP se encargan de ayudar en la integraci'on del proceso del negocio y la sincronizaci'on de los datos entre dos o m'as sistemas SAP, o entre SAP y un sistema externo.
+	Adicionalmente, para poder adaptar las implementaciones realizadas a las necesidades espec'ificas de la empresa, es posible que sea necesario la creaci'on de una \textbf{Ampliaci'on}. Una Ampliaci'on b'asicamente es una modificaci'on peque\~na que se les puede aplicar a programas est'andares ya existentes dentro del Sistema SAP. Para esto, es necesario que dentro del equipo del proyecto, existan personas que sepan programar en ABAP, ya que dichas ampliaciones son realizadas en este lenguaje. El problema con esto, es que necesita ser probado constantemente, sobre todo cuando existan actualizaciones al software de SAP. 
+	Otra herramienta que suele ser importante durante esta fase son los reportes realizados, ya que hay muchas cosas que quiz'as la empresa necesite, que con las transacciones existentes no se pueden realizar.
+	Los requerimientos para realizar dichos reportes deben ser establecidos lo m'as temprano posible, para que as'i puedan ser agrupados de acuerdo a la prioridad que tenga dicho requerimiento. Para la realizaci'on de dichos requerimientos, es necesario contar con el grupo de programadores en ABAP. 
+	
+\subsection{Fase 4: Preparaci'on Final}
+	En esta 'ultima fase hay varias tareas que deben ser llevadas a cabo para la culminaci'on de un proyecto realizado en SAP. Estas tareas son las que se listan a continuaci'on:
+	
+\subsubsection{Refinar el Sistema creado}
+	Una vez que se han realizado todas las pruebas al sistema y se haya recibido la retroalimentaci'on del usuario final, se proceder'a a hacer las modificaciones pertinentes para adaptar el sistema a los posibles cambios que puedan surgir. Es posible que tanto las configuraciones, como las interfaces e ampliaciones tengan que sufrir alguna modificaci'on.
+	 
+\subsubsection{Planeacion de la preparaci'on de la Salida en Vivo}
+Este plan consiste en el conjunto de actividades que deben ser ejecutadas las 'ultimas semanas antes de salir en vivo. Este 'ultimo t'ermino se refiere a la ejecuci'on integral y puesta en producci'on de todo el sistema por parte de los usuarios finales. 
+	Algunas de estas actividades a realizar, son las que se listan a continuación:
+\begin{itemize}
+\item Tareas variadas
+\item Establecer un calendario y los hitos principales.
+\item Estimar tiempo de carga de datos por cada sub-carga
+\item Asignaci'on de cada tarea a una persona
+\item Establecer un per'iodo y el procedimiento para desconectar el sistema legal previo.
+\item Procedimiento de limpieza de datos
+\end{itemize}
+	Este plan puede ser revisado por los gerentes del proyecto, los ejecutivos, equipo t'ecnico y l'ideres para su posterior aprobaci'on. 
+	
+\subsubsection{Entrenamiento del Usuario Final}
+	El autor se\~nala que una regla general que se deber'ia seguir en todo desarrollo en SAP es que el 10 de todo el tiempo invertido en el desarrollo deber'a ser tomado para el entrenamiento. De este tiempo, al menos el 1 deber'ia ser tomado para el entrenamiento de los ejecutivos de la empresa. 
+	El entrenamiento se hace necesario, ya que las personas que laboran en una empresa, por lo general realizan sus tareas diarias de una forma ya establecida. Por lo tanto, es necesario que sean ense\~nados para poder adaptarse a las nuevas tecnolog'ias. 
+	
+\subsubsection{Transferencia de Conocimiento}
+	En este punto es importante que todos los conocimientos adquiridos por los consultores durante el proceso del desarrollo del proyecto, como lo es la instalaci'on detallada, sean ense\~nados a los empleados de la compa\~'ia, para que as'i, puedan replicar el sistema en otros lugares. Ellos deben transmitirles los conocimientos acerca de SAP adicionalmente, ya que los empleados en muchas ocasiones no tienen conocimiento acerca de este tipo de tecnolog'ias. 
+	
+\subsubsection{Administraci'on del Sistema}
+	En este punto, el equipo encargado de realizar las pruebas al sistema y a los servidores es el equipo de T'ecnicos (Basis). Aqu'i es donde se verifica si son necesarios m'as servidores o m'as hadwares.
+	
+\subsubsection{Migraci'on de Datos}
+	En esta etapa se realiza la migraci'on de los datos restantes desde el sistema existente al nuevo sistema creado en SAP. En este momento, el sistema antiguo permanece funcionando por un tiempo hasta que toda la data migrada sea validada. 
+	
+\subsubsection{Pruebas Finales y Entonaci'on}
+	En este punto se realizan pruebas de vol'umen y se procede  a colapsar el sistema, para verificar que puede atender gran cantidad de solicitudes concurrentes, y se realizan las modificaciones pertinentes. En este punto comienza la puesta en vivo del sistema completo.
+
+\section{Aplicaci'on para el Proyecto de Pasant'ia}
+	De acuerdo al plan de trabajo, se deb

@@ -46,15 +46,23 @@
 \BOOKMARK [3][-]{subsubsection.3.3.3.1}{Simulaci\363n}{subsection.3.3.3}% 46
 \BOOKMARK [3][-]{subsubsection.3.3.3.2}{Validaci\363n}{subsection.3.3.3}% 47
 \BOOKMARK [3][-]{subsubsection.3.3.3.3}{Uni\363n y Pruebas de Integraci\363n}{subsection.3.3.3}% 48
-\BOOKMARK [2][-]{subsection.3.3.4}{Fase 4: Preparaci\363n Final}{section.3.3}% 49
-\BOOKMARK [1][-]{section.3.4}{Requerimientos}{chapter.3}% 50
-\BOOKMARK [0][-]{chapter.4}{Resultados}{}% 51
-\BOOKMARK [1][-]{section.4.1}{M\341quina de prueba}{chapter.4}% 52
-\BOOKMARK [1][-]{section.4.2}{Validaci\363n de los estimados}{chapter.4}% 53
-\BOOKMARK [0][-]{chapter.5}{Conclusiones y recomendaciones}{}% 54
-\BOOKMARK [0][-]{chapter*.11}{Bibliograf\355a}{}% 55
-\BOOKMARK [0][-]{appendix.Alph1}{Informaci\363n adicional de d2Hgr}{}% 56
-\BOOKMARK [1][-]{section.Alph1.1}{Requerimientos de software y hardware}{appendix.Alph1}% 57
-\BOOKMARK [1][-]{section.Alph1.2}{Ayuda de la l\355nea de comando}{appendix.Alph1}% 58
-\BOOKMARK [1][-]{section.Alph1.3}{Archivos del programa}{appendix.Alph1}% 59
-\BOOKMARK [1][-]{section.Alph1.4}{Creaci\363n de Xtdata}{appendix.Alph1}% 60
+\BOOKMARK [3][-]{subsubsection.3.3.3.4}{Conversi\363n y Carga de los Datos}{subsection.3.3.3}% 49
+\BOOKMARK [3][-]{subsubsection.3.3.3.5}{Interfaces, Ampliaciones y Reportes}{subsection.3.3.3}% 50
+\BOOKMARK [2][-]{subsection.3.3.4}{Fase 4: Preparaci\363n Final}{section.3.3}% 51
+\BOOKMARK [3][-]{subsubsection.3.3.4.1}{Refinar el Sistema creado}{subsection.3.3.4}% 52
+\BOOKMARK [3][-]{subsubsection.3.3.4.2}{Planeacion de la preparaci\363n de la Salida en Vivo}{subsection.3.3.4}% 53
+\BOOKMARK [3][-]{subsubsection.3.3.4.3}{Entrenamiento del Usuario Final}{subsection.3.3.4}% 54
+\BOOKMARK [3][-]{subsubsection.3.3.4.4}{Transferencia de Conocimiento}{subsection.3.3.4}% 55
+\BOOKMARK [3][-]{subsubsection.3.3.4.5}{Administraci\363n del Sistema}{subsection.3.3.4}% 56
+\BOOKMARK [3][-]{subsubsection.3.3.4.6}{Migraci\363n de Datos}{subsection.3.3.4}% 57
+\BOOKMARK [3][-]{subsubsection.3.3.4.7}{Pruebas Finales y Entonaci\363n}{subsection.3.3.4}% 58
+\BOOKMARK [0][-]{chapter.4}{Resultados}{}% 59
+\BOOKMARK [1][-]{section.4.1}{M\341quina de prueba}{chapter.4}% 60
+\BOOKMARK [1][-]{section.4.2}{Validaci\363n de los estimados}{chapter.4}% 61
+\BOOKMARK [0][-]{chapter.5}{Conclusiones y recomendaciones}{}% 62
+\BOOKMARK [0][-]{chapter*.11}{Bibliograf\355a}{}% 63
+\BOOKMARK [0][-]{appendix.Alph1}{Informaci\363n adicional de d2Hgr}{}% 64
+\BOOKMARK [1][-]{section.Alph1.1}{Requerimientos de software y hardware}{appendix.Alph1}% 65
+\BOOKMARK [1][-]{section.Alph1.2}{Ayuda de la l\355nea de comando}{appendix.Alph1}% 66
+\BOOKMARK [1][-]{section.Alph1.3}{Archivos del programa}{appendix.Alph1}% 67
+\BOOKMARK [1][-]{section.Alph1.4}{Creaci\363n de Xtdata}{appendix.Alph1}% 68

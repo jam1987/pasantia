@@ -46,15 +46,23 @@
 \contentsline {subsubsection}{\numberline {3.3.3.1}Simulaci'on}{18}{subsubsection.3.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.3.2}Validaci'on}{19}{subsubsection.3.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.3.3}Uni'on y Pruebas de Integraci'on}{19}{subsubsection.3.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Fase 4: Preparaci'on Final}{20}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Requerimientos}{20}{section.3.4}
-\contentsline {chapter}{\numberline {4}Resultados}{22}{chapter.4}
-\contentsline {section}{\numberline {4.1}M'aquina de prueba}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Validaci'on de los estimados}{23}{section.4.2}
-\contentsline {chapter}{\numberline {5}Conclusiones y recomendaciones}{28}{chapter.5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{31}{chapter*.11}
-\contentsline {chapter}{\numberline {A}Informaci'on adicional de {\tt d2Hgr}}{36}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Requerimientos de {\it software} y {\it hardware}}{36}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}Ayuda de la l'inea de comando}{37}{section.Alph1.2}
-\contentsline {section}{\numberline {A.3}Archivos del programa}{41}{section.Alph1.3}
-\contentsline {section}{\numberline {A.4}Creaci'on de $Xtdata$}{42}{section.Alph1.4}
+\contentsline {subsubsection}{\numberline {3.3.3.4}Conversi'on y Carga de los Datos}{21}{subsubsection.3.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.3.5}Interfaces, Ampliaciones y Reportes}{22}{subsubsection.3.3.3.5}
+\contentsline {subsection}{\numberline {3.3.4}Fase 4: Preparaci'on Final}{23}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1}Refinar el Sistema creado}{23}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}Planeacion de la preparaci'on de la Salida en Vivo}{23}{subsubsection.3.3.4.2}
+\contentsline {subsubsection}{\numberline {3.3.4.3}Entrenamiento del Usuario Final}{24}{subsubsection.3.3.4.3}
+\contentsline {subsubsection}{\numberline {3.3.4.4}Transferencia de Conocimiento}{24}{subsubsection.3.3.4.4}
+\contentsline {subsubsection}{\numberline {3.3.4.5}Administraci'on del Sistema}{24}{subsubsection.3.3.4.5}
+\contentsline {subsubsection}{\numberline {3.3.4.6}Migraci'on de Datos}{25}{subsubsection.3.3.4.6}
+\contentsline {subsubsection}{\numberline {3.3.4.7}Pruebas Finales y Entonaci'on}{25}{subsubsection.3.3.4.7}
+\contentsline {chapter}{\numberline {4}Resultados}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}M'aquina de prueba}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Validaci'on de los estimados}{27}{section.4.2}
+\contentsline {chapter}{\numberline {5}Conclusiones y recomendaciones}{32}{chapter.5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{35}{chapter*.11}
+\contentsline {chapter}{\numberline {A}Informaci'on adicional de {\tt d2Hgr}}{40}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Requerimientos de {\it software} y {\it hardware}}{40}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Ayuda de la l'inea de comando}{41}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}Archivos del programa}{45}{section.Alph1.3}
+\contentsline {section}{\numberline {A.4}Creaci'on de $Xtdata$}{46}{section.Alph1.4}
