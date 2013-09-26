@@ -75,14 +75,15 @@
 \contentsline {section}{\numberline {4.3}Fase 3: Realizaci'on (Construcci'on y Pruebas)}{36}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Configuraci'on Base del M'odulo de Ventas y Distribuci'on para SSA Beverage}{36}{subsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.1.1}Configuraci'on de la parte organizativa de la Empresa}{36}{subsubsection.4.3.1.1}
-\contentsline {section}{\numberline {4.4}Fase 4: Presentaci'on y Resultados Finales}{37}{section.4.4}
-\contentsline {chapter}{\numberline {5}Resultados}{38}{chapter.5}
-\contentsline {section}{\numberline {5.1}M'aquina de prueba}{39}{section.5.1}
-\contentsline {section}{\numberline {5.2}Validaci'on de los estimados}{39}{section.5.2}
-\contentsline {chapter}{\numberline {6}Conclusiones y recomendaciones}{44}{chapter.6}
-\contentsline {chapter}{Bibliograf\'{\i }a}{47}{chapter*.16}
-\contentsline {chapter}{\numberline {A}Informaci'on adicional de {\tt d2Hgr}}{52}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Requerimientos de {\it software} y {\it hardware}}{52}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}Ayuda de la l'inea de comando}{53}{section.Alph1.2}
-\contentsline {section}{\numberline {A.3}Archivos del programa}{57}{section.Alph1.3}
-\contentsline {section}{\numberline {A.4}Creaci'on de $Xtdata$}{58}{section.Alph1.4}
+\contentsline {subsection}{\numberline {4.3.2}Elaboraci'on de las Facturas Legales}{38}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Fase 4: Presentaci'on y Resultados Finales}{38}{section.4.4}
+\contentsline {chapter}{\numberline {5}Resultados}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}M'aquina de prueba}{40}{section.5.1}
+\contentsline {section}{\numberline {5.2}Validaci'on de los estimados}{40}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclusiones y recomendaciones}{45}{chapter.6}
+\contentsline {chapter}{Bibliograf\'{\i }a}{48}{chapter*.20}
+\contentsline {chapter}{\numberline {A}Informaci'on adicional de {\tt d2Hgr}}{53}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Requerimientos de {\it software} y {\it hardware}}{54}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Ayuda de la l'inea de comando}{57}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}Archivos del programa}{60}{section.Alph1.3}
+\contentsline {section}{\numberline {A.4}Creaci'on de $Xtdata$}{61}{section.Alph1.4}

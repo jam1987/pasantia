@@ -116,8 +116,7 @@ Luego se procedi'o a establecer varias oficinas de ventas. Para esto, se decidi'
 \subsection{Configuraci'on Base del M'odulo de Ventas y Distribuci'on para SSA Beverage}
 	Para poder realizar las configuraciones, hubo que dividirlas en varios grupos, los cuales se muestran a continuaci'on:
 \subsubsection{Configuraci'on de la parte organizativa de la Empresa}
-	Este grupo fue compuesto por las configuraciones realizadas para definir la estructura de SSA Beverage. Para ello, se ingres'o a SAP, y a trav'es del Customizing, fue posible efectuarlas. Se comenz'o configurando las Organizaciones de Ventas, Canales de Distribuci'on y Sectores definidos en la fase anterior. A continuaci'on, se muestran figuras de las tres configuraciones realizadas:
-	
+	Este grupo fue compuesto por las configuraciones realizadas para definir la estructura de SSA Beverage. Para ello, se ingres'o a SAP, y a trav'es del Customizing, fue posible efectuarlas. Se comenz'o configurando las Organizaciones de Ventas, Canales de Distribuci'on , Sectores y 'Areas de Ventas definidos en la fase anterior. A continuaci'on, se muestran figuras de las tres configuraciones realizadas:
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.65,type=jpg,ext=.jpg,read=.jpg]{figures/OrgVentas}
@@ -136,9 +135,50 @@ Luego se procedi'o a establecer varias oficinas de ventas. Para esto, se decidi'
 \caption{Sectores definidos para el M'odulo SD}
 \label{fig:sectores}
 \end{figure}
-
-
-
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.65,type=jpg,ext=.jpg,read=.jpg]{figures/AreaVentas}
+\caption{'Areas de Ventas definidas para el M'odulo SD}
+\label{fig:areas}
+\end{figure}
+	Luego, se procedi'o a realizar la configuraci'on de las unidades encargadas de la entrega de los materiales (Puestos de Expedici'on y Puestos de Carga). Para el primero se muestra la figura que muestra la cofiguraci'on realizada, y para el segundo, en la imagen se muestra parte de las configuraciones realizadas.
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.65,type=jpg,ext=.jpg,read=.jpg]{figures/PuestosExpedicion}
+\caption{Puestos de Expedici'on definidos para el M'odulo SD}
+\label{fig:expedicion}
+\end{figure}
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.65,type=jpg,ext=.jpg,read=.jpg]{figures/PuestoCarga}
+\caption{Parte de los Puestos de Carga definidos para el M'odulo SD}
+\label{fig:carga}
+\end{figure}
+Despu'es que fueron creadas cada una de las unidades antes mencionadas dentro de SAP, las configuraciones posteriores consistieron en crear las relaciones entre las mismas. En la tabla se muestra una lista con las configuraciones realizadas.
+\begin{table}[htb]
+\footnotesize
+\begin{tabular}{|c|}
+\hline
+\textbf{Configuraciones Realizadas}\\
+\hline
+ Asignar las Organizaciones de Ventas creadas a la Sociedad\\
+\hline
+Asignar los Canales de Distribuci'on a las Organizaciones de Ventas\\
+\hline
+Asignar los Sectores a las Organizaciones de Ventas \\
+\hline
+Asignar las Oficinas de Ventas a las 'Areas de Ventas\\
+\hline
+Asignar las Organizaciones de Ventas y Canales de Distribuci'on a los Centros de Distribuci'on\\
+\hline
+Asignar los Puestos de Expedici'on a los Centros de Distribuci'on\\
+\hline
+\end{tabular}
+\caption{Configuraciones realizadas para establecer la relaci'on entre las distintas unidades componentes de la estructura de SSA Beverage}
+\label{tb:asignaciones}
+\end{table}
+En el ap'endice se podr'an ver las im'agenes que reflejan las configuraciones antes mencionadas.
+\subsection{Elaboraci'on de las Facturas Legales}
 
 \section{Fase 4: Presentaci'on y Resultados Finales}
 Aqui iran los resultados finales

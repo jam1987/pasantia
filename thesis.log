@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.7)  24 SEP 2013 12:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.7)  26 SEP 2013 16:33
 entering extended mode
 **thesis.tex
 
@@ -991,7 +991,7 @@ ut")
 \@outlinefile=\write8
  ABD: EveryShipout initializing macros
 ("C:\Documents and Settings\Administrator\My Documents\GitHub\pasantia\title.te
-x" <figures/cebolla.png, id=354, 218.31563pt x 164.11313pt>
+x" <figures/cebolla.png, id=358, 218.31563pt x 164.11313pt>
 File: figures/cebolla.png Graphic file (type png)
 
 <use figures/cebolla.png>
@@ -1102,7 +1102,7 @@ LaTeX Warning: Citation `SAP01' on page 5 undefined on input line 39.
 
 LaTeX Warning: Citation `SD01' on page 13 undefined on input line 170.
 
-<figures/Clasificacion1.png, id=610, 677.53125pt x 161.60374pt>
+<figures/Clasificacion1.png, id=637, 677.53125pt x 161.60374pt>
 File: figures/Clasificacion1.png Graphic file (type png)
 
 <use figures/Clasificacion1.png>
@@ -1121,13 +1121,13 @@ lo.tex" [28]
 Cap\'{\i }tulo 4.
 [29
 
-] [30] <figures/Org1.png, id=689, 434.5836pt x 183.084pt>
+] [30] <figures/Org1.png, id=716, 434.5836pt x 183.084pt>
 File: figures/Org1.png Graphic file (type png)
 
 <use figures/Org1.png>
 Package pdftex.def Info: figures/Org1.png used on input line 36.
 (pdftex.def)             Requested size: 195.5608pt x 82.38702pt.
- <figures/Org2.png, id=691, 434.5836pt x 145.5036pt>
+ <figures/Org2.png, id=718, 434.5836pt x 145.5036pt>
 File: figures/Org2.png Graphic file (type png)
 
 <use figures/Org2.png>
@@ -1136,35 +1136,60 @@ Package pdftex.def Info: figures/Org2.png used on input line 43.
  [31 <C:/Documents and Settings/Administrator/My Documents/GitHub/pasantia/figu
 res/Org1.png> <C:/Documents and Settings/Administrator/My Documents/GitHub/pasa
 ntia/figures/Org2.png>] [32] [33] [34] [35]
-<figures/OrgVentas.jpg, id=715, 158.84344pt x 50.43843pt>
+<figures/OrgVentas.jpg, id=742, 158.84344pt x 50.43843pt>
 File: figures/OrgVentas.jpg Graphic file (type jpg)
 
 <use figures/OrgVentas.jpg>
-Package pdftex.def Info: figures/OrgVentas.jpg used on input line 123.
+Package pdftex.def Info: figures/OrgVentas.jpg used on input line 122.
 (pdftex.def)             Requested size: 103.24701pt x 32.78458pt.
 
-<figures/CanalesDistribucion.jpg, id=716, 212.29312pt x 127.97812pt>
+<figures/CanalesDistribucion.jpg, id=743, 212.29312pt x 127.97812pt>
 File: figures/CanalesDistribucion.jpg Graphic file (type jpg)
 
 <use figures/CanalesDistribucion.jpg>
-Package pdftex.def Info: figures/CanalesDistribucion.jpg used on input line 129
+Package pdftex.def Info: figures/CanalesDistribucion.jpg used on input line 128
 .
 (pdftex.def)             Requested size: 137.98889pt x 83.18478pt.
 
-<figures/Sectores.jpg, id=717, 191.21437pt x 51.94406pt>
+<figures/Sectores.jpg, id=744, 191.21437pt x 51.94406pt>
 File: figures/Sectores.jpg Graphic file (type jpg)
 
 <use figures/Sectores.jpg>
-Package pdftex.def Info: figures/Sectores.jpg used on input line 135.
+Package pdftex.def Info: figures/Sectores.jpg used on input line 134.
 (pdftex.def)             Requested size: 124.28786pt x 33.76323pt.
-)
+
+<figures/AreaVentas.jpg, id=745, 570.63188pt x 175.40532pt>
+File: figures/AreaVentas.jpg Graphic file (type jpg)
+
+<use figures/AreaVentas.jpg>
+Package pdftex.def Info: figures/AreaVentas.jpg used on input line 140.
+(pdftex.def)             Requested size: 370.90633pt x 114.01208pt.
+
+<figures/PuestosExpedicion.jpg, id=746, 244.66406pt x 302.63063pt>
+File: figures/PuestosExpedicion.jpg Graphic file (type jpg)
+
+<use figures/PuestosExpedicion.jpg>
+Package pdftex.def Info: figures/PuestosExpedicion.jpg used on input line 147.
+(pdftex.def)             Requested size: 159.02974pt x 196.70757pt.
+
+<figures/PuestoCarga.jpg, id=747, 329.73187pt x 121.20282pt>
+File: figures/PuestoCarga.jpg Graphic file (type jpg)
+
+<use figures/PuestoCarga.jpg>
+Package pdftex.def Info: figures/PuestoCarga.jpg used on input line 153.
+(pdftex.def)             Requested size: 214.32317pt x 78.78088pt.
+ [36 <C:/Documents and Settings/Administrator/My Documents/GitHub/pasantia/figu
+res/OrgVentas.jpg> <C:/Documents and Settings/Administrator/My Documents/GitHub
+/pasantia/figures/CanalesDistribucion.jpg>]
+[37 <C:/Documents and Settings/Administrator/My Documents/GitHub/pasantia/figur
+es/Sectores.jpg> <C:/Documents and Settings/Administrator/My Documents/GitHub/p
+asantia/figures/AreaVentas.jpg> <C:/Documents and Settings/Administrator/My Doc
+uments/GitHub/pasantia/figures/PuestosExpedicion.jpg>])
 ("C:\Documents and Settings\Administrator\My Documents\GitHub\pasantia\resultad
-os.tex" [36 <C:/Documents and Settings/Administrator/My Documents/GitHub/pasant
-ia/figures/OrgVentas.jpg> <C:/Documents and Settings/Administrator/My Documents
-/GitHub/pasantia/figures/CanalesDistribucion.jpg>] [37 <C:/Documents and Settin
-gs/Administrator/My Documents/GitHub/pasantia/figures/Sectores.jpg>]
+os.tex" [38 <C:/Documents and Settings/Administrator/My Documents/GitHub/pasant
+ia/figures/PuestoCarga.jpg>]
 Cap\'{\i }tulo 5.
-[38
+[39
 
 ]
 Overfull \hbox (18.68683pt too wide) in paragraph at lines 74--81
@@ -1176,160 +1201,208 @@ L/cmm/m/it/12 ; \OT1/cmr/m/n/12 0[]85\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0[]90\O
 ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0[]95\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/12 . 
  []
 
-[39] <figures/abserror-rs.png, id=742, 642.4pt x 481.8pt>
+[40] <figures/abserror-rs.png, id=777, 642.4pt x 481.8pt>
 File: figures/abserror-rs.png Graphic file (type png)
 
 <use figures/abserror-rs.png>
 Package pdftex.def Info: figures/abserror-rs.png used on input line 84.
 (pdftex.def)             Requested size: 289.07733pt x 216.80798pt.
 
-<figures/abserror-var.png, id=743, 642.4pt x 481.8pt>
+<figures/abserror-var.png, id=778, 642.4pt x 481.8pt>
 File: figures/abserror-var.png Graphic file (type png)
 
 <use figures/abserror-var.png>
 Package pdftex.def Info: figures/abserror-var.png used on input line 91.
 (pdftex.def)             Requested size: 289.07733pt x 216.80798pt.
 
-<figures/abserror-mavar.png, id=744, 642.4pt x 481.8pt>
+<figures/abserror-mavar.png, id=779, 642.4pt x 481.8pt>
 File: figures/abserror-mavar.png Graphic file (type png)
 
 <use figures/abserror-mavar.png>
 Package pdftex.def Info: figures/abserror-mavar.png used on input line 98.
 (pdftex.def)             Requested size: 289.07733pt x 216.80798pt.
- [40 <C:/Documents and Settings/Administrator/My Documents/GitHub/pasantia/figu
-res/abserror-rs.png>] [41 <C:/Documents and Settings/Administrator/My Documents
+ [41 <C:/Documents and Settings/Administrator/My Documents/GitHub/pasantia/figu
+res/abserror-rs.png>] [42 <C:/Documents and Settings/Administrator/My Documents
 /GitHub/pasantia/figures/abserror-var.png> <C:/Documents and Settings/Administr
 ator/My Documents/GitHub/pasantia/figures/abserror-mavar.png>] <figures/time-n-
-plot.png, id=758, 642.4pt x 481.8pt>
+plot.png, id=793, 642.4pt x 481.8pt>
 File: figures/time-n-plot.png Graphic file (type png)
 
 <use figures/time-n-plot.png>
 Package pdftex.def Info: figures/time-n-plot.png used on input line 108.
 (pdftex.def)             Requested size: 244.11453pt x 183.08589pt.
- [42
+ [43
 
  <C:/Documents and Settings/Administrator/My Documents/GitHub/pasantia/figures/
 time-n-plot.png>])
 ("C:\Documents and Settings\Administrator\My Documents\GitHub\pasantia\conclusi
-ones.tex" [43]
+ones.tex" [44]
 Cap\'{\i }tulo 6.
-[44
+[45
 
-] [45])
+] [46])
 No file thesis.gls.
 No file thesis.acr.
 
 ("C:\Documents and Settings\Administrator\My Documents\GitHub\pasantia\thesis.b
-bl" [46] [47
+bl" [47] [48
 
-] [48] [49] [50])
+] [49] [50] [51])
 ("C:\Documents and Settings\Administrator\My Documents\GitHub\pasantia\paxson.t
-ex" [51]
+ex" [52]
 Ap\'{e}ndice A.
-[52
+<figures/OrgVentasSociedad.jpg, id=880, 446.41782pt x 66.2475pt>
+File: figures/OrgVentasSociedad.jpg Graphic file (type jpg)
 
-] [53]
-Overfull \hbox (9.619pt too wide) in paragraph at lines 71--71
+<use figures/OrgVentasSociedad.jpg>
+Package pdftex.def Info: figures/OrgVentasSociedad.jpg used on input line 6.
+(pdftex.def)             Requested size: 290.16814pt x 43.06035pt.
+
+<figures/OrgVentasCanales.jpg, id=881, 430.60875pt x 143.78719pt>
+File: figures/OrgVentasCanales.jpg Graphic file (type jpg)
+
+<use figures/OrgVentasCanales.jpg>
+Package pdftex.def Info: figures/OrgVentasCanales.jpg used on input line 12.
+(pdftex.def)             Requested size: 279.89236pt x 93.46056pt.
+
+<figures/OrgVentasSector.jpg, id=882, 419.31656pt x 82.05656pt>
+File: figures/OrgVentasSector.jpg Graphic file (type jpg)
+
+<use figures/OrgVentasSector.jpg>
+Package pdftex.def Info: figures/OrgVentasSector.jpg used on input line 18.
+(pdftex.def)             Requested size: 272.55252pt x 53.33612pt.
+
+<figures/OfVentaAreas.jpg, id=883, 697.10437pt x 412.54124pt>
+File: figures/OfVentaAreas.jpg Graphic file (type jpg)
+
+<use figures/OfVentaAreas.jpg>
+Package pdftex.def Info: figures/OfVentaAreas.jpg used on input line 24.
+(pdftex.def)             Requested size: 453.11247pt x 268.14864pt.
+
+<figures/OrgCanalCentro.jpg, id=884, 652.68843pt x 427.5975pt>
+File: figures/OrgCanalCentro.jpg Graphic file (type jpg)
+
+<use figures/OrgCanalCentro.jpg>
+Package pdftex.def Info: figures/OrgCanalCentro.jpg used on input line 30.
+(pdftex.def)             Requested size: 424.24246pt x 277.93507pt.
+
+<figures/ExpedicionCentro.jpg, id=885, 377.91188pt x 458.46281pt>
+File: figures/ExpedicionCentro.jpg Graphic file (type jpg)
+
+<use figures/ExpedicionCentro.jpg>
+Package pdftex.def Info: figures/ExpedicionCentro.jpg used on input line 36.
+(pdftex.def)             Requested size: 245.6398pt x 297.99728pt.
+ [53
+
+ <C:/Documents and Settings/Administrator/My Documents/GitHub/pasantia/figures/
+OrgVentasSociedad.jpg> <C:/Documents and Settings/Administrator/My Documents/Gi
+tHub/pasantia/figures/OrgVentasCanales.jpg> <C:/Documents and Settings/Administ
+rator/My Documents/GitHub/pasantia/figures/OrgVentasSector.jpg>] [54 <C:/Docume
+nts and Settings/Administrator/My Documents/GitHub/pasantia/figures/OfVentaArea
+s.jpg>] [55 <C:/Documents and Settings/Administrator/My Documents/GitHub/pasant
+ia/figures/OrgCanalCentro.jpg>] [56 <C:/Documents and Settings/Administrator/My
+ Documents/GitHub/pasantia/figures/ExpedicionCentro.jpg>]
+Overfull \hbox (9.619pt too wide) in paragraph at lines 108--108
 []   \OT1/cmtt/m/n/12 -i        Prints only the protocol statistic information 
 available from the[] 
  []
 
 
-Overfull \hbox (9.619pt too wide) in paragraph at lines 73--73
+Overfull \hbox (9.619pt too wide) in paragraph at lines 110--110
 []   \OT1/cmtt/m/n/12 -n        Tells the program if you wish to graph the pack
 ets per delta time[] 
  []
 
 
-Overfull \hbox (9.619pt too wide) in paragraph at lines 76--76
+Overfull \hbox (9.619pt too wide) in paragraph at lines 113--113
 []             \OT1/cmtt/m/n/12 time by use of the R/S statistic. Affected by -
 p, -o, -d, -c, -w,[] 
  []
 
 
-Overfull \hbox (9.619pt too wide) in paragraph at lines 78--78
+Overfull \hbox (9.619pt too wide) in paragraph at lines 115--115
 []   \OT1/cmtt/m/n/12 -l num    Tells the program to graph the Pox diagram that
  creates the Hurst[] 
  []
 
-[54]
-Overfull \hbox (3.444pt too wide) in paragraph at lines 85--85
+[57]
+Overfull \hbox (3.444pt too wide) in paragraph at lines 122--122
 []   \OT1/cmtt/m/n/12 -x num    Tells the program to graph the Variance-time pl
 ot that estimates[] 
  []
 
 
-Overfull \hbox (3.444pt too wide) in paragraph at lines 86--86
+Overfull \hbox (3.444pt too wide) in paragraph at lines 123--123
 []             \OT1/cmtt/m/n/12 the Hurst parameter for a given window number d
 esignated by num.[] 
  []
 
 
-Overfull \hbox (15.794pt too wide) in paragraph at lines 92--92
+Overfull \hbox (15.794pt too wide) in paragraph at lines 129--129
 []             \OT1/cmtt/m/n/12 estimates the Hurst parameter for a given windo
 w number designated[] 
  []
 
 
-Overfull \hbox (3.444pt too wide) in paragraph at lines 100--100
+Overfull \hbox (3.444pt too wide) in paragraph at lines 137--137
 []              \OT1/cmtt/m/n/12 ip tcp udp icmp sctp ftp ssh telnet smtp dns d
 hcp http pop3 ntp[] 
  []
 
-[55]
-Overfull \hbox (9.619pt too wide) in paragraph at lines 114--114
+[58]
+Overfull \hbox (9.619pt too wide) in paragraph at lines 151--151
 []   \OT1/cmtt/m/n/12 -j num    Tells the program to use log base num for all t
 he calculations of[] 
  []
 
 
-Overfull \hbox (21.96901pt too wide) in paragraph at lines 115--115
+Overfull \hbox (21.96901pt too wide) in paragraph at lines 152--152
 []             \OT1/cmtt/m/n/12 blocks for the R/S statistic, Variance-time plo
 t and Modified Allan[] 
  []
 
 
-Overfull \hbox (9.619pt too wide) in paragraph at lines 119--119
+Overfull \hbox (9.619pt too wide) in paragraph at lines 156--156
 []   \OT1/cmtt/m/n/12 -b sec    Tells the program from which second in the time
  data to begin the[] 
  []
 
 
-Overfull \hbox (21.96901pt too wide) in paragraph at lines 123--123
+Overfull \hbox (21.96901pt too wide) in paragraph at lines 160--160
 []   \OT1/cmtt/m/n/12 -k num    Average Hurst parameter change with which to tr
 y to detect attacks.[] 
  []
 
 
-Overfull \hbox (9.619pt too wide) in paragraph at lines 124--124
+Overfull \hbox (9.619pt too wide) in paragraph at lines 161--161
 []   \OT1/cmtt/m/n/12 -K num    Standard deviation of Hurst parameter change wi
 th which to detect[] 
  []
 
 
-Overfull \hbox (15.794pt too wide) in paragraph at lines 126--126
+Overfull \hbox (15.794pt too wide) in paragraph at lines 163--163
 []   \OT1/cmtt/m/n/12 -q num    Average Hurst parameter value with which to try
  to detect attacks.[] 
  []
 
 
-Overfull \hbox (3.444pt too wide) in paragraph at lines 127--127
+Overfull \hbox (3.444pt too wide) in paragraph at lines 164--164
 []   \OT1/cmtt/m/n/12 -Q num    Standard deviation of Hurst parameter value wit
 h which to detect[] 
  []
 
-[56] [57]
+[59] [60]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 180.
+(hyperref)                removing `math shift' on input line 217.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 180.
+(hyperref)                removing `math shift' on input line 217.
 
 
 ("C:\Documents and Settings\Administrator\My Documents\GitHub\pasantia\code/xtd
-atacreate.c" [58]
+atacreate.c" [61]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 12.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -1343,9 +1416,9 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
- [59]))
+ [62]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
- [60]
+ [63]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
 
 ("C:\Documents and Settings\Administrator\My Documents\GitHub\pasantia\thesis.a
@@ -1353,7 +1426,7 @@ ux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BA9A0872868400E39D14608010110F0E;7348.
+(rerunfilecheck)             Checksum: 753A70125E43B5182C89575F80139DC4;7441.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1366,30 +1439,31 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15420 strings out of 493921
- 221858 string characters out of 3147205
- 494588 words of memory out of 3000000
- 18054 multiletter control sequences out of 15000+200000
- 16745 words of font info for 68 fonts, out of 3000000 for 9000
+ 15483 strings out of 493921
+ 223387 string characters out of 3147205
+ 499588 words of memory out of 3000000
+ 18102 multiletter control sequences out of 15000+200000
+ 17053 words of font info for 69 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  46i,12n,78p,1458b,1965s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (71 pages, 582823 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (74 pages, 1159401 bytes).
 PDF statistics:
- 1052 PDF objects out of 1200 (max. 8388607)
- 283 named destinations out of 1000 (max. 500000)
- 760 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1109 PDF objects out of 1200 (max. 8388607)
+ 297 named destinations out of 1000 (max. 500000)
+ 813 words of extra memory for PDF output out of 10000 (max. 10000000)
 
