@@ -44,46 +44,56 @@
 \BOOKMARK [2][-]{subsection.2.3.4}{Proceso de Ventas utilizando el M\363dulo SD}{section.2.3}% 44
 \BOOKMARK [2][-]{subsection.2.3.5}{Relaci\363n existente entre el M\363dulo SD y otros M\363dulos}{section.2.3}% 45
 \BOOKMARK [1][-]{section.2.4}{Lenguaje de Programaci\363n ABAP/4}{chapter.2}% 46
-\BOOKMARK [0][-]{chapter.3}{Marco Metodol\363gico}{}% 47
-\BOOKMARK [1][-]{section.3.1}{Descripci\363n de la metodolog\355a}{chapter.3}% 48
-\BOOKMARK [1][-]{section.3.2}{Caracter\355sticas Principales}{chapter.3}% 49
-\BOOKMARK [1][-]{section.3.3}{Fases de la metodolog\355a ASAP}{chapter.3}% 50
-\BOOKMARK [2][-]{subsection.3.3.1}{Fase 1: Preparaci\363n del Proyecto}{section.3.3}% 51
-\BOOKMARK [2][-]{subsection.3.3.2}{Fase 2: Business Blueprint}{section.3.3}% 52
-\BOOKMARK [2][-]{subsection.3.3.3}{Fase 3: Realizaci\363n}{section.3.3}% 53
-\BOOKMARK [3][-]{subsubsection.3.3.3.1}{Simulaci\363n}{subsection.3.3.3}% 54
-\BOOKMARK [3][-]{subsubsection.3.3.3.2}{Validaci\363n}{subsection.3.3.3}% 55
-\BOOKMARK [3][-]{subsubsection.3.3.3.3}{Uni\363n y Pruebas de Integraci\363n}{subsection.3.3.3}% 56
-\BOOKMARK [3][-]{subsubsection.3.3.3.4}{Conversi\363n y Carga de los Datos}{subsection.3.3.3}% 57
-\BOOKMARK [3][-]{subsubsection.3.3.3.5}{Interfaces, Ampliaciones y Reportes}{subsection.3.3.3}% 58
-\BOOKMARK [2][-]{subsection.3.3.4}{Fase 4: Preparaci\363n Final}{section.3.3}% 59
-\BOOKMARK [3][-]{subsubsection.3.3.4.1}{Refinar el Sistema creado}{subsection.3.3.4}% 60
-\BOOKMARK [3][-]{subsubsection.3.3.4.2}{Planeacion de la preparaci\363n de la Salida en Vivo}{subsection.3.3.4}% 61
-\BOOKMARK [3][-]{subsubsection.3.3.4.3}{Entrenamiento del Usuario Final}{subsection.3.3.4}% 62
-\BOOKMARK [3][-]{subsubsection.3.3.4.4}{Transferencia de Conocimiento}{subsection.3.3.4}% 63
-\BOOKMARK [3][-]{subsubsection.3.3.4.5}{Administraci\363n del Sistema}{subsection.3.3.4}% 64
-\BOOKMARK [3][-]{subsubsection.3.3.4.6}{Migraci\363n de Datos}{subsection.3.3.4}% 65
-\BOOKMARK [3][-]{subsubsection.3.3.4.7}{Pruebas Finales y Entonaci\363n}{subsection.3.3.4}% 66
-\BOOKMARK [1][-]{section.3.4}{Aplicaci\363n para el Proyecto de Pasant\355a}{chapter.3}% 67
-\BOOKMARK [0][-]{chapter.4}{Desarrollo}{}% 68
-\BOOKMARK [1][-]{section.4.1}{Fase 1: Preparaci\363n Previa}{chapter.4}% 69
-\BOOKMARK [1][-]{section.4.2}{Fase 2: Business Blueprint}{chapter.4}% 70
-\BOOKMARK [2][-]{subsection.4.2.1}{Identificaci\363n del proceso de Master Data \(Datos Maestros\)}{section.4.2}% 71
-\BOOKMARK [2][-]{subsection.4.2.2}{Identificaci\363n del proceso de Sales \(Pedidos de Ventas\)}{section.4.2}% 72
-\BOOKMARK [2][-]{subsection.4.2.3}{Identificaci\363n del proceso de Shipping and Transportation \(Embarque y Transporte\)}{section.4.2}% 73
-\BOOKMARK [2][-]{subsection.4.2.4}{Identificaci\363n del proceso de Billing \(Facturaci\363n\)}{section.4.2}% 74
-\BOOKMARK [1][-]{section.4.3}{Fase 3: Realizaci\363n \(Construcci\363n y Pruebas\)}{chapter.4}% 75
-\BOOKMARK [2][-]{subsection.4.3.1}{Configuraci\363n Base del M\363dulo de Ventas y Distribuci\363n para SSA Beverage}{section.4.3}% 76
-\BOOKMARK [3][-]{subsubsection.4.3.1.1}{Configuraci\363n de la parte organizativa de la Empresa}{subsection.4.3.1}% 77
-\BOOKMARK [2][-]{subsection.4.3.2}{Elaboraci\363n de las Facturas Legales}{section.4.3}% 78
-\BOOKMARK [1][-]{section.4.4}{Fase 4: Presentaci\363n y Resultados Finales}{chapter.4}% 79
-\BOOKMARK [0][-]{chapter.5}{Resultados}{}% 80
-\BOOKMARK [1][-]{section.5.1}{M\341quina de prueba}{chapter.5}% 81
-\BOOKMARK [1][-]{section.5.2}{Validaci\363n de los estimados}{chapter.5}% 82
-\BOOKMARK [0][-]{chapter.6}{Conclusiones y recomendaciones}{}% 83
-\BOOKMARK [0][-]{chapter*.20}{Bibliograf\355a}{}% 84
-\BOOKMARK [0][-]{appendix.Alph1}{Informaci\363n adicional de d2Hgr}{}% 85
-\BOOKMARK [1][-]{section.Alph1.1}{Requerimientos de software y hardware}{appendix.Alph1}% 86
-\BOOKMARK [1][-]{section.Alph1.2}{Ayuda de la l\355nea de comando}{appendix.Alph1}% 87
-\BOOKMARK [1][-]{section.Alph1.3}{Archivos del programa}{appendix.Alph1}% 88
-\BOOKMARK [1][-]{section.Alph1.4}{Creaci\363n de Xtdata}{appendix.Alph1}% 89
+\BOOKMARK [2][-]{subsection.2.4.1}{Estructura de un programa ABAP/4}{section.2.4}% 47
+\BOOKMARK [3][-]{subsubsection.2.4.1.1}{Includes en ABAP/4}{subsection.2.4.1}% 48
+\BOOKMARK [2][-]{subsection.2.4.2}{Herramientas provistas por ABAP/4}{section.2.4}% 49
+\BOOKMARK [3][-]{subsubsection.2.4.2.1}{Smartforms}{subsection.2.4.2}% 50
+\BOOKMARK [3][-]{subsubsection.2.4.2.2}{Constructor de Formularios Inteligentes \(Smart Form Builder\)}{subsection.2.4.2}% 51
+\BOOKMARK [3][-]{subsubsection.2.4.2.3}{Template de impresi\363n para el Smartform \(Smart Form Print Form Template}{subsection.2.4.2}% 52
+\BOOKMARK [3][-]{subsubsection.2.4.2.4}{M\363dulo de Funciones del Smart Form \(Smart Form Function Module\)}{subsection.2.4.2}% 53
+\BOOKMARK [3][-]{subsubsection.2.4.2.5}{Programa de Impresi\363n de Smart Forms \(Smart Form Print Program\)}{subsection.2.4.2}% 54
+\BOOKMARK [2][-]{subsection.2.4.3}{Sesi\363n de Batch Input \(Carga Masiva de Datos\)}{section.2.4}% 55
+\BOOKMARK [0][-]{chapter.3}{Marco Metodol\363gico}{}% 56
+\BOOKMARK [1][-]{section.3.1}{Descripci\363n de la metodolog\355a}{chapter.3}% 57
+\BOOKMARK [1][-]{section.3.2}{Caracter\355sticas Principales}{chapter.3}% 58
+\BOOKMARK [1][-]{section.3.3}{Fases de la metodolog\355a ASAP}{chapter.3}% 59
+\BOOKMARK [2][-]{subsection.3.3.1}{Fase 1: Preparaci\363n del Proyecto}{section.3.3}% 60
+\BOOKMARK [2][-]{subsection.3.3.2}{Fase 2: Business Blueprint}{section.3.3}% 61
+\BOOKMARK [2][-]{subsection.3.3.3}{Fase 3: Realizaci\363n}{section.3.3}% 62
+\BOOKMARK [3][-]{subsubsection.3.3.3.1}{Simulaci\363n}{subsection.3.3.3}% 63
+\BOOKMARK [3][-]{subsubsection.3.3.3.2}{Validaci\363n}{subsection.3.3.3}% 64
+\BOOKMARK [3][-]{subsubsection.3.3.3.3}{Uni\363n y Pruebas de Integraci\363n}{subsection.3.3.3}% 65
+\BOOKMARK [3][-]{subsubsection.3.3.3.4}{Conversi\363n y Carga de los Datos}{subsection.3.3.3}% 66
+\BOOKMARK [3][-]{subsubsection.3.3.3.5}{Interfaces, Ampliaciones y Reportes}{subsection.3.3.3}% 67
+\BOOKMARK [2][-]{subsection.3.3.4}{Fase 4: Preparaci\363n Final}{section.3.3}% 68
+\BOOKMARK [3][-]{subsubsection.3.3.4.1}{Refinar el Sistema creado}{subsection.3.3.4}% 69
+\BOOKMARK [3][-]{subsubsection.3.3.4.2}{Planeacion de la preparaci\363n de la Salida en Vivo}{subsection.3.3.4}% 70
+\BOOKMARK [3][-]{subsubsection.3.3.4.3}{Entrenamiento del Usuario Final}{subsection.3.3.4}% 71
+\BOOKMARK [3][-]{subsubsection.3.3.4.4}{Transferencia de Conocimiento}{subsection.3.3.4}% 72
+\BOOKMARK [3][-]{subsubsection.3.3.4.5}{Administraci\363n del Sistema}{subsection.3.3.4}% 73
+\BOOKMARK [3][-]{subsubsection.3.3.4.6}{Migraci\363n de Datos}{subsection.3.3.4}% 74
+\BOOKMARK [3][-]{subsubsection.3.3.4.7}{Pruebas Finales y Entonaci\363n}{subsection.3.3.4}% 75
+\BOOKMARK [1][-]{section.3.4}{Aplicaci\363n para el Proyecto de Pasant\355a}{chapter.3}% 76
+\BOOKMARK [0][-]{chapter.4}{Desarrollo}{}% 77
+\BOOKMARK [1][-]{section.4.1}{Fase 1: Preparaci\363n Previa}{chapter.4}% 78
+\BOOKMARK [1][-]{section.4.2}{Fase 2: Business Blueprint}{chapter.4}% 79
+\BOOKMARK [2][-]{subsection.4.2.1}{Identificaci\363n del proceso de Master Data \(Datos Maestros\)}{section.4.2}% 80
+\BOOKMARK [2][-]{subsection.4.2.2}{Identificaci\363n del proceso de Sales \(Pedidos de Ventas\)}{section.4.2}% 81
+\BOOKMARK [2][-]{subsection.4.2.3}{Identificaci\363n del proceso de Shipping and Transportation \(Embarque y Transporte\)}{section.4.2}% 82
+\BOOKMARK [2][-]{subsection.4.2.4}{Identificaci\363n del proceso de Billing \(Facturaci\363n\)}{section.4.2}% 83
+\BOOKMARK [1][-]{section.4.3}{Fase 3: Realizaci\363n \(Construcci\363n y Pruebas\)}{chapter.4}% 84
+\BOOKMARK [2][-]{subsection.4.3.1}{Configuraci\363n Base del M\363dulo de Ventas y Distribuci\363n para SSA Beverage}{section.4.3}% 85
+\BOOKMARK [3][-]{subsubsection.4.3.1.1}{Configuraci\363n de la parte organizativa de la Empresa}{subsection.4.3.1}% 86
+\BOOKMARK [2][-]{subsection.4.3.2}{Elaboraci\363n de las Facturas Legales}{section.4.3}% 87
+\BOOKMARK [2][-]{subsection.4.3.3}{Elaboraci\363n del programa de Carga Masiva de Datos para el Maestro de Clientes}{section.4.3}% 88
+\BOOKMARK [1][-]{section.4.4}{Fase 4: Presentaci\363n y Resultados Finales}{chapter.4}% 89
+\BOOKMARK [0][-]{chapter.5}{Resultados}{}% 90
+\BOOKMARK [1][-]{section.5.1}{M\341quina de prueba}{chapter.5}% 91
+\BOOKMARK [1][-]{section.5.2}{Validaci\363n de los estimados}{chapter.5}% 92
+\BOOKMARK [0][-]{chapter.6}{Conclusiones y recomendaciones}{}% 93
+\BOOKMARK [0][-]{chapter*.31}{Bibliograf\355a}{}% 94
+\BOOKMARK [0][-]{appendix.Alph1}{Informaci\363n adicional de d2Hgr}{}% 95
+\BOOKMARK [1][-]{section.Alph1.1}{Requerimientos de software y hardware}{appendix.Alph1}% 96
+\BOOKMARK [1][-]{section.Alph1.2}{Ayuda de la l\355nea de comando}{appendix.Alph1}% 97
+\BOOKMARK [1][-]{section.Alph1.3}{Archivos del programa}{appendix.Alph1}% 98
+\BOOKMARK [1][-]{section.Alph1.4}{Creaci\363n de Xtdata}{appendix.Alph1}% 99

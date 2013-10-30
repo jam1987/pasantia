@@ -44,46 +44,56 @@
 \contentsline {subsection}{\numberline {2.3.4}Proceso de Ventas utilizando el M'odulo SD}{13}{subsection.2.3.4}
 \contentsline {subsection}{\numberline {2.3.5}Relaci'on existente entre el M'odulo SD y otros M'odulos}{13}{subsection.2.3.5}
 \contentsline {section}{\numberline {2.4}Lenguaje de Programaci'on ABAP/4}{14}{section.2.4}
-\contentsline {chapter}{\numberline {3}Marco Metodol'ogico}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Descripci'on de la metodolog'ia}{16}{section.3.1}
-\contentsline {section}{\numberline {3.2}Caracter'isticas Principales}{17}{section.3.2}
-\contentsline {section}{\numberline {3.3}Fases de la metodolog'ia ASAP}{17}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Fase 1: Preparaci'on del Proyecto}{17}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Fase 2: Business Blueprint}{19}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Fase 3: Realizaci'on}{21}{subsection.3.3.3}
-\contentsline {subsubsection}{\numberline {3.3.3.1}Simulaci'on}{21}{subsubsection.3.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.3.2}Validaci'on}{22}{subsubsection.3.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3.3}Uni'on y Pruebas de Integraci'on}{22}{subsubsection.3.3.3.3}
-\contentsline {subsubsection}{\numberline {3.3.3.4}Conversi'on y Carga de los Datos}{24}{subsubsection.3.3.3.4}
-\contentsline {subsubsection}{\numberline {3.3.3.5}Interfaces, Ampliaciones y Reportes}{25}{subsubsection.3.3.3.5}
-\contentsline {subsection}{\numberline {3.3.4}Fase 4: Preparaci'on Final}{26}{subsection.3.3.4}
-\contentsline {subsubsection}{\numberline {3.3.4.1}Refinar el Sistema creado}{26}{subsubsection.3.3.4.1}
-\contentsline {subsubsection}{\numberline {3.3.4.2}Planeacion de la preparaci'on de la Salida en Vivo}{26}{subsubsection.3.3.4.2}
-\contentsline {subsubsection}{\numberline {3.3.4.3}Entrenamiento del Usuario Final}{27}{subsubsection.3.3.4.3}
-\contentsline {subsubsection}{\numberline {3.3.4.4}Transferencia de Conocimiento}{27}{subsubsection.3.3.4.4}
-\contentsline {subsubsection}{\numberline {3.3.4.5}Administraci'on del Sistema}{27}{subsubsection.3.3.4.5}
-\contentsline {subsubsection}{\numberline {3.3.4.6}Migraci'on de Datos}{28}{subsubsection.3.3.4.6}
-\contentsline {subsubsection}{\numberline {3.3.4.7}Pruebas Finales y Entonaci'on}{28}{subsubsection.3.3.4.7}
-\contentsline {section}{\numberline {3.4}Aplicaci'on para el Proyecto de Pasant'ia}{28}{section.3.4}
-\contentsline {chapter}{\numberline {4}Desarrollo}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fase 1: Preparaci'on Previa}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Fase 2: Business Blueprint}{30}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Identificaci'on del proceso de Master Data (Datos Maestros)}{31}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Identificaci'on del proceso de Sales (Pedidos de Ventas)}{34}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Identificaci'on del proceso de Shipping and Transportation (Embarque y Transporte)}{35}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Identificaci'on del proceso de Billing (Facturaci'on)}{35}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Fase 3: Realizaci'on (Construcci'on y Pruebas)}{36}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Configuraci'on Base del M'odulo de Ventas y Distribuci'on para SSA Beverage}{36}{subsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.1.1}Configuraci'on de la parte organizativa de la Empresa}{36}{subsubsection.4.3.1.1}
-\contentsline {subsection}{\numberline {4.3.2}Elaboraci'on de las Facturas Legales}{38}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Fase 4: Presentaci'on y Resultados Finales}{38}{section.4.4}
-\contentsline {chapter}{\numberline {5}Resultados}{39}{chapter.5}
-\contentsline {section}{\numberline {5.1}M'aquina de prueba}{40}{section.5.1}
-\contentsline {section}{\numberline {5.2}Validaci'on de los estimados}{40}{section.5.2}
-\contentsline {chapter}{\numberline {6}Conclusiones y recomendaciones}{45}{chapter.6}
-\contentsline {chapter}{Bibliograf\'{\i }a}{48}{chapter*.20}
-\contentsline {chapter}{\numberline {A}Informaci'on adicional de {\tt d2Hgr}}{53}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Requerimientos de {\it software} y {\it hardware}}{54}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}Ayuda de la l'inea de comando}{57}{section.Alph1.2}
-\contentsline {section}{\numberline {A.3}Archivos del programa}{60}{section.Alph1.3}
-\contentsline {section}{\numberline {A.4}Creaci'on de $Xtdata$}{61}{section.Alph1.4}
+\contentsline {subsection}{\numberline {2.4.1}Estructura de un programa ABAP/4}{15}{subsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.1.1}Includes en ABAP/4}{17}{subsubsection.2.4.1.1}
+\contentsline {subsection}{\numberline {2.4.2}Herramientas provistas por ABAP/4}{17}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}Smartforms}{18}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}Constructor de Formularios Inteligentes (Smart Form Builder)}{18}{subsubsection.2.4.2.2}
+\contentsline {subsubsection}{\numberline {2.4.2.3}Template de impresi'on para el Smartform (Smart Form Print Form Template}{21}{subsubsection.2.4.2.3}
+\contentsline {subsubsection}{\numberline {2.4.2.4}M'odulo de Funciones del Smart Form (Smart Form Function Module)}{21}{subsubsection.2.4.2.4}
+\contentsline {subsubsection}{\numberline {2.4.2.5}Programa de Impresi'on de Smart Forms (Smart Form Print Program)}{21}{subsubsection.2.4.2.5}
+\contentsline {subsection}{\numberline {2.4.3}Sesi'on de Batch Input (Carga Masiva de Datos)}{21}{subsection.2.4.3}
+\contentsline {chapter}{\numberline {3}Marco Metodol'ogico}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Descripci'on de la metodolog'ia}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Caracter'isticas Principales}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}Fases de la metodolog'ia ASAP}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Fase 1: Preparaci'on del Proyecto}{24}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Fase 2: Business Blueprint}{26}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Fase 3: Realizaci'on}{28}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.1}Simulaci'on}{28}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.3.2}Validaci'on}{29}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3.3}Uni'on y Pruebas de Integraci'on}{29}{subsubsection.3.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.4}Conversi'on y Carga de los Datos}{31}{subsubsection.3.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.3.5}Interfaces, Ampliaciones y Reportes}{32}{subsubsection.3.3.3.5}
+\contentsline {subsection}{\numberline {3.3.4}Fase 4: Preparaci'on Final}{33}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1}Refinar el Sistema creado}{33}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}Planeacion de la preparaci'on de la Salida en Vivo}{33}{subsubsection.3.3.4.2}
+\contentsline {subsubsection}{\numberline {3.3.4.3}Entrenamiento del Usuario Final}{34}{subsubsection.3.3.4.3}
+\contentsline {subsubsection}{\numberline {3.3.4.4}Transferencia de Conocimiento}{34}{subsubsection.3.3.4.4}
+\contentsline {subsubsection}{\numberline {3.3.4.5}Administraci'on del Sistema}{34}{subsubsection.3.3.4.5}
+\contentsline {subsubsection}{\numberline {3.3.4.6}Migraci'on de Datos}{35}{subsubsection.3.3.4.6}
+\contentsline {subsubsection}{\numberline {3.3.4.7}Pruebas Finales y Entonaci'on}{35}{subsubsection.3.3.4.7}
+\contentsline {section}{\numberline {3.4}Aplicaci'on para el Proyecto de Pasant'ia}{35}{section.3.4}
+\contentsline {chapter}{\numberline {4}Desarrollo}{36}{chapter.4}
+\contentsline {section}{\numberline {4.1}Fase 1: Preparaci'on Previa}{36}{section.4.1}
+\contentsline {section}{\numberline {4.2}Fase 2: Business Blueprint}{37}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Identificaci'on del proceso de Master Data (Datos Maestros)}{38}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Identificaci'on del proceso de Sales (Pedidos de Ventas)}{41}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Identificaci'on del proceso de Shipping and Transportation (Embarque y Transporte)}{42}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Identificaci'on del proceso de Billing (Facturaci'on)}{42}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Fase 3: Realizaci'on (Construcci'on y Pruebas)}{43}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Configuraci'on Base del M'odulo de Ventas y Distribuci'on para SSA Beverage}{43}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Configuraci'on de la parte organizativa de la Empresa}{43}{subsubsection.4.3.1.1}
+\contentsline {subsection}{\numberline {4.3.2}Elaboraci'on de las Facturas Legales}{45}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Elaboraci'on del programa de Carga Masiva de Datos para el Maestro de Clientes}{46}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Fase 4: Presentaci'on y Resultados Finales}{47}{section.4.4}
+\contentsline {chapter}{\numberline {5}Resultados}{49}{chapter.5}
+\contentsline {section}{\numberline {5.1}M'aquina de prueba}{50}{section.5.1}
+\contentsline {section}{\numberline {5.2}Validaci'on de los estimados}{50}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclusiones y recomendaciones}{55}{chapter.6}
+\contentsline {chapter}{Bibliograf\'{\i }a}{58}{chapter*.31}
+\contentsline {chapter}{\numberline {A}Informaci'on adicional de {\tt d2Hgr}}{63}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Requerimientos de {\it software} y {\it hardware}}{64}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Ayuda de la l'inea de comando}{67}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}Archivos del programa}{70}{section.Alph1.3}
+\contentsline {section}{\numberline {A.4}Creaci'on de $Xtdata$}{71}{section.Alph1.4}

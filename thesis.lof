@@ -2,26 +2,30 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Clasificaci'on de los datos en el M'odulo SD\relax }}{13}{figure.caption.5}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Pantalla Inicial de la transacci'on SMARTFORMS\relax }}{19}{figure.caption.13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Smart Form Builder\relax }}{20}{figure.caption.14}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Proceso de Batch Input ejecutado en SAP\relax }}{22}{figure.caption.15}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Estructura de la Enpresa definida para el M'odulo SD (Parte 1)\relax }}{31}{figure.caption.6}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Estructura de la Empresa definida para el M'odulo SD (Parte 2)\relax }}{31}{figure.caption.7}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Organizaciones de Ventas definidas para el M'odulo SD\relax }}{36}{figure.caption.8}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Canales de Distribuci'on definidos para el M'odulo SD\relax }}{36}{figure.caption.9}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Sectores definidos para el M'odulo SD\relax }}{37}{figure.caption.10}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces 'Areas de Ventas definidas para el M'odulo SD\relax }}{37}{figure.caption.11}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Puestos de Expedici'on definidos para el M'odulo SD\relax }}{37}{figure.caption.12}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Parte de los Puestos de Carga definidos para el M'odulo SD\relax }}{38}{figure.caption.13}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Estructura de la Enpresa definida para el M'odulo SD (Parte 1)\relax }}{38}{figure.caption.16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Estructura de la Empresa definida para el M'odulo SD (Parte 2)\relax }}{38}{figure.caption.17}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Organizaciones de Ventas definidas para el M'odulo SD\relax }}{43}{figure.caption.18}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Canales de Distribuci'on definidos para el M'odulo SD\relax }}{43}{figure.caption.19}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Sectores definidos para el M'odulo SD\relax }}{44}{figure.caption.20}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 'Areas de Ventas definidas para el M'odulo SD\relax }}{44}{figure.caption.21}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Puestos de Expedici'on definidos para el M'odulo SD\relax }}{44}{figure.caption.22}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Parte de los Puestos de Carga definidos para el M'odulo SD\relax }}{45}{figure.caption.23}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Ejemplo de Factura creada para el m'odulo SD\relax }}{48}{figure.caption.25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Promedio y varianza del error absoluto de la estimaci'on del par'ametro de Hurst para el m'etodo estad'istico R/S\relax }}{41}{figure.caption.16}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Promedio y varianza del error absoluto de la estimaci'on del par'ametro de Hurst para el m'etodo de gr'aficas de varianza-tiempo\relax }}{42}{figure.caption.17}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Promedio y varianza del error absoluto de la estimaci'on del par'ametro de Hurst para el m'etodo de varianza modificada de Allan\relax }}{42}{figure.caption.18}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Tiempo promedio utilizado para estimar una ventana de 1024 a 32768 datos para los m'etodos implementados\relax }}{43}{figure.caption.19}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Promedio y varianza del error absoluto de la estimaci'on del par'ametro de Hurst para el m'etodo estad'istico R/S\relax }}{51}{figure.caption.27}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Promedio y varianza del error absoluto de la estimaci'on del par'ametro de Hurst para el m'etodo de gr'aficas de varianza-tiempo\relax }}{52}{figure.caption.28}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Promedio y varianza del error absoluto de la estimaci'on del par'ametro de Hurst para el m'etodo de varianza modificada de Allan\relax }}{52}{figure.caption.29}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Tiempo promedio utilizado para estimar una ventana de 1024 a 32768 datos para los m'etodos implementados\relax }}{53}{figure.caption.30}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Asignaci'on de las Organizaciones de Ventas a la Sociedad\relax }}{53}{figure.caption.21}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Asignaci'on de las Organizaciones de Ventas a los Canales de Distribuci'on\relax }}{53}{figure.caption.22}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Asignaci'on de las Organizaciones de Ventas a los Sectores\relax }}{53}{figure.caption.23}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Parte de la asignaci'on de las Oficinas de Ventas a las 'Areas de Ventas\relax }}{54}{figure.caption.24}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Parte de la asignaci'on de las Orgnanizaciones de Ventas y Canales de Distribuci'on a los Centros de Distribuci'on\relax }}{55}{figure.caption.25}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Parte de la asignaci'on de los Puestos de Expedici'on a los Centros de Distribuci'on\relax }}{56}{figure.caption.26}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Asignaci'on de las Organizaciones de Ventas a la Sociedad\relax }}{63}{figure.caption.32}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Asignaci'on de las Organizaciones de Ventas a los Canales de Distribuci'on\relax }}{63}{figure.caption.33}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Asignaci'on de las Organizaciones de Ventas a los Sectores\relax }}{63}{figure.caption.34}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Parte de la asignaci'on de las Oficinas de Ventas a las 'Areas de Ventas\relax }}{64}{figure.caption.35}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Parte de la asignaci'on de las Orgnanizaciones de Ventas y Canales de Distribuci'on a los Centros de Distribuci'on\relax }}{65}{figure.caption.36}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Parte de la asignaci'on de los Puestos de Expedici'on a los Centros de Distribuci'on\relax }}{66}{figure.caption.37}

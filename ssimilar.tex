@@ -203,18 +203,103 @@ Dentro de las caracter'isticas que posee el lenguaje, se pueden mencionar las si
 \item La salida de sus programas es multilingual. 
 \end{itemize}
 
-	Dentro de las herramientas m'as utilizadas en \textbf{ABAP/4}, est'an los smartforms. En la siguiente subsecci'on se explicar'a m'as a detalle acerca de dicha herramienta.
+\subsection{Estructura de un programa ABAP/4}
+	Un programa ABAP tiene la responsabilidad del procesamiento de datos dentro de una aplicaci'on. Esto quiere decir que el programa debe ser dividido en distintas secciones que pueden ser asignadas a cada paso secuencial a ejecutar dentro del programa. Para poder lograr esto, es necesario modularizar los programas hechos en ABAP. Cada m'odulo o \textbf{Bloque de Procesamiento} como tambi'en se le conoce, consiste en un conjunto de instrucciones ABAP. Al momento de ejecutar un programa, es posible realizar la llamada de cada bloque. Es importante resaltar que no permiten anidamiento.
+	Cada programa ABAP est'a compuesto por dos partes principales, las cuales se explican en los pr'oximos bloques.
+
+\subsubsection*{DECLARACI'ON DE DATOS GLOBALES, CLASES Y SELECTION SCREENS (PANTALLAS DE SELECCION)}
+	En esta parte es donde se llevan a cabo las declaraciones de los datos globales, de las pantallas de selecci'on y de las clases. A continuaci'on, se proceder'a a explicar cada uno de estos puntos.
+\subsubsection*{Datos Globales}
+	Los Datos Globales es el conjunto de datos que son declarados con el fin de poder acceder a ellos y poder utilizarlos a lo largo del programa. Estos datos globales constan de:
+\begin{itemize}
+\item Variables
+\item Constantes
+\item Estructuras de Datos
+\item Tablas Internas
+\end{itemize}
+
+\subsubsection*{Clases}
+	Una clase en SAP es conocida como una plantilla para un objeto. Tambi'en se puede definir como una descripci'on abstracta de un objeto.
+
+\subsubsection*{Selection Screens (Pantallas de Selecci'on)}
+	Las Pantallas de Selecci'on son unas pantallas especiales que son definidas en ABAP/4 para permitir que los programas reciban datos provenientes de los usuarios a trav'es de la entrada est'andar (Teclado). El ambiente de ejecuci'on de ABAP controla el flujo del procesamiento de las pantallas de selecci'on. De esta manera, este ambiente genera un n'umero de eventos antes de que las pantallas de selecci'on sean mostradas, y otros luego despu'es que las mismas hayan sido ejecutadas.
 	
-\subsection{Smartforms}
+\subsubsection*{CONTENEDOR DE BLOQUES DE PROCESAMIENTO}
+	Esta segunda parte est'a compuesta por los Bloques de Procesamiento, entre los cuales se pueden encontrar los que se listan a continuaci'on:
+\begin{itemize}
+\item M'odulos de Di'alogo
+\item Bloques de Eventos
+\item Procedimientos (m'etodos, subrutinas y m'odulo de funciones con sus datos locales)
+\end{itemize}
+
+\subsubsection*{BLOQUE DE PROGRAMA}
+	Consiste en todos los estados ABAP (salvo estados declarativos, los cuales van en la primera parte).
+	
+\subsubsection*{BLOQUE DE PROCESO DE LLAMADAS}
+	En esta tercera parte es posible hacer llamadas a otros bloques externos o internos al programa ABAP. Los m'odulos de Di'alogo y los bloques de eventos son llamados desde afuera. Los procedimientos son llamados usando instrucciones ABAP. 
+	
+\subsubsection{Includes en ABAP/4}
+	Un Include es un programa especial el cual se hace en SAP con el objetivo de lograr mayor modularizaci'on del programa principal.
+	Este tiene dos funciones principales:
+\begin{itemize}
+\item Librer'ia: Los programas Include permiten el uso del mismo c'odigo fuente en diferentes programas. Por ejemplo, en los Includes se pueden realizar las declaraciones globales, la definici'on de clases y procedimientos, etc.
+\item Orden: Los programas Include permiten manejar un cierto orden dentro de programas complejos. Por ejemplo, los grupos de funciones usan los programas Include para almacenar partes del programa. 
+\end{itemize}
+	
+
+\subsection{Herramientas provistas por ABAP/4}
+	Dentro de las herramientas m'as utilizadas de \textbf{ABAP/4}, est'an las que se listan a continuaci'on:
+\begin{itemize}
+\item Smartforms (Formularios)
+\item Sesiones de Batch Input (Carga masiva de datos)
+\end{itemize} 
+	En la siguientes subsecciones se explicar'a m'as a detalle acerca de dichas herramientas.
+	
+\subsubsection{Smartforms}
 	\textbf{Los Smartforms} fueron introducidos dentro del lenguaje a trav'es de la versi'on 4.6 de \textbf{SAP R/3}. Su funci'on principal es la impresi'on y env'io de documentos a trav'es del correo electr'onico, o por fax. 
 	Con esta herramienta es posible hacer el dise\~no de formularios, archivos PDF y documentos en general. 
 	Esta herramienta provee una interfaz capaz de construir y mantener la disposici'on y l'ogica del formulario.
 	Una ventaja que tiene esta herramienta es el uso  de una interfaz gr'afica para modificar formularios, ya que con esto, se evita el uso de la programaci'on. 
 	En un smartform, los datos son transmitidos a trav'es de t'ablas din'amicas o est'aticas. Adicionalmente permite incluir gr'aficos que pueden ser visibles en el formulario. En los pr'oximos segmentos se explicar'a los componentes de esta herramienta.
 \subsubsection{Constructor de Formularios Inteligentes (Smart Form Builder)}
+	Esta componente es la interfaz principal que es usada para la construcci'on de Smartforms a trav'es de la pantalla inicial que se muestra en la Figura ~\ref{fig:smartforms1}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.65,type=jpg,ext=.jpg,read=.jpg]{figures/sm_initial}
+\caption{Pantalla Inicial de la transacci'on SMARTFORMS}
+\label{fig:smartforms1}
+\end{figure}
+Como se puede ver en la imagen anterior, con esta transacci'on es posible crear, modificar o visualizar un smartform. Al darle click a cualquier opci'on, la misma lleva a otra pantalla, la cual es la que permite la construcci'on de un smartform. 'Esta es conocida como \textbf{Smart Form Builder}. En la Figura ~\ref{fig:builder} se muestra a detalle dicha pantalla.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.65,type=jpg,ext=.jpg,read=.jpg]{figures/builder}
+\caption{Smart Form Builder}
+\label{fig:builder}
+\end{figure}
+	En la figura se pueden ver varias partes bien diferenciadas, las cuales se explican a continuaci'on:
+\begin{itemize}
+\item Men'u de Navegaci'on: Es el que est'a representado por la columna izquierda. 'Este expone al formulario en forma de jerarqu'ia, dode cada elemento es un nodo
+\item Marco de Mantenimiento: Est'a conformado por los atributos principales del formulario (Nombre y significado)
+\item Lista de Campos: Esta lista muestra los datos que est'an definidos actualmente en el formulario
+\item Form Painter: 'Esta es una herramienta gr'afica la cual permite dise\~nar cada una de las partes que tendr'a el formulario.
+\end{itemize}
 \subsubsection{Template de impresi'on para el Smartform (Smart Form Print Form Template}
+	Un template de impresi'on para el Smartform ofrece un dise\~no ya creado por el sistema para as'i crear un Smartform que pueda ser imprimible.
 \subsubsection{M'odulo de Funciones del Smart Form (Smart Form Function Module)}
+	El M'odulo de Funciones del Smart Form es una secuencia de instrucciones generadas de forma autom'atica al momento de la activaci'on del  mismo.
 \subsubsection{Programa de Impresi'on de Smart Forms (Smart Form Print Program)}
+	El Programa de Impresi'on de Smartforms es el programa control encargado de manejar la informaci'on que es enviada al smartform y de su posterior impresi'on. 
+	
+\subsection{Sesi'on de Batch Input (Carga Masiva de Datos)}
+	Esta es una herramienta que provee ABAP/4 con el fin de introducir datos de manera no interactiva dentro del Sistema SAP. La Carga Masiva o por Lotes (Batch Input) es usuado muy frecuentemente para transferir datos desde sistemas externos a un sistema SAP, o entre sistemas SAP. Una sesi'on de Batch Input, m'as espec'ificamente, es un conjunto de una o varias llamadas a transacciones con los datos a ser procesados por dichas transacciones.  
+	Para poder lograr esta tarea, existen dos transacciones en SAP: la SHDB y la SM35. A partir de la ejecuci'on de alguna de las transacciones antes mencionadas, el sistema se encarga de realizar una grabaci'on sobre la(s) transacción(es) involucrada(s) junto con los datos en un formato especial el cuan puede ser interpretado por SAP. Cuando el sistema ejecuta una sesi'on, utiliza la data almacenada en dicha sesi'on para comenzar la simulaci'on de la entrada on-line de los datos. El sistema llama a las transacciones y carga los datos en ella. En la figura \ref{fig:process} se muestra un esquema general de este proceso.
+ 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.0,type=jpg,ext=.jpg,read=.jpg]{figures/batch_input_process}
+\caption{Proceso de Batch Input ejecutado en SAP}
+\label{fig:process}
+\end{figure}
 
-
+	En la imagen anterior se puede apreciar los pasos a seguir para poder llevar a cabo una sesi'on de Batch Input. Para ello, el sistema a trav'es de una interfaz recibe el archivo que contiene los datos a ser cargados, y 'este es pasado al programa de Carga Masiva (Batch Input), el cual se encarga de procesar dichos datos y colocarlos en una cola, para luego procesar uno por uno a trav'es de la simulaci'on de la ejecuci'on de la transacci'on involucrada. 
 
