@@ -1,62 +1,15 @@
 % Conclusiones
 \chapter{Conclusiones y recomendaciones} \label{chap:conclusiones}
 
-AQU\'I VAN LAS CONCLUSIONES Y RECOMENDACIONES.
-%Puedes quitar esto(es opcional)
-\vspace{5 mm}
-
-Como resultado de este proyecto se logr'o implementar una herramienta de
-l'inea de comando que pudiese crear series de tiempo a partir de trazas
-producidas por {\tt tcpdump} para estimar el par'ametro de Hurst y graficar sus
-resultados. La estimaci'on se hizo mediante el mecanismo de ventana deslizante,
-limitando el tama~no de datos para cada ventana de forma de probar si de esta
-forma, utilizando las t'ecnicas descritas ,se pod'ian obtener estimaciones del
-par'ametro de Hurst en tiempo real que permitieran detectar ataques de
-denegaci'on de servicio.
-
-Los resultados muestran que aunque la herramienta implementada logra
-crear una serie de tiempo que puede estimar el par'ametro de Hurst con un
-error acceptable y puede graficar sus resultados, su detecci'on de ataques
-de denegaci'on de servicio en tiempo real es mejorable. Si bien se logra
-detectar cambios dr'asticos, en algunos casos cerca de la regi'on del ataque,
-la cantidad de falsos positivos y errores hace su uso casi imposible. 
-
-Para seguir trabajando en la detecci'on de ataques de denegaci'on de servicio
-usando el par'ametro de Hurst se presentan las siguientes recomendaciones: 
+	Las actividades que fueron programadas para la configuraci'on del M'odulo SD de SAP para \textit{SSA Beverage} fueron realizadas con 'exito. Para ello, se llevaron a cabo cada una de las fases de la metodolog'ia \textbf{Ascendant SAP} con el fin de que el proyecto pudiera llegar a feliz t'ermino.  En las primeras dos fases se captaron los requerimientos necesarios de la empresa para el nuevo sistema a implantar, como por ejemplo toda la parte organizativa de la misma, los aspectos relacionados con el proceso de Ventas y Distribuci'on que 'esta lleva a cabo (Tipo de Pedidos, Tipos de Entregas, Tipos de Factura). 
+	La informaci'on recaudada permiti'o que en las fases sucesivas se pudiera llevar a cabo la configuraci'on del m'odulo de Ventas y Distribuci'on. Para ello se procedi'o a ingresar la informaci'on relacionada con la parte estructural de la empresa, como por ejemplo: las organizaciones de ventas, sectores, canales de distribuci'on, etc. Adicionalmente, se realiz'o la configuraci'on del manejo de ventas de la empresa. Para esto, se cre'o un tipo de pedido, de entrega y de factura. Junto con esto, se cre'o el esquema de precio que maneja la empresa para la venta de sus productos. En el mismo se detallan los precios brutos, netos e impuestos a aplicar. Para la impresi'on de la factura fue necesario la creaci'on de dos elementos importantes: La clase de mensaje y un formulario. La primera, fue para que 'esta tuviera la informaci'on de la rutina que construye el formulario. El segundo, consisti'o en el dise\~no visual de la factura, tomando en cuenta las legislaciones vigentes por el Seniat.
+	Aunado a las configuraciones, se desarroll'o el programa de Carga Masiva de Clientes en el lenguaje de programaci'on \textbf{ABAP/4}, con el cual \textit{SSA Beverage} podr'a cargar de una manera m'as r'apida y sencilla su cartera de clientes a trav'es de un archivo en formato \textbf{.xls}. De esta manera tendr'ia dos opciones para cargar datos en el maestro de clientes: de a uno por la transacci'on \textbf{XD01} de SAP, o en lote por la transacci'on \textbf{ZCARGA_CLIENTES_SD}, la cual ejecuta el programa creado.
+	Con la configuraci'on del M'odulo de Ventas y Distribuci'on, \textbf{SSA Beverage} podr'a llevar a cabo la automatizaci'on de sus operaciones comerciales, ya que la herramienta le permite tener un mayor control sobre el proceso de ventas y distribuci'on de sus productos. Adicionalmente, como SAP es un sistema integrado por otros m'odulos adicionales al de Ventas y Distribuci'on, no s'olo podr'a manejar el proceso comercial, sino tambi'en el proceso de elaboraci'on y almacenaje de los productos que ofrece, control de la calidad de los mismos, etc.
+	Para finalizar, se sugieren las siguientes recomendaciones a seguir para el mantenimiento de 'este m'odulo:
 
 \begin{itemize}
-\item Emplear alg'un mecanismo de muestreo de los valores de $n$ utilizados
-en la estimaci'on del par'ametro de Hurst en una ventana con todos los m'etodos
-para mejorar la precisi'on y posiblemente disminuir el tiempo necesario para
-una estimaci'on:
-
-En la herramienta implementada, no se us'o ning'un mecanismo de muestreo en
-la estimaci'on del par'ametro de Hurst, implementando los m'etodos como fueron
-escritos en el cap'itulo \ref{chap:ssimilar}. Esto significa que se tomaron en
-cuenta todos los tama~nos $n$ viables para la creaci'on de las gr'aficas
-$\log - \log$. Parte de la lentitud de los m'etodos en dar un resultado est'a
-en tomar en cuenta todos los $n$ posibles.
-Por otro lado, de acuerdo con \cite{MAVARStefano} usando el m'etodo de varianza
-modificada de Allan, el tomar todos los $n$ acerc'andose a $N/3$ comienza a
-afectar seriamente la estimaci'on. Sin embargo, en el art'iculo no se presenta
-una forma determin'istica que describa hasta que punto se deber'ia tomar en
-cuenta los $n$ para una estimaci'on. 
-\item Encontrar alg'un m'etodo de utilizar la informaci'on obtenida en la 
-estimaci'on de una ventana de tal forma que los c'alculos hechos para la
-primera ventana aceleren la estimaci'on de la siguente ventana
-\cite{intelligentfuzzy}.
-\item Al poder estimar una ventana en menor tiempo tambi'en ser'ia recomendable
-aumentar el n'umero de datos utilizados para una estimaci'on. C'omo no se quiere
-aumentar el tiempo de traza real $w$ usado en una estimaci'on, esto implicar'ia
-usar un $c$ m'as peque~no \cite{hagiwara00highspeed}.
-\item En la estimaci'on de una ventana, si se logra encontrar una forma de
-dividir el c'alculo de tal forma de poder aplicar una paralelizaci'on, el uso
-de m'as de un hilo de ejecuci'on para estimaci'on de la ventana podr'ia ser
-probado \cite{hagiwara00highspeed}.
-\item En lugar de utilizar un 'unico tama~no de $s$ en el mecanismo de ventana
-deslizante, se podr'ia usar un valor flexible a los cambios de la red, de tal
-forma que si el par'ametro de Hurst cambia repentinamente entre dos ventanas, se
-acorte $s$ con tal de verificar si en realidad hay una sucesi'on de paquetes
-uniformemente espaciados que puedan ser parte un ataque de denegaci'on de
-servicio, minimizando la cantidad de falsos positivos \cite{intelligentfuzzy}.
+\item Tener reuniones frecuentes con personal de la empresa para gesti'on de nuevos requerimientos
+\item Contar con un equipo de consultores para la captaci'on de dichos requerimientos, y para realizar las nuevas configuraciones (en caso de ser necesario)
+\item Contar con un equipo de desarrolladores para aquellos requerimientos no configurables
+\item Realizar cursos de capacitaci'on al personal de la empresa para la utilizaci'on del nuevo sistema
 \end{itemize}
