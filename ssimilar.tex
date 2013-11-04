@@ -184,6 +184,72 @@ Los Datos Maestros dentro del M'odulo SD est'an compuestos por:
 Cada una de estas entidades contienen a su vez atributos, jerarqu'ias y tablas.
 
 \subsection{Proceso de Ventas utilizando el M'odulo SD}
+	En este m'odulo los dos objetos m'as importantes son: las clases de documentos y las condiciones. El primero, porque en cada fase del proceso se elabora un documento que contiene informaci'on relevante para dicha fase. La segunda, porque contiene las cl'ausulas por las cuales se va a regir el esquema de precios.
+	En la Figura \~ref{salesFlow} se muestra el proceso general de Ventas y Distribuci'on que es cubierto por SAP.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.0,type=jpg,ext=.jpg,read=.jpg]{figures/salesFlow}
+\caption{Proceso de Ventas y Distribuci'on en SAP}
+\label{fig:salesFlow}
+\end{figure}
+
+	A continuaci'on, se proceder'a a explicar cada fase mostrada en la imagen anterior.
+
+\subsubsection{Solicitud de Informaci'on de Productos}
+	Este es el punto de partida para el proceso de ventas. En este paso, el cliente solicita informaci'on acerca de los productos y/o servicios que son ofrecidos por la empresa, con el objetivo de una posible adquisici'on de alg'un producto y/o servicio.
+	
+\subsubsection{Creaci'on de Orden de Ventas}
+	En este punto, el cliente le solicita a la empresa un pedido de un material determinado solicitado en el paso anterior. Para esto, se crea en SAP lo que se conoce como un \textbf{Pedido de Venta}. Un \textbf{Pedido de Venta} es un documento que contiene informaci'on acerca del(los) material(es) que se est'a solicitando, entre otras cosas. Un Pedido tiene la siguiente divisi'on:
+\begin{itemize}
+\item Cabecera del Documento: En esta parte del documento se recoge informaci'on acerca de la informaci'on general del pedido. Entre la informaci'on relevante que se puede encontrar, se pueden mencionar: 
+\begin{enumerate}
+\item Fecha del Pedido
+\item Cliente que hace el Pedido
+\item Cliente que recibe el Pedido
+\item Tipo de Pedido (Si es un Pedido est'andar, Contrato con el cliente, solicitud de Nota de Cr'edito/D'ebito, Retorno de Productos, Consulta de Cliente, solicitud de Presupuesto)
+\item N'umero de Pedido: El el n'umero con el cual el cliente identifica su pedido.
+\item N'umero de Documento: Es el n'umero con el cual se identifica un'ivocamente el Pedido de Ventas.
+\end{enumerate}
+\item Posiciones del documento: Contiene informaci'on sobre los materiales solicitados. Cada material va colocado en una posici'on diferente, y en 'esta se reflejan los siguientes datos:
+\begin{enumerate}
+\item N'umero de Material: Es el n'umero que identifica un'ivocamente al material solicitado.
+\item Descripci'on del Material: Es un nombre que se le coloca al material.
+\item Cantidad
+\item Unidad de Venta: Es la unidad en la cual se vende el material. Esto ocurre porque dentro de la informaci'on que posee el material, se diferencian dos unidades: la de almacenamiento y la de venta
+\item Precio bruto: Es el precio del material.
+\end{enumerate}
+\end{itemize}
+
+Para esto se tienen las siguientes transacciones, las cuales son las m'as utilizadas:
+\begin{itemize}
+\item VA01: Creaci'on de Pedidos
+\item VA02 Modificaci'on de Pedidos
+\item VA03: Visualizaci'on de Pedidos
+\end{itemize}
+	
+\subsubsection{Entrega de Bienes y/o Servicios}
+	El segundo paso a ejecutar una vez que se cre'o el pedido de ventas, es la creaci'on de una  Entrega. Para esto, se crea un nuevo documento el cual es llamado \textbf{Documento de Entrega}. Esto es, porque en el mencionado documento, se detalla la informaci'on relacionada con el proceso de entrega y transporte. En este documento, adem'as de la informaci'on que es copiada del documento anterior (Cabecera y Posiciones), se detalla informaci'on acerca de las cantidades reales entregadas, ya que las cantidades solicitadas en el Pedido est'an sujetas a la disponibilidad de las mismas en los Almacenes. Para ello, es necesario el uso de las siguientes transacciones:
+\begin{itemize}
+\item VL01N: Creaci'on de Entregas
+\item VL02N: Modificaci'on de Entregas
+\item VL03N: Visualizaci'on de Entregas
+\end{itemize}
+	Una vez que la entrega es creada, se debe contabilizar el material, para que la entrega est'e considerada como completada. Esto es, para que pueda procederse al siguiente paso.
+	
+\subsubsection{Facturaci'on}
+	La siguiente acci'on a realizar dentro del ciclo es la facturaci'on. En este paso, como su nombre lo indica, se crea la factura relacionada con un pedido previamente realizado. En este documento, se reflejan los materiales y/o servicios solicitados, con sus respectivas cantidades y su monto. Adicionalmente, es reflejado los impuestos que apliquen, asi como  el monto total a pagar por el solicitante. Para esto, es necesario el uso de las siguientes transacciones:
+\begin{itemize}
+\item VF01: Creaci'on de Facturas
+\item VF02: Modificaci'on de Facturas
+\item VF03: Visualizaci'on de Facturas
+\end{itemize}
+	Es posible, en primer lugar, la creaci'on de varias facturas. Esto es posible gracias a las negociaciones que lleva la empresa con el cliente, sobre los montos a pagar. En segunda instancia, si hubo errores en la factura creada, es posible la anulaci'on de la misma, con lo cual la deuda adquirida por el cliente se anula, en caso de no tener otra factura pendiente. Con esto es posible volver a crear la factura con las correcciones a aplicar. 
+	Una vez creada la factura, se debe contabilizar la misma. Esto es con el fin de que se cree un documento contable, para que la nueva venta est'e reflejada dentro de la contabilidad de la empresa.
+	
+\subsubsection{Pago por los bienes y/o servicios adquiridos}
+	Este es el paso final del ciclo de ventas que es llevado en el m'odulo SD. Para ello, de acuerdo a los planes de pago establecidos entre la empresa y el cliente, la misma inicia el cobro de la deuda adquirida.
+	
 
 \subsection{Relaci'on existente entre el M'odulo SD y otros M'odulos}
 E'ste m'odulo esta fuertemente integrado con otros m'odulos de SAP, como por ejemplo: MM, WM, QM. 
