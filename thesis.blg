@@ -1,45 +1,46 @@
-This is BibTeX, Version 0.99c (Web2C 7.5.6)
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: alpha.bst.bst
 Database file #1: myrefs.bib
-You've used 35 entries,
+You've used 2 entries,
             2543 wiz_defined-function locations,
-            771 strings with 10673 characters,
-and the built_in function-call counts, 14815 in all, are:
-= -- 1457
-> -- 752
-< -- 18
-+ -- 266
-- -- 260
-* -- 1010
-:= -- 2402
-add.period$ -- 103
-call.type$ -- 35
-change.case$ -- 226
-chr.to.int$ -- 35
-cite$ -- 35
-duplicate$ -- 601
-empty$ -- 1074
-format.name$ -- 300
-if$ -- 3081
+            572 strings with 4626 characters,
+and the built_in function-call counts, 570 in all, are:
+= -- 48
+> -- 16
+< -- 2
++ -- 4
+- -- 4
+* -- 30
+:= -- 104
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 32
+empty$ -- 51
+format.name$ -- 8
+if$ -- 114
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 36
-newline$ -- 175
-num.names$ -- 107
-pop$ -- 246
+missing$ -- 4
+newline$ -- 13
+num.names$ -- 6
+pop$ -- 16
 preamble$ -- 1
-purify$ -- 266
+purify$ -- 12
 quote$ -- 0
-skip$ -- 542
+skip$ -- 21
 stack$ -- 0
-substring$ -- 753
-swap$ -- 130
-text.length$ -- 18
-text.prefix$ -- 7
+substring$ -- 14
+swap$ -- 2
+text.length$ -- 2
+text.prefix$ -- 2
 top$ -- 0
-type$ -- 256
+type$ -- 8
 warning$ -- 0
-while$ -- 138
-width$ -- 38
-write$ -- 446
+while$ -- 4
+width$ -- 3
+write$ -- 28

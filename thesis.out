@@ -93,10 +93,14 @@
 \BOOKMARK [2][-]{subsection.4.3.3}{Elaboraci\363n del programa de Carga Masiva de Datos para el Maestro de Clientes}{section.4.3}% 93
 \BOOKMARK [1][-]{section.4.4}{Fase 4: Presentaci\363n y Resultados Finales}{chapter.4}% 94
 \BOOKMARK [0][-]{chapter.5}{Conclusiones y recomendaciones}{}% 95
-\BOOKMARK [0][-]{chapter*.20}{Bibliograf\355a}{}% 96
-\BOOKMARK [0][-]{appendix.Alph1}{Im\341genes Adicionales}{}% 97
-\BOOKMARK [1][-]{section.Alph1.1}{Configuraci\363n de la Estructura de SSA Beverage}{appendix.Alph1}% 98
-\BOOKMARK [1][-]{section.Alph1.2}{Requerimientos de software y hardware}{appendix.Alph1}% 99
-\BOOKMARK [1][-]{section.Alph1.3}{Ayuda de la l\355nea de comando}{appendix.Alph1}% 100
-\BOOKMARK [1][-]{section.Alph1.4}{Archivos del programa}{appendix.Alph1}% 101
-\BOOKMARK [1][-]{section.Alph1.5}{Creaci\363n de Xtdata}{appendix.Alph1}% 102
+\BOOKMARK [0][-]{chapter*.12}{Bibliograf\355a}{}% 96
+\BOOKMARK [0][-]{appendix.Alph1}{Informaci\363n Adicional de SAP R/3}{}% 97
+\BOOKMARK [1][-]{section.Alph1.1}{Figuras Adicionales de SAP}{appendix.Alph1}% 98
+\BOOKMARK [1][-]{section.Alph1.2}{Im\341genes Adicionales de ABAP/4}{appendix.Alph1}% 99
+\BOOKMARK [1][-]{section.Alph1.3}{Im\341genes Adicionales de la Metodolog\355a ASAP}{appendix.Alph1}% 100
+\BOOKMARK [0][-]{appendix.Alph2}{Configuraciones Realizadas en el Proyecto}{}% 101
+\BOOKMARK [1][-]{section.Alph2.1}{Configuraci\363n de la Estructura de SSA Beverage}{appendix.Alph2}% 102
+\BOOKMARK [0][-]{appendix.Alph3}{Desarrollos realizados en ABAP/4}{}% 103
+\BOOKMARK [1][-]{section.Alph3.1}{Programa de Carga Masiva de Datos del Maestro de Clientes}{appendix.Alph3}% 104
+\BOOKMARK [1][-]{section.Alph3.2}{Creaci\363n del Formulario de la Factura Legal}{appendix.Alph3}% 105
+\BOOKMARK [1][-]{section.Alph3.3}{Creaci\363n de Xtdata}{appendix.Alph3}% 106

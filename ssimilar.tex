@@ -5,8 +5,8 @@
 
 Los conceptos claves acerca de lo que es un sistema ERP, SAP, ABAP, Ascendant SAP son los que se presentan en este capítulo.
 
-La secci'on \ref{sect:erp} presenta las nociones b'asicas acerca de en qu'e consiste un Sistema de Informaci'on ERP. La secci'on 
-\ref{sect:sap} describe un poco lo que es SAP: sus caracter'isticas principales, una  breve historia. Por otro lado, la secci'on \ref{sect:abap} explica en que consiste el lenguaje de programaci'on ABAP, sus principales caracter'isticas. La 'ultima secci'on define la metodolog'ia \textbf{Ascendant SAP (ASAP)}, a ser utilizada a lo largo de este proyecto.
+La secci'on ~\ref{sect:erp} presenta las nociones b'asicas acerca de en qu'e consiste un Sistema de Informaci'on ERP. La secci'on 
+~\ref{sect:sap} describe un poco lo que es SAP: sus caracter'isticas principales, una  breve historia. Por otro lado, la secci'on ~\ref{sect:abap} explica en que consiste el lenguaje de programaci'on ABAP, sus principales caracter'isticas. La 'ultima secci'on define la metodolog'ia \textbf{Ascendant SAP (ASAP)}, a ser utilizada a lo largo de este proyecto.
 
 \section{Sistemas de Informaci'on ERP} \label{sect:erp}
 
@@ -167,14 +167,7 @@ Con esta herramienta se hace posible el manejo de textos entre los distintos doc
 
 
 \subsection{Clasificaci'on de los Datos en el M'odulo SD}
-De acuerdo al autor de \cite{SD01}, la data almacenada dentro del M'odulo se puede clasificar como se muestra en la siguiente figura:
-\begin{figure}[htb]
-\centering
-\includegraphics[scale=0.45,type=png,ext=.png,read=.png]{figures/Clasificacion1}
-\caption{Clasificaci'on de los datos en el M'odulo SD}
-\label{fig:datasd}
-\end{figure}
-Ahora se proceder'a a explicar la clasificaci'on antes mencionada.
+De acuerdo al autor de \cite{SD01}, la data almacenada dentro del M'odulo se puede clasificar como se muestra en la figura ~\ref{datasd} donde se muestra la siguiente clasificaci'on:.
 \subsubsection{Datos Maestros}
 Los Datos Maestros dentro del M'odulo SD est'an compuestos por:
 \begin{itemize}
@@ -185,16 +178,7 @@ Cada una de estas entidades contienen a su vez atributos, jerarqu'ias y tablas.
 
 \subsection{Proceso de Ventas utilizando el M'odulo SD}
 	En este m'odulo los dos objetos m'as importantes son: las clases de documentos y las condiciones. El primero, porque en cada fase del proceso se elabora un documento que contiene informaci'on relevante para dicha fase. La segunda, porque contiene las cl'ausulas por las cuales se va a regir el esquema de precios.
-	En la Figura \~ref{salesFlow} se muestra el proceso general de Ventas y Distribuci'on que es cubierto por SAP.
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale=1.0,type=jpg,ext=.jpg,read=.jpg]{figures/salesFlow}
-\caption{Proceso de Ventas y Distribuci'on en SAP}
-\label{fig:salesFlow}
-\end{figure}
-
-	A continuaci'on, se proceder'a a explicar cada fase mostrada en la imagen anterior.
+	En la Figura ~\ref{salesFlow} se muestra el proceso general de Ventas y Distribuci'on que es cubierto por SAP. A continuaci'on, se proceder'a a explicar cada fase mostrada en dicha imagen.
 
 \subsubsection{Solicitud de Informaci'on de Productos}
 	Este es el punto de partida para el proceso de ventas. En este paso, el cliente solicita informaci'on acerca de los productos y/o servicios que son ofrecidos por la empresa, con el objetivo de una posible adquisici'on de alg'un producto y/o servicio.
@@ -328,21 +312,7 @@ Dentro de las caracter'isticas que posee el lenguaje, se pueden mencionar las si
 	Una ventaja que tiene esta herramienta es el uso  de una interfaz gr'afica para modificar formularios, ya que con esto, se evita el uso de la programaci'on. 
 	En un smartform, los datos son transmitidos a trav'es de t'ablas din'amicas o est'aticas. Adicionalmente permite incluir gr'aficos que pueden ser visibles en el formulario. En los pr'oximos segmentos se explicar'a los componentes de esta herramienta.
 \subsubsection{Constructor de Formularios Inteligentes (Smart Form Builder)}
-	Esta componente es la interfaz principal que es usada para la construcci'on de Smartforms a trav'es de la pantalla inicial que se muestra en la Figura ~\ref{fig:smartforms1}
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.65,type=jpg,ext=.jpg,read=.jpg]{figures/sm_initial}
-\caption{Pantalla Inicial de la transacci'on SMARTFORMS}
-\label{fig:smartforms1}
-\end{figure}
-Como se puede ver en la imagen anterior, con esta transacci'on es posible crear, modificar o visualizar un smartform. Al darle click a cualquier opci'on, la misma lleva a otra pantalla, la cual es la que permite la construcci'on de un smartform. 'Esta es conocida como \textbf{Smart Form Builder}. En la Figura ~\ref{fig:builder} se muestra a detalle dicha pantalla.
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.65,type=jpg,ext=.jpg,read=.jpg]{figures/builder}
-\caption{Smart Form Builder}
-\label{fig:builder}
-\end{figure}
-	En la figura se pueden ver varias partes bien diferenciadas, las cuales se explican a continuaci'on:
+	Esta componente es la interfaz principal que es usada para la construcci'on de Smartforms a trav'es de la pantalla inicial que se muestra en la Figura ~\ref{fig:smartforms1}, en donde a trav'es de esta transacci'on es posible crear, modificar o visualizar un smartform. Al darle click a cualquier opci'on, la misma lleva a otra pantalla, la cual es la que permite la construcci'on de un smartform. 'Esta es conocida como \textbf{Smart Form Builder}. En la Figura ~\ref{fig:builder} en donde es posible visualizar varias partes bien diferenciadas, las cuales se explican a continuaci'on:
 \begin{itemize}
 \item Men'u de Navegaci'on: Es el que est'a representado por la columna izquierda. 'Este expone al formulario en forma de jerarqu'ia, dode cada elemento es un nodo
 \item Marco de Mantenimiento: Est'a conformado por los atributos principales del formulario (Nombre y significado)
@@ -358,14 +328,5 @@ Como se puede ver en la imagen anterior, con esta transacci'on es posible crear,
 	
 \subsection{Sesi'on de Batch Input (Carga Masiva de Datos)}
 	Esta es una herramienta que provee ABAP/4 con el fin de introducir datos de manera no interactiva dentro del Sistema SAP. La Carga Masiva o por Lotes (Batch Input) es usuado muy frecuentemente para transferir datos desde sistemas externos a un sistema SAP, o entre sistemas SAP. Una sesi'on de Batch Input, m'as espec'ificamente, es un conjunto de una o varias llamadas a transacciones con los datos a ser procesados por dichas transacciones.  
-	Para poder lograr esta tarea, existen dos transacciones en SAP: la SHDB y la SM35. A partir de la ejecuci'on de alguna de las transacciones antes mencionadas, el sistema se encarga de realizar una grabaci'on sobre la(s) transacción(es) involucrada(s) junto con los datos en un formato especial el cuan puede ser interpretado por SAP. Cuando el sistema ejecuta una sesi'on, utiliza la data almacenada en dicha sesi'on para comenzar la simulaci'on de la entrada on-line de los datos. El sistema llama a las transacciones y carga los datos en ella. En la figura \ref{fig:process} se muestra un esquema general de este proceso.
- 
-\begin{figure}[H]
-\centering
-\includegraphics[scale=1.0,type=jpg,ext=.jpg,read=.jpg]{figures/batch_input_process}
-\caption{Proceso de Batch Input ejecutado en SAP}
-\label{fig:process}
-\end{figure}
-
-	En la imagen anterior se puede apreciar los pasos a seguir para poder llevar a cabo una sesi'on de Batch Input. Para ello, el sistema a trav'es de una interfaz recibe el archivo que contiene los datos a ser cargados, y 'este es pasado al programa de Carga Masiva (Batch Input), el cual se encarga de procesar dichos datos y colocarlos en una cola, para luego procesar uno por uno a trav'es de la simulaci'on de la ejecuci'on de la transacci'on involucrada. 
+	Para poder lograr esta tarea, existen dos transacciones en SAP: la SHDB y la SM35. A partir de la ejecuci'on de alguna de las transacciones antes mencionadas, el sistema se encarga de realizar una grabaci'on sobre la(s) transacción(es) involucrada(s) junto con los datos en un formato especial el cuan puede ser interpretado por SAP. Cuando el sistema ejecuta una sesi'on, utiliza la data almacenada en dicha sesi'on para comenzar la simulaci'on de la entrada on-line de los datos. El sistema llama a las transacciones y carga los datos en ella. En la Figura~\ref{fig:process}  se puede apreciar los pasos a seguir para poder llevar a cabo una sesi'on de Batch Input. Para ello, el sistema a trav'es de una interfaz recibe el archivo que contiene los datos a ser cargados, y 'este es pasado al programa de Carga Masiva (Batch Input), el cual se encarga de procesar dichos datos y colocarlos en una cola, para luego procesar uno por uno a trav'es de la simulaci'on de la ejecuci'on de la transacci'on involucrada. 
 

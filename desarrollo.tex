@@ -107,29 +107,8 @@ Luego se procedi'o a establecer varias oficinas de ventas. Para esto, se decidi'
 
 	Luego, se procedi'o a realizar la configuraci'on de las unidades encargadas de la entrega de los materiales (Puestos de Expedici'on y Puestos de Carga). Para el primero se muestra la figura que muestra la cofiguraci'on realizada, y para el segundo, en la imagen se muestra parte de las configuraciones realizadas.
 
-Despu'es que fueron creadas cada una de las unidades antes mencionadas dentro de SAP, las configuraciones posteriores consistieron en crear las relaciones entre las mismas. En la tabla se muestra una lista con las configuraciones realizadas.
-\begin{table}[htb]
-\footnotesize
-\begin{tabular}{|c|}
-\hline
-\textbf{Configuraciones Realizadas}\\
-\hline
- Asignar las Organizaciones de Ventas creadas a la Sociedad\\
-\hline
-Asignar los Canales de Distribuci'on a las Organizaciones de Ventas\\
-\hline
-Asignar los Sectores a las Organizaciones de Ventas \\
-\hline
-Asignar las Oficinas de Ventas a las 'Areas de Ventas\\
-\hline
-Asignar las Organizaciones de Ventas y Canales de Distribuci'on a los Centros de Distribuci'on\\
-\hline
-Asignar los Puestos de Expedici'on a los Centros de Distribuci'on\\
-\hline
-\end{tabular}
-\caption{Configuraciones realizadas para establecer la relaci'on entre las distintas unidades componentes de la estructura de SSA Beverage}
-\label{tb:asignaciones}
-\end{table}
+Despu'es que fueron creadas cada una de las unidades antes mencionadas dentro de SAP, las configuraciones posteriores consistieron en crear las relaciones entre las mismas. En la Tabla~\ref{tb:asignaciones} se muestra una lista con las configuraciones realizadas.
+
 En el ap'endice se podr'an ver las im'agenes que reflejan las configuraciones antes mencionadas.
 \subsection{Elaboraci'on de las Facturas Legales}
 	Para el desarrollo de las Facturas Legales fue necesario el uso de los smartforms, ya que los mismos producen formularios imprimibles. Para ello se tom'o como ejemplo un formulario est'andar ya existente en el sistema para hacer el dise\~no de uno propio. El mismo consta de varias partes bien diferenciadas:
@@ -155,20 +134,10 @@ En el ap'endice se podr'an ver las im'agenes que reflejan las configuraciones an
 	El Editor ABAP fue utilizado para el desarrollo del programa. Para esto, decidi'o modularizar el mismo. En otras palabras, el programa principal s'olo iba a contener el uso de variables y llamadas a procedimientos. 
 	Para poder lograr esto, fue necesario la creaci'on de dos Includes: uno para la declaraci'on de variables, constantes, estructuras de datos, etc. Y otro, para la definici'on de funciones.
 	Para poder recibir el archivo por pantalla, fue necesario el uso de los \textbf{Selection Screens}, los cuales permiten colocar la direcci'on del archivo. En la figura ~\ref{fig:screen} se puede ver la pantalla inicial del programa de Carga Masiva, en el cual se le pide al usuario que introduzca la direcci'on del archivo. El usuario tiene la posibilidad de abrir un buscador de archivos tal y como sucede en cualquier otra aplicaci'on. Esto es posible gracias a la interfaz que posee SAP para estas actividades.
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.65,type=jpg,ext=.jpg,read=.jpg]{figures/screen}
-\caption{Selection Screen para el Programa de Carga Masiva realizado}
-\label{fig:screen}
-\end{figure}
+
 	La primera funci'on a implementar fue una que permitiera la lectura de un archivo en dos formatos: Texto Plano (.txt) y de Celdas (.xls 'o Excel como se le conoce comercialmente). En esta funci'on, se llama a una funci'on est'andar de SAP la cual permite leer un archivo en excel y transformar la data a una estructura especial. Luego dicha estructura fue transformada a una estructura definida en uno de los Includes. El proceso para un archivo plano fue an'alogo.
 	Luego se procedi'o a crear una grabaci'on para Batch Input a trav'es de la transacci'on \textbf{SM35}, con la cual, usando la transacci'on \textbf{XD01} como base, se procedi'o a realizar la simulaci'on de la carga de datos. Luego, el c'odigo generado por dicha grabaci'on, fue utilizado dentro de otra funci'on creada para procesar la data cargada anteriormente. De esta manera, se logra la carga masiva de datos en el Maestro de Clientes para el m'odulo de Ventas y Distribuci'on. En la figura ~\ref{fig:sm35} se puede ver parte de la grabaci'on realizada a trav'es de la transacci'on antes mencionada.
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.65,type=jpg,ext=.jpg,read=.jpg]{figures/sm35}
-\caption{Grabaci'on realizada para la Carga Masiva}
-\label{fig:sm35}
-\end{figure}
+
 
 \section{Fase 4: Presentaci'on y Resultados Finales}
 Aqui iran los resultados finales
