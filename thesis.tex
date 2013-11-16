@@ -83,8 +83,8 @@
 % Crea el glosario
 \makeglossaries
 
-% Incluye el glosario
-\input{glossary.tex}
+
+
 
 % Para crear la hoja escaneada de las firmas
 \usepackage[absolute]{textpos}
@@ -146,6 +146,8 @@
 % Pagina de agradecimientos (opcional)
 \input{agradecimientos.tex}
 
+
+
 % Crea la tabla de contenidos
 \tableofcontents
 
@@ -154,6 +156,9 @@
 
 % Crea la lista de figuras
 \listoffigures
+% Incluye el glosario
+\include{glossary}
+\printglossary
 
 % Crea la lista de codigos fuentes
 %\lstlistoflistings
