@@ -10,4 +10,20 @@ Arshad Khan.
 \newblock {\em Implementing SAP with an ASAP methology focus}.
 \newblock iUniverse, Inc., Lincoln, NE, USA, 2002.
 
+\bibitem[Inc11]{ABAP01}
+Kogent Inc.
+\newblock {\em SAP ABAP Handbook}
+\newblock Jonas and Bartlett Publishers, Sudbury, MA, USA, 2011.
+
+\bibitem[And03]{SAP02}
+George W. Anderson.
+\newblock {\em SAP Planning: Best Practices in Implementation}
+\newblock Sams Publishing, USA, 2003.
+
+\bibitem[Kap10]{SD02}
+Kapil Sharma.
+Ashutosh Mutsaddi.
+\newblock {\em Configuring SAP ERP Sales and Distribution}
+\newblock Wiley Publishing Inc. Indianapolis, IN, USA, 2010.
+
 \end{thebibliography}

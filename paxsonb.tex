@@ -131,3 +131,103 @@ Asignar los Puestos de Expedici'on a los Centros de Distribuci'on\\
 \caption{Parte de la asignaci'on de los Puestos de Expedici'on a los Centros de Distribuci'on}
 \label{fig:asigna6}
 \end{figure}
+
+\section{Ciclo de Ventas presentado en la 'Ultima Fase del Desarrollo}
+\begin{table}[h!]
+\footnotesize
+\scalebox{0.8} {
+\begin{tabular}{l l l}
+\toprule
+\textbf{Nombre de la Transacci'on:} & VA01 &\\
+\midrule
+                 & \textbf{Clase de Pedido:} & ZSSA (Pedido Est'andar SSA Beverage) \\
+                 \cmidrule{2-3}
+                 & \textbf{Organizaci'on de Ventas:} & OV01 (Nacional) \\
+                 \cmidrule{2-3}
+                 & \textbf{Canal de Distribuci'on:} & C1 (Distribuci'on Directa) \\
+                 \cmidrule{2-3}
+                 & \textbf{Sector:}                   &   PT (Productos Terminados) \\
+                 \cmidrule{2-3}
+                 & \textbf{Pedido de Venta:}            & 21 \\
+                 \cmidrule{2-3}
+                 & \textbf{Solicitante:}              & 12 (DYM3000 C.A \\
+                \cmidrule{2-3}
+  \textbf{Datos de la Transacci'on:}              & \textbf{Dest. Mercanc'ia:}   &   12 (DYM3000 C.A \\
+                 \cmidrule{2-3}
+                 & \textbf{Nro. Pedido Cliente:} & 58      \\
+                 \cmidrule{2-3}
+                 & \textbf{Fecha de Pedido:} & 19.09.2013 \\
+                 \cmidrule{2-3}
+                 & \textbf{Bloqueo de Entrega:}  &      \\
+                 \cmidrule{2-3}
+                 & \textbf{Material:} & 84000001 (Refresco Lim'on Soda) \\
+                 \cmidrule{2-3}
+                 & \textbf{Cantidad de pedido} & 1 \\
+                 \cmidrule{2-3}
+                 & \textbf{Unidad de Pedido} & CAJ (Cajas) \\
+                 \midrule
+                 & \textbf{Resultado Obtenido:} & Exitoso \\
+                 \cmidrule{2-3}
+\textbf{Resultados de la Transacci'on:}    & \textbf{N'umero de Pedido arrojado por SAP:} & 00000021 \\
+                 \cmidrule{2-3}
+                 & \textbf{Observaciones:} &  \\
+                 \bottomrule
+\end{tabular}}
+\caption{Proceso de Pedido de Venta presentado}
+\label{tb:pedido}
+\end{table}
+
+\begin{table}[h!]
+\footnotesize
+\scalebox{0.8} {
+\begin{tabular}{l l l}
+\toprule
+\textbf{Nombre de la Transacci'on:} & VL01N &\\
+\midrule
+                 & \textbf{Pedido:} & 00000021 \\
+                 \cmidrule{2-3}
+                 & \textbf{Puesto de Expedici'on:} & 120V (Despacho) \\
+                 \cmidrule{2-3}
+                 & \textbf{Centro de Distribuci'on:} & 120 (Regi'on Capital) \\
+                 \cmidrule{2-3}
+\textbf{Datos de la Transacci'on:}                  & \textbf{Almac'en:}                   &   PT01 \\
+                 \cmidrule{2-3}
+                 & \textbf{Cantidad Picking:}            & 1 \\
+                 \cmidrule{2-3}
+                 & \textbf{Unidad Picking:}              & CAJ (Cajas) \\
+                 \midrule
+                 & \textbf{Resultado Obtenido:} & Exitoso \\
+                 \cmidrule{2-3}
+\textbf{Resultados de la Transacci'on:}    & \textbf{N'umero de Entrega arrojado por SAP:} & 80000008 \\
+                 \cmidrule{2-3}
+                 & \textbf{Observaciones:} &  Para concluir la Entrega se procedi'o a Contabilizar \\
+                 &                                      & el Material (Contabilizar SM) y fue exitoso\\
+                 \bottomrule
+\end{tabular}}
+\caption{Proceso de Entrega presentado}
+\label{tb:entrega}
+\end{table}
+
+\begin{table}[h!]
+\footnotesize
+\scalebox{0.8} {
+\begin{tabular}{l l l}
+\toprule
+\textbf{Nombre de la Transacci'on:} & VF01 &\\
+\midrule
+                 & \textbf{N'umero de Documento:} &  80000008 \\
+                 \cmidrule{2-3}
+  \textbf{Datos de la Transacci'on:}                  & \textbf{Clase de Factura:} & Factura SSA Beverage \\
+                 \midrule
+                 & \textbf{Resultado Obtenido:} & Exitoso \\
+                 \cmidrule{2-3}
+\textbf{Resultados de la Transacci'on:}    & \textbf{N'umero de Factura arrojado por SAP:} & 90000007 \\
+                 \cmidrule{2-3}
+                 & \textbf{Observaciones:} &  Para concluir la Factura se procedi'o a Autorizar \\
+                 &                                      & Contabilizaci'on (Esto es para crear Documento \\
+                 &                                      & Contable) y fue exitoso\\
+                 \bottomrule
+\end{tabular}}
+\caption{Proceso de Facturaci'on presentado}
+\label{tb:facturacion}
+\end{table}

@@ -4,6 +4,8 @@
 
 \section{Fase 1: Preparaci'on Previa}
 	Durante esta fase se realizaron diferentes reuniones organizadas por la tutora industrial con el fin de tener un entrenamiento en el software SAP. Para ello, distintos empleados de la compa\~n'ia estuvieron en dichas reuniones para dictar los talleres.
+\newline
+\newline
 	Los talleres recibidos fueron acerca de los siguientes m'odulos:
 \begin{itemize}
 \item M'odulo de Gesti'on de Calidad (QM)
@@ -12,9 +14,13 @@
 \item M'odulo de Controlling (CO)
 \item M'odulo de Ventas y Distribuci'on (SD)
 \end{itemize}
-	Para cada m'odulo fueron explicados los conceptos b'asicos que est'an involucrados en cada uno. Espec'ificamente en el taller de Ventas y Distribuci'on (SD), se explic'o el ciclo de ventas general. Para ello, la persona encargada, explic'o por detalle cada una de las etapas por las cuales pasa un proceso de ventas en general (Realizaci'on del Pedido de Ventas, Entrega, Facturaci'on). 
-	Adicionalmente, fue impartido un taller sobre el lenguaje de Programaci'on ABAP/4, para conocer un poco acerca de la estructura del lenguaje. Durante este taller, se recibieron conocimientos acerca de: estructuras de control, herramientas que posee el lenguaje para emitir reportes como por ejemplo: smartforms, que son una especie de formulario que se pueden imprimir. 
-	Adem'as, se recibi'o material acerca de otro template que fue desarrollado para otro tipo de industria, pero que sirvi'o como base para ver como el m'odulo de Ventas y Distribuci'on es puesto en pr'actica, y para servir como ejemplo a la hora de implantar dicho m'odulo a la empresa de bebidas de consumo masivo.
+\indent Para cada m'odulo fueron explicados los conceptos b'asicos que est'an involucrados en cada uno. Espec'ificamente en el taller de Ventas y Distribuci'on (SD), se explic'o el ciclo de ventas general. Para ello, la persona encargada, explic'o por detalle cada una de las etapas por las cuales pasa un proceso de ventas en general (Realizaci'on del Pedido de Ventas, Entrega, Facturaci'on). 
+\newline
+\newline
+\indent Adicionalmente, fue impartido un taller sobre el lenguaje de Programaci'on ABAP/4, para conocer un poco acerca de la estructura del lenguaje. Durante este taller, se recibieron conocimientos acerca de: estructuras de control, herramientas que posee el lenguaje para emitir reportes como por ejemplo: smartforms, que son una especie de formulario que se pueden imprimir. 
+\newline
+\newline
+\indent Adem'as, se recibi'o material acerca de otro template que fue desarrollado para otro tipo de industria, pero que sirvi'o como base para ver como el m'odulo de Ventas y Distribuci'on es puesto en pr'actica, y para servir como ejemplo a la hora de implantar dicho m'odulo a la empresa de bebidas de consumo masivo.
 	
 \section{Fase 2: Business Blueprint}
 	Durante esta fase fueron desarrolladas las siguientes actividades:
@@ -26,11 +32,12 @@
 \end{itemize}
 
 	Como fue explicado en el cap'itulo anterior, en esta fase se detallan cada uno de los procesos del negocio de la compa\~n'ia para la cual se est'a llevando el proyecto; esto involucra conocer los procesos actuales y como se podr'ian aplicar dichos procesos en SAP. 
-	
-	Para el caso de la empresa de bebidas de Consumo Masivo para la cual se est'a trabajando, se van a analizar cada uno de los procesos involucrados en Ventas y Distribuci'on, para ello, se proceder'a en las sub-secciones siguientes a detallar cada una de las actividades mencionadas en la lista anterior.
+\newline
+\newline
+\indent Para el caso de la empresa de bebidas de Consumo Masivo para la cual se est'a trabajando, se van a analizar cada uno de los procesos involucrados en Ventas y Distribuci'on, para ello, se proceder'a en los siguientes apartados a detallar cada una de las actividades mencionadas en la lista anterior.
 	
 \subsection{Identificaci'on del proceso de Master Data (Datos Maestros)}
-	En esta actividad, los datos maestros que fueron estudiados e identificados para el caso de la empresa de bebidas de consumo masivo para la cual se est'a realizando esta configuraci'on, consistieron en los datos que forman parte de la estructura organizativa de la empresa. Para ello se realiz'o un estudio con otras empresas que manejan el mismo rubro para saber cu'al es el camino a seguir. En el siguiente gr'afico se muestra la organizaci'on de SSA BEVERAGE:
+	En esta actividad, los datos maestros que fueron estudiados e identificados para el caso de la empresa de bebidas de consumo masivo para la cual se est'a realizando esta configuraci'on, consistieron en los datos que forman parte de la estructura organizativa de la empresa. Para ello se realiz'o un estudio con otras empresas que manejan el mismo rubro para saber cu'al es el camino a seguir. 
 
 	Para las Organizaciones de Ventas, se fijaron dos para configurar en la siguiente etapa, y son las que se muestran en la siguiente lista:
 
@@ -74,7 +81,7 @@ Luego se procedi'o a establecer varias oficinas de ventas. Para esto, se decidi'
 \end{itemize}
 	Para establecer los puestos de expedici'on en la siguiente etapa, fueron identificados dos puestos de carga por cada puesto de expedici'on.
 \subsection{Identificaci'on del proceso de Sales (Pedidos de Ventas)}
-	Dentro del proceso de ventas que es manejado por el m'odulo SD,'este es el punto de partida, ya que el primer paso para poder realizar el ciclo de una venta de un material es la realizaci'on de un Pedido de Ventas. Para ello, es creado un documento de Pedido de Ventas que contiene varios tipos de informaci'on, como por ejemplo:
+	Dentro del proceso de ventas que es manejado por el m'odulo SD, 'este es el punto de partida, ya que el primer paso para poder realizar el ciclo de una venta de un material es la realizaci'on de un Pedido de Ventas. Para ello, es creado un documento de Pedido de Ventas que contiene varios tipos de informaci'on, como por ejemplo:
 \begin{itemize}
 \item Informaci'on personal del cliente
 \item Informaci'on del(los) material(es) a adquirir
@@ -82,34 +89,43 @@ Luego se procedi'o a establecer varias oficinas de ventas. Para esto, se decidi'
 \end{itemize}
 	Para ello, es necesario identificar dos puntos importantes en esta etapa:
 \begin{itemize}
-\item Tipo de Pedido a realizar: Representa el tipo de Documento a crear
-\item Clases de Mensajes: Contiene las rutinas de impresi'on de documentos
-\item Tipos de Posici'on: Cada rengl'on del documento relacionado con cada material representa una posici'on del documento
-\item Clases de condici'on: Como su nombre lo indica, son condiciones. 'Estas son establecidas a los precios de los productos
-\item Esquemas de C'alculo: Contiene las clases de Condici'on a utilizar
+\item \textbf{Tipo de Pedido a realizar:} Representa el tipo de Documento a crear
+\item \textbf{Clases de Mensajes:} Contiene las rutinas de impresi'on de documentos
+\item \textbf{Tipos de Posici'on:} Cada rengl'on del documento relacionado con cada material representa una posici'on del documento
+\item \textbf{Clases de condici'on:} Como su nombre lo indica, son condiciones. 'Estas son establecidas a los precios de los productos
+\item \textbf{Esquemas de C'alculo:} Contiene las clases de Condici'on a utilizar
 \end{itemize}
-	Para este proyecto, se decidi'o utilizar el Pedido Est'andar, el cual permite realizar un pedido normal. Para las clases de mensajes se decidi'o adoptar la est'andar, al igual que los tipos de posici'on y las clases de condici'on.
+	Para este proyecto, se decidi'o copiar el Pedido Est'andar, el cual permite realizar un pedido normal, y as'i crear uno propio. Para las clases de mensajes se decidi'o adoptar la est'andar, al igual que los tipos de posici'on y las clases de condici'on, para crearlos posteriormente.
 \subsection{Identificaci'on del proceso de Shipping and Transportation (Embarque y Transporte)}
 	El segundo paso dentro del ciclo general de una venta en SAP es el proceso de Entega (Shipping), el cual consiste en generar un Documento de Entrega, en el cual consta, adem'as de los datos provenientes del Documento de Ventas al cual hace referencia, los datos relacionados con el puesto de expedici'on en el cual ser'a entregado el material solicitado. Para esto es necesario definir el tipo de Documento a utilizar. 
+\newline
+\newline
 	Dado que en el segmento anterior se decidi'on definir un Pedido Est'andar, para esta parte del ciclo de Ventas se decidi'o definir un Documento de Entrega Est'andar, ya que es el que corresponde con el tipo de pedido establecido anteriormente.
 
 \subsection{Identificaci'on del proceso de Billing (Facturaci'on)}
 	El tercer y 'ultimo paso dentro del ciclo general de una venta en SAP es el proceso de Facturaci'on (Billing). Para este caso se define un tipo de documento de Facturaci'on acorde con el tipo de Pedido de Ventas y tipo de Entrega definidos anteriormente.
-	Para el pedido Estandar definido m'as atr'as, fueron definidos dos tipos de Documentos de Facturaci'on: El primero, la Facturaci'on Est'andar, el cual es utilizado para crear la factura de un pedido existente, para as'i cerrar el ciclo normal de la venta de un material. El segundo, consiste en la \textbf{Anulaci'on de Factura}, 'este es usado para una vez que haya sido creada la factura de un pedido, y halla ocurrido alg'un problema durante el proceso en el cual fue realizado dicho pedido, el mismo se pueda anular, y as'i se pueda volver a crear.
+\newline
+\newline
+\indent Para el pedido Estandar definido m'as atr'as, fueron definidos dos tipos de Documentos de Facturaci'on: El primero, la Facturaci'on Est'andar, el cual es utilizado para crear la factura de un pedido existente, para as'i cerrar el ciclo normal de la venta de un material. El segundo, consiste en la \textbf{Anulaci'on de Factura}, 'este es usado para una vez que haya sido creada la factura de un pedido, y halla ocurrido alg'un problema durante el proceso en el cual fue realizado dicho pedido, el mismo se pueda anular, y as'i se pueda volver a crear.
 
 \section{Fase 3: Realizaci'on (Construcci'on y Pruebas)}
 	Las actividades desarrolladas en esta fase se dividieron en dos grupos principales: Configuraci'on Base del M'odulo de Ventas y Distribuci'on (SD) para SSA Beverage y Elaboraci'on de las facturas legales.
-	A continuaci'on, se proceder'a a detallar cada uno de los dos grupos.
+\newline
+\newline
+\indent A continuaci'on, se proceder'a a detallar cada uno de los dos grupos.
 \subsection{Configuraci'on Base del M'odulo de Ventas y Distribuci'on para SSA Beverage}
 	Para poder realizar las configuraciones, hubo que dividirlas en varios grupos, los cuales se muestran a continuaci'on:
 \subsubsection{Configuraci'on de la parte organizativa de la Empresa}
-	Este grupo fue compuesto por las configuraciones realizadas para definir la estructura de SSA Beverage. Para ello, se ingres'o a SAP, y a trav'es del Customizing, fue posible efectuarlas. Se comenz'o configurando las Organizaciones de Ventas, Canales de Distribuci'on , Sectores y 'Areas de Ventas definidos en la fase anterior. A continuaci'on, se muestran figuras de las tres configuraciones realizadas:
-
+	Este grupo fue compuesto por las configuraciones realizadas para definir la estructura de SSA Beverage. Para ello, se ingres'o a SAP, y a trav'es del Customizing, fue posible efectuarlas. Se comenz'o configurando las Organizaciones de Ventas, Canales de Distribuci'on , Sectores y 'Areas de Ventas definidos en la fase anterior.
+\newline
+\newline
 	Luego, se procedi'o a realizar la configuraci'on de las unidades encargadas de la entrega de los materiales (Puestos de Expedici'on y Puestos de Carga). Para el primero se muestra la figura que muestra la cofiguraci'on realizada, y para el segundo, en la imagen se muestra parte de las configuraciones realizadas.
-
+\newline
+\newline
 Despu'es que fueron creadas cada una de las unidades antes mencionadas dentro de SAP, las configuraciones posteriores consistieron en crear las relaciones entre las mismas. En la Tabla~\ref{tb:asignaciones} se muestra una lista con las configuraciones realizadas.
-
-En el ap'endice se podr'an ver las im'agenes que reflejan las configuraciones antes mencionadas.
+\newline
+\newline
+En el \textbf{Ap'endice  B} se podr'an ver las im'agenes que reflejan las configuraciones antes mencionadas.
 \subsection{Elaboraci'on de las Facturas Legales}
 	Para el desarrollo de las Facturas Legales fue necesario el uso de los smartforms, ya que los mismos producen formularios imprimibles. Para ello se tom'o como ejemplo un formulario est'andar ya existente en el sistema para hacer el dise\~no de uno propio. El mismo consta de varias partes bien diferenciadas:
 \begin{itemize}
@@ -119,7 +135,7 @@ En el ap'endice se podr'an ver las im'agenes que reflejan las configuraciones an
 \item Datos Generales: Contiene datos generales del cliente, como: n'umero del ciente, nombre, etc.
 \item Posiciones de Factura: Contiene informaci'on detallada de cada material adquirido, como por ejemplo: N'umero de material, descripci'on, cantidad, precio unitario, etc.
 \end{itemize}
-	En la Figura  
+	En la Figura  ~\ref{fig:facturas} se puede ver la factura que fue creada.
 
 
 \subsection{Elaboraci'on del programa de Carga Masiva de Datos para el Maestro de Clientes}
@@ -132,12 +148,19 @@ En el ap'endice se podr'an ver las im'agenes que reflejan las configuraciones an
 \item Selection Screens (Pantallas de Selecci'on)
 \end{itemize}
 	El Editor ABAP fue utilizado para el desarrollo del programa. Para esto, decidi'o modularizar el mismo. En otras palabras, el programa principal s'olo iba a contener el uso de variables y llamadas a procedimientos. 
-	Para poder lograr esto, fue necesario la creaci'on de dos Includes: uno para la declaraci'on de variables, constantes, estructuras de datos, etc. Y otro, para la definici'on de funciones.
-	Para poder recibir el archivo por pantalla, fue necesario el uso de los \textbf{Selection Screens}, los cuales permiten colocar la direcci'on del archivo. En la figura ~\ref{fig:screen} se puede ver la pantalla inicial del programa de Carga Masiva, en el cual se le pide al usuario que introduzca la direcci'on del archivo. El usuario tiene la posibilidad de abrir un buscador de archivos tal y como sucede en cualquier otra aplicaci'on. Esto es posible gracias a la interfaz que posee SAP para estas actividades.
-
-	La primera funci'on a implementar fue una que permitiera la lectura de un archivo en dos formatos: Texto Plano (.txt) y de Celdas (.xls 'o Excel como se le conoce comercialmente). En esta funci'on, se llama a una funci'on est'andar de SAP la cual permite leer un archivo en excel y transformar la data a una estructura especial. Luego dicha estructura fue transformada a una estructura definida en uno de los Includes. El proceso para un archivo plano fue an'alogo.
-	Luego se procedi'o a crear una grabaci'on para Batch Input a trav'es de la transacci'on \textbf{SM35}, con la cual, usando la transacci'on \textbf{XD01} como base, se procedi'o a realizar la simulaci'on de la carga de datos. Luego, el c'odigo generado por dicha grabaci'on, fue utilizado dentro de otra funci'on creada para procesar la data cargada anteriormente. De esta manera, se logra la carga masiva de datos en el Maestro de Clientes para el m'odulo de Ventas y Distribuci'on. En la figura ~\ref{fig:sm35} se puede ver parte de la grabaci'on realizada a trav'es de la transacci'on antes mencionada.
+\newline
+\newline
+\indent Para poder lograr esto, fue necesario la creaci'on de dos Includes: uno para la declaraci'on de variables, constantes, estructuras de datos, etc. Y otro, para la definici'on de funciones.
+\newline
+\newline
+\indent Para poder recibir el archivo por pantalla, fue necesario el uso de los \textbf{Selection Screens}, los cuales permiten colocar la direcci'on del archivo. En la figura ~\ref{fig:screen} se puede ver la pantalla inicial del programa de Carga Masiva, en el cual se le pide al usuario que introduzca la direcci'on del archivo. El usuario tiene la posibilidad de abrir un buscador de archivos tal y como sucede en cualquier otra aplicaci'on. Esto es posible gracias a la interfaz que posee SAP para estas actividades.
+\newline
+\newline
+\indent La primera funci'on a implementar fue una que permitiera la lectura de un archivo en dos formatos: Texto Plano (.txt) y de Celdas (.xls 'o Excel como se le conoce comercialmente). En esta funci'on, se llama a una funci'on est'andar de SAP la cual permite leer un archivo en excel y transformar la data a una estructura especial. Luego dicha estructura fue transformada a una estructura definida en uno de los Includes. El proceso para un archivo plano fue an'alogo.
+\newline
+\newline
+\indent Luego se procedi'o a crear una grabaci'on para Batch Input a trav'es de la transacci'on \textbf{SM35}, con la cual, usando la transacci'on \textbf{XD01} como base, se procedi'o a realizar la simulaci'on de la carga de datos. Luego, el c'odigo generado por dicha grabaci'on, fue utilizado dentro de otra funci'on creada para procesar la data cargada anteriormente. De esta manera, se logra la carga masiva de datos en el Maestro de Clientes para el m'odulo de Ventas y Distribuci'on. En la figura ~\ref{fig:sm35} se puede ver parte de la grabaci'on realizada a trav'es de la transacci'on antes mencionada.
 
 
 \section{Fase 4: Presentaci'on y Resultados Finales}
-Aqui iran los resultados finales
+	Para la presentaci'on final en la empresa, el procedimiento a seguir fue la demostraci'on del ciclo est'andar que sigue el M'odulo SD (Pedido - Entrega - Facturaci'on). Para ello, se realiz'o un pedido, para luego continuar con la entrega y finalmente con la facturaci'on. En las Tablas ~\ref{tb:pedido} , ~\ref{tb:entrega} y ~\ref{tb:facturacion} se muestran los datos de prueba y los resultados obtenidos. 

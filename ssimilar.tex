@@ -3,10 +3,11 @@
 
 
 
-Los conceptos claves acerca de lo que es un sistema ERP, SAP, ABAP, Ascendant SAP son los que se presentan en este capítulo.
-
+Los conceptos claves acerca de lo que es un sistema ERP, SAP, ABAP son los que se presentan en este capítulo.
+\newline
+\newline
 La secci'on ~\ref{sect:erp} presenta las nociones b'asicas acerca de en qu'e consiste un Sistema de Informaci'on ERP. La secci'on 
-~\ref{sect:sap} describe un poco lo que es SAP: sus caracter'isticas principales, una  breve historia. Por otro lado, la secci'on ~\ref{sect:abap} explica en que consiste el lenguaje de programaci'on ABAP, sus principales caracter'isticas. La 'ultima secci'on define la metodolog'ia \textbf{Ascendant SAP (ASAP)}, a ser utilizada a lo largo de este proyecto.
+~\ref{sect:sap} describe un poco lo que es SAP: sus caracter'isticas principales, una  breve historia. Por otro lado, la secci'on ~\ref{sect:abap} explica en que consiste el lenguaje de programaci'on ABAP, sus principales caracter'isticas. 
 
 \section{Sistemas de Informaci'on ERP} \label{sect:erp}
 
@@ -15,14 +16,17 @@ Para entender en qu'e consisten los Sistemas de Informaci'on ERP, para ello habr
 \subsection{Definiciones} \label{subsect:defprop}
 
 \begin{definicion} \label{def:sisinfo}
+	Un Sistema de Informaci'on es un conjunto de componentes capaces de interactuar mutuamente con el objetivo de brindar apoyo a las actividades de una empresa o negocio.
 
 \end{definicion}
 
 \begin{definicion} \label{def:siserp}
 Un ERP (Sistema de Planificación de Recursos Empresariales, 'o como se le conoce en Ingl'es: \textbf{Enterprise Resource Planning}), es un sistema que tiene la capacidad de la automatizaci'on e integraci'on de todos los m'odulos de un 'area de negocio. En otras palabras, es capaz de manejar todas las 'areas relacionadas con una empresa de forma automatizada e integrada. 
-
+\newline
+\newline
 Una caracter'istica fundamental de este tipo de sistemas es que est'a basado en m'odulos. Como consecuencia de ello, el mismo est'a compuesto por un conjunto de softwares o m'odulos. 
-
+\newline
+\newline
 Para poder tener acceso a los datos que est'an relacionados con cada m'odulo es necesario tener una Base de Datos centralizada, la cual almacena dicha informaci'on. 
 \end{definicion}
 
@@ -31,38 +35,39 @@ Para poder tener acceso a los datos que est'an relacionados con cada m'odulo es 
 En esta secci'on se ofrece un panorama general acerca de SAP, qu'e es, cu'ales son sus caracter'isticas principales y cu'ales son los m'odulos que lo integra.
 
 \subsection{Definici'on} \label{subsect:defprop}
-\textbf{SAP AG} es una empresa de la rama de la Computaci'on que fue fundada por 4 ingenieros pertenecientes a IBM (\textbf{International Business Machines}), en la ciudad de Walldorf, Alemania, en el a~no de 1972. Por su origen alem'an, las siglas SAP son un acr'onimo de: \textit{Systeme, Anwendungen Produkte in der Datenverarbeitung}, que traducido al castellano significa: \textbf{Sistemas, Aplicaciones y Productos en Procesamiento de Datos}. 
-
+\textbf{SAP AG} es una empresa de la rama de la Computaci'on que fue fundada por 4 ingenierosque pertenecieron a IBM (\textbf{International Business Machines}), en la ciudad de Walldorf, Alemania, en el a~no de 1972. Por su origen alem'an, las siglas SAP son un acr'onimo de: \textit{Systeme, Anwendungen Produkte in der Datenverarbeitung}, que traducido al castellano significa: \textbf{Sistemas, Aplicaciones y Productos en Procesamiento de Datos}. 
+\newline
+\newline
 El Software principal desarrollado por esta empresa es \textbf{\textit{SAP R/3}} y el cual se encuentra disponible en 28 idiomas. 'Este software es personalizable, utiliza la arquitectura cliente-servidor, es decir, que el cliente envia solicitudes al servidor y 'este a su vez envia una respuesta al cliente. 'Este software fue hecho en el lenguaje de programaci'on \textbf{ABAP/4}. 
 
 \subsection{Caracter'isticas de SAP R/3}
 De acuerdo al autor de \cite{SAP01}, las caracter'isticas del software \textbf{SAP R/3} se pueden dividir en diferentes categor'ias, las cuales se mencionan a continuaci'on:
 
-\subsubsection{Caracter'isticas Generales}
+\subsubsection*{Caracter'isticas Generales}
 \begin{itemize}
 \item Es un software altamente integrado y multifuncional, lo que trae como consecuencia que exista una estrecha relaci'on entre las funciones del mismo.
 \item Es una aplicaci'on que trabaja en tiempo real. En otras palabras, las actualizaciones de los datos son efectuadas a trav'es de una conexi'on, y en ese mismo instante.
 \end{itemize}
-\subsubsection{Caracter'isticas de Negocio}
+\subsubsection*{Caracter'isticas de Negocio}
 \begin{itemize}
 \item Este software contiene todas las funcionalidades necesarias para poder llevar a cabo el manejo de un negocio entero. 'Este incorpora una aplicaci'on llamada \textit{Best Industry Practices}, que traducido al espa\~nol quiere decir: \textit{Mejores Practicas de la Industria}, y 'este 'ultimo es adecuado para una amplia gama de industrias y organizaciones.
 \item Este programa es capaz de soportar todos los procesos de negocio de la empresa.
 \end{itemize}
 
-\subsubsection{Caracter'isticas de Flexibilidad}
+\subsubsection*{Caracter'isticas de Flexibilidad}
 \begin{itemize}
 \item Este software es altamente configurable. En otras palabras, se puede adaptar a las necesidades de la empresa que lo utilice y a sus requerimientos. Para ello, se pueden realizar cambios que, dependiendo del n'umero de factores que participen, 'estos tendr'an su grado de complejidad.
 \item Es capaz de dar apoyo a empresas que poseen subsidiarias en distintas partes del mundo.
 \item Este software es muy utilizado a nivel mundial, dado que est'a disponible en 28 idiomas, y a que posee la capacidad de adaptarse a la moneda, leyes y regulaciones, impuestos para un cierto pa'is, etc.
 \end{itemize}
 
-\subsubsection{Caracter'isticas T'ecnicas}
+\subsubsection*{Caracter'isticas T'ecnicas}
 \begin{itemize}
 \item Este software tiene la capacidad de ser portable, dado que es multiplataforma, es decir, soporta cualquier sistema operativo, manejador de Base de Datos, etc.
 \item Posee un n'umero m'inimo de redundancia, lo que favorece a la consistencia de los datos almacenados. Adicionalmente, posee un manejador de alta seguridad de los datos, y puede manejar etructuras de datos complejas.
 \end{itemize}
 
-\subsubsection{Otras Caracter'isticas}
+\subsubsection*{Otras Caracter'isticas}
 \begin{itemize}
 \item Tiene la capacidad de manejar la misma informaci'on en cada m'odulo.
 \item Posee una 'unica manera de ingreso al sistema. 'Este es a trav'es del \textit{SAP GUI}.
@@ -72,7 +77,8 @@ De acuerdo al autor de \cite{SAP01}, las caracter'isticas del software \textbf{S
 
 \subsection{Adaptaci'on del Software a las Empresas}
 Para poder realizar la adaptaci'on de SAP a las necesidades de una empresa en particular, est'an un conjunto de herramientas y utilidades destinado a ello. Para esto, se requiere de un conjunto de consultores, un equipo de proyecto y personal de Tecnolog'ia de la Informaci'on (IT), quienes ser'an los encargados de efectuar dicha adaptaci'on. 
-
+\newline
+\newline
 Este proceso se puede realizar a trav'es de dos m'etodos, los cuales se listan a continuaci'on:
 
 \begin{itemize}
@@ -104,50 +110,11 @@ Debido a que SAP es un ERP, luego, SAP est'a dividido en diferentes m'odulos, co
 \section{M'odulo de Ventas y Distribuci'on (SD)} \label{sect:sd}
 
 El \textbf{M'odulo de Ventas y Distribuci'on} (Sales and Distribution como es conocido en ingl'es) es un sub-sistema perteneciente a SAP, el cual se encarga de prestar apoyo a las distintas empresas en el 'area de las Ventas y distribuci'on de productos y/o servicios. 
-
+\newline
+\newline
 Este m'odulo ayuda a las compa\~n'ias a establecer un precio para sus productos, chequear 'ordenes de ventas que se mantienen abiertas, a tomar previsiones para necesidades futuras, etc. Adicionalmente, ayuda a dar mayor control a las actividades relacionadas con el 'area de ventas: desde el momento en que ocurre un pedido de alg'un(algunos) producto(s) y/o servicio(s) hasta su posterior entrega.
 
-\subsection{Estructura de una Empresa en SAP}
-Una empresa est'a conformada por un conjunto de unidades m'as peque\~nas que facilitan el trabajo en el proceso de ventas y sus actividades asociadas.
 
-Las unidades m'as importantes que componen a una empresa correspondientes al 'area de Ventas y Distribuci'on son las que se listan a continuaci'on:
-
-\begin{itemize}
-\item Organizaci'on(es) de Ventas
-\item Canal(es) de Distribuci'on
-\item Sector(es)
-\item 'Areas de Ventas
-\item Oficinas de Venta
-\item Puestos de Expedici'on
-\item Puestos de Carga
-\end{itemize}
-
-	En los pr'oximos puntos se ahondar'a mas en cada una de estas unidades, para as'i conocer en detalle en qu'e consiste cada una.
-	
-\subsubsection{Organizaci'on de Venta}
-	Una \textbf{Organizaci'on de Venta} dentro del Sistema SAP es una unidad que es muy utilizada para poder dar a conocer y distribuir los bienes y servicios que la empresa ofrece. A trav'es de esta unidad, se pueden realizar las distintas negociaciones emtre el cliente y la empresa, asi como los t'erminos y condiciones a los que llegan ambos, como por ejemplo el establecimiento de alg'un tipo de descuento, la forma de pago (si es de contado, en 15 d'ias, etc). 
-	
-\subsubsection{Canal de Distribuci'on}
-	Un \textbf{Canal de Distribuci'on} dentro de SAP es una unidad que es capaz de distribuir los bienes y servicios que son ofrecidos por la Organizaci'on de Ventas a los clientes que atiende.
-	Para poder llevar esta tarea a cabo, es posible que sea necesario usar m'as de un canal de distribuci'on. Es por ello que una Organizaci'on de Ventas tiene a su cargo almenos un Centro de Distribuci'on, aunque pudieran ser varios, dependiendo ya del proceso que lleve la empresa en particular.
-
-\subsubsection{Sector}
-	Un \textbf{Sector (o Divisi'on por su nombre en ingl'es)} dentro de SAP es una unidad organizativa que permite agrupar cada uno de los productos o materiales que son ofrecidos por las Organizaciones de Ventas en diferentes categor'ias. 
-	
-\subsubsection{'Area de Ventas}
-	Un \textbf{'Area de Ventas} es una relaci'on existente entre una Organizaci'on de Ventas, un Canal de Distribuci'on y un Sector. Todas las transacciones relacionadas con Ventas y Distribuci'on son manejadas a trav'es de las 'Areas de Ventas.
-	
-\subsubsection{Oficina de Ventas}
-	Una \textbf{Oficina de Ventas} es el lugar f'isico donde la empresa realiza la venta de bienes y servicios. Es importante resaltar que estas unidades pueden estar ubicadas en distintos puntos geogr'aficos. 
-	Un 'Area de Ventas tiene asociada a almenos una Oficina de Ventas, aunque puede tener varias bajo su cargo.
-
-\subsubsection{Puestos de Expedici'on}
-	Un \textbf{Puesto de Expedici'on} es el lugar f'isico que posee la empresa para efectuar las entregas de los bienes producidos y adquiridos.
-	Un puesto de expedici'on puede estar asociado a un Centro, pero no es limitativo. Es decir, que puede estar asociado a varios Centros.
-	Algo importante que resaltar es que para que una entrega se pueda efectuar dentro de SAP, es necesario indicar en cu'al Puesto de Expedici'on se desea hacer, ya que de lo contrario, no es posible.
-	
-\subsubsection{Puestos de Carga}
-	Un \textbf{Puesto de Carga} es una sub-divisi'on de los Puestos de Expedici'on. 
 
 \subsection{Herramientas Principales}
 \subsubsection{Manejo de Precios e Impuestos}
@@ -167,8 +134,8 @@ Con esta herramienta se hace posible el manejo de textos entre los distintos doc
 
 
 \subsection{Clasificaci'on de los Datos en el M'odulo SD}
-De acuerdo al autor de \cite{SD01}, la data almacenada dentro del M'odulo se puede clasificar como se muestra en la figura ~\ref{datasd} donde se muestra la siguiente clasificaci'on:.
-\subsubsection{Datos Maestros}
+De acuerdo al autor de \cite{SD01}, la data almacenada dentro del M'odulo se puede clasificar como se muestra en la figura ~\ref{fig:datasd} donde se muestra la siguiente clasificaci'on:.
+\subsubsection*{Datos Maestros}
 Los Datos Maestros dentro del M'odulo SD est'an compuestos por:
 \begin{itemize}
 \item Datos de Compa\~n'ias
@@ -178,15 +145,15 @@ Cada una de estas entidades contienen a su vez atributos, jerarqu'ias y tablas.
 
 \subsection{Proceso de Ventas utilizando el M'odulo SD}
 	En este m'odulo los dos objetos m'as importantes son: las clases de documentos y las condiciones. El primero, porque en cada fase del proceso se elabora un documento que contiene informaci'on relevante para dicha fase. La segunda, porque contiene las cl'ausulas por las cuales se va a regir el esquema de precios.
-	En la Figura ~\ref{salesFlow} se muestra el proceso general de Ventas y Distribuci'on que es cubierto por SAP. A continuaci'on, se proceder'a a explicar cada fase mostrada en dicha imagen.
+	En la Figura ~\ref{fig:salesFlow} se muestra el proceso general de Ventas y Distribuci'on que es cubierto por SAP. A continuaci'on, se proceder'a a explicar cada fase mostrada en dicha imagen.
 
-\subsubsection{Solicitud de Informaci'on de Productos}
+\subsubsection*{Solicitud de Informaci'on de Productos}
 	Este es el punto de partida para el proceso de ventas. En este paso, el cliente solicita informaci'on acerca de los productos y/o servicios que son ofrecidos por la empresa, con el objetivo de una posible adquisici'on de alg'un producto y/o servicio.
 	
-\subsubsection{Creaci'on de Orden de Ventas}
+\subsubsection*{Creaci'on de Orden de Ventas}
 	En este punto, el cliente le solicita a la empresa un pedido de un material determinado solicitado en el paso anterior. Para esto, se crea en SAP lo que se conoce como un \textbf{Pedido de Venta}. Un \textbf{Pedido de Venta} es un documento que contiene informaci'on acerca del(los) material(es) que se est'a solicitando, entre otras cosas. Un Pedido tiene la siguiente divisi'on:
 \begin{itemize}
-\item Cabecera del Documento: En esta parte del documento se recoge informaci'on acerca de la informaci'on general del pedido. Entre la informaci'on relevante que se puede encontrar, se pueden mencionar: 
+\item \textbf{Cabecera del Documento:} En esta parte del documento se recoge informaci'on acerca de la informaci'on general del pedido. Entre la informaci'on relevante que se puede encontrar, se pueden mencionar: 
 \begin{enumerate}
 \item Fecha del Pedido
 \item Cliente que hace el Pedido
@@ -195,7 +162,7 @@ Cada una de estas entidades contienen a su vez atributos, jerarqu'ias y tablas.
 \item N'umero de Pedido: El el n'umero con el cual el cliente identifica su pedido.
 \item N'umero de Documento: Es el n'umero con el cual se identifica un'ivocamente el Pedido de Ventas.
 \end{enumerate}
-\item Posiciones del documento: Contiene informaci'on sobre los materiales solicitados. Cada material va colocado en una posici'on diferente, y en 'esta se reflejan los siguientes datos:
+\item \textbf{Posiciones del documento:} Contiene informaci'on sobre los materiales solicitados. Cada material va colocado en una posici'on diferente, y en 'esta se reflejan los siguientes datos:
 \begin{enumerate}
 \item N'umero de Material: Es el n'umero que identifica un'ivocamente al material solicitado.
 \item Descripci'on del Material: Es un nombre que se le coloca al material.
@@ -212,37 +179,47 @@ Para esto se tienen las siguientes transacciones, las cuales son las m'as utiliz
 \item VA03: Visualizaci'on de Pedidos
 \end{itemize}
 	
-\subsubsection{Entrega de Bienes y/o Servicios}
+\subsubsection*{Entrega de Bienes y/o Servicios}
 	El segundo paso a ejecutar una vez que se cre'o el pedido de ventas, es la creaci'on de una  Entrega. Para esto, se crea un nuevo documento el cual es llamado \textbf{Documento de Entrega}. Esto es, porque en el mencionado documento, se detalla la informaci'on relacionada con el proceso de entrega y transporte. En este documento, adem'as de la informaci'on que es copiada del documento anterior (Cabecera y Posiciones), se detalla informaci'on acerca de las cantidades reales entregadas, ya que las cantidades solicitadas en el Pedido est'an sujetas a la disponibilidad de las mismas en los Almacenes. Para ello, es necesario el uso de las siguientes transacciones:
 \begin{itemize}
 \item VL01N: Creaci'on de Entregas
 \item VL02N: Modificaci'on de Entregas
 \item VL03N: Visualizaci'on de Entregas
 \end{itemize}
-	Una vez que la entrega es creada, se debe contabilizar el material, para que la entrega est'e considerada como completada. Esto es, para que pueda procederse al siguiente paso.
+\indent Una vez que la entrega es creada, se debe contabilizar el material, para que la entrega est'e considerada como completada. Esto es, para que pueda procederse al siguiente paso.
 	
-\subsubsection{Facturaci'on}
+\subsubsection*{Facturaci'on}
 	La siguiente acci'on a realizar dentro del ciclo es la facturaci'on. En este paso, como su nombre lo indica, se crea la factura relacionada con un pedido previamente realizado. En este documento, se reflejan los materiales y/o servicios solicitados, con sus respectivas cantidades y su monto. Adicionalmente, es reflejado los impuestos que apliquen, asi como  el monto total a pagar por el solicitante. Para esto, es necesario el uso de las siguientes transacciones:
 \begin{itemize}
 \item VF01: Creaci'on de Facturas
 \item VF02: Modificaci'on de Facturas
 \item VF03: Visualizaci'on de Facturas
 \end{itemize}
-	Es posible, en primer lugar, la creaci'on de varias facturas. Esto es posible gracias a las negociaciones que lleva la empresa con el cliente, sobre los montos a pagar. En segunda instancia, si hubo errores en la factura creada, es posible la anulaci'on de la misma, con lo cual la deuda adquirida por el cliente se anula, en caso de no tener otra factura pendiente. Con esto es posible volver a crear la factura con las correcciones a aplicar. 
-	Una vez creada la factura, se debe contabilizar la misma. Esto es con el fin de que se cree un documento contable, para que la nueva venta est'e reflejada dentro de la contabilidad de la empresa.
+\indent Es posible, en primer lugar, la creaci'on de varias facturas. Esto es posible gracias a las negociaciones que lleva la empresa con el cliente, sobre los montos a pagar. En segunda instancia, si hubo errores en la factura creada, es posible la anulaci'on de la misma, con lo cual la deuda adquirida por el cliente se anula, en caso de no tener otra factura pendiente. Con esto es posible volver a crear la factura con las correcciones a aplicar. 
+\newline
+\newline
+\indent Una vez creada la factura, se debe contabilizar la misma. Esto es con el fin de que se cree un documento contable, para que la nueva venta est'e reflejada dentro de la contabilidad de la empresa.
 	
-\subsubsection{Pago por los bienes y/o servicios adquiridos}
+\subsubsection*{Pago por los bienes y/o servicios adquiridos}
 	Este es el paso final del ciclo de ventas que es llevado en el m'odulo SD. Para ello, de acuerdo a los planes de pago establecidos entre la empresa y el cliente, la misma inicia el cobro de la deuda adquirida.
 	
 
 \subsection{Relaci'on existente entre el M'odulo SD y otros M'odulos}
-E'ste m'odulo esta fuertemente integrado con otros m'odulos de SAP, como por ejemplo: MM, WM, QM. 
+'Este m'odulo esta fuertemente integrado con otros m'odulos de SAP, como por ejemplo: MM, WM, QM. 
+\newline
+\newline
 En el momento en que un cliente realiza un pedido de alg'un producto, posteriormente se chequea la disponibilidad del mismo en alg'un almac'en; esto es posible gracias al m'odulo MM. 
+\newline
+\newline
 Por otro lado, el m'odulo QM es el encargado de manejar la calidad y brindar soporte a un servicio prestado al cliente, ambos representados por un documento de ventas en SD. 
 
-\section{Lenguaje de Programaci'on ABAP/4}
+\section{Lenguaje de Programaci'on ABAP/4} \label{sect:abap}
 ABAP (Advanced Business Application Programming - Programaccion de Aplicaciones de Negocio Avanzado) es un lenguaje de programaci'on que fue dise\~nado en la d'ecada de los 80. Su uso principal es la de generar reportes con los cuales se les permite a las empresas construir sus propias aplicaciones para el manejo de las distintas 'areas que lo componen (manejo de materiales, manejo del 'area financiera, manejo de las ventas, etc).
+\newline
+\newline
 Este es uno de los primeros lenguajes de programación que incluye dentro de su definición el concepto de Bases de Datos L'ogicas. 
+\newline
+\newline
 Dentro de las caracter'isticas que posee el lenguaje, se pueden mencionar las siguientes:
 \begin{itemize}
 \item Es un lenguaje basado en la programaci'on estructurada. En otras palabras, contiene estructuras de control.
@@ -255,41 +232,14 @@ Dentro de las caracter'isticas que posee el lenguaje, se pueden mencionar las si
 
 \subsection{Estructura de un programa ABAP/4}
 	Un programa ABAP tiene la responsabilidad del procesamiento de datos dentro de una aplicaci'on. Esto quiere decir que el programa debe ser dividido en distintas secciones que pueden ser asignadas a cada paso secuencial a ejecutar dentro del programa. Para poder lograr esto, es necesario modularizar los programas hechos en ABAP. Cada m'odulo o \textbf{Bloque de Procesamiento} como tambi'en se le conoce, consiste en un conjunto de instrucciones ABAP. Al momento de ejecutar un programa, es posible realizar la llamada de cada bloque. Es importante resaltar que no permiten anidamiento.
-	Cada programa ABAP est'a compuesto por dos partes principales, las cuales se explican en los pr'oximos bloques.
+\newline
+\newline
+	Cada programa ABAP est'a compuesto por dos partes principales, las cuales se explican en el Ap'endice ~\ref{sect:programabap}.
 
-\subsubsection*{DECLARACI'ON DE DATOS GLOBALES, CLASES Y SELECTION SCREENS (PANTALLAS DE SELECCION)}
-	En esta parte es donde se llevan a cabo las declaraciones de los datos globales, de las pantallas de selecci'on y de las clases. A continuaci'on, se proceder'a a explicar cada uno de estos puntos.
-\subsubsection*{Datos Globales}
-	Los Datos Globales es el conjunto de datos que son declarados con el fin de poder acceder a ellos y poder utilizarlos a lo largo del programa. Estos datos globales constan de:
-\begin{itemize}
-\item Variables
-\item Constantes
-\item Estructuras de Datos
-\item Tablas Internas
-\end{itemize}
-
-\subsubsection*{Clases}
-	Una clase en SAP es conocida como una plantilla para un objeto. Tambi'en se puede definir como una descripci'on abstracta de un objeto.
-
-\subsubsection*{Selection Screens (Pantallas de Selecci'on)}
-	Las Pantallas de Selecci'on son unas pantallas especiales que son definidas en ABAP/4 para permitir que los programas reciban datos provenientes de los usuarios a trav'es de la entrada est'andar (Teclado). El ambiente de ejecuci'on de ABAP controla el flujo del procesamiento de las pantallas de selecci'on. De esta manera, este ambiente genera un n'umero de eventos antes de que las pantallas de selecci'on sean mostradas, y otros luego despu'es que las mismas hayan sido ejecutadas.
-	
-\subsubsection*{CONTENEDOR DE BLOQUES DE PROCESAMIENTO}
-	Esta segunda parte est'a compuesta por los Bloques de Procesamiento, entre los cuales se pueden encontrar los que se listan a continuaci'on:
-\begin{itemize}
-\item M'odulos de Di'alogo
-\item Bloques de Eventos
-\item Procedimientos (m'etodos, subrutinas y m'odulo de funciones con sus datos locales)
-\end{itemize}
-
-\subsubsection*{BLOQUE DE PROGRAMA}
-	Consiste en todos los estados ABAP (salvo estados declarativos, los cuales van en la primera parte).
-	
-\subsubsection*{BLOQUE DE PROCESO DE LLAMADAS}
-	En esta tercera parte es posible hacer llamadas a otros bloques externos o internos al programa ABAP. Los m'odulos de Di'alogo y los bloques de eventos son llamados desde afuera. Los procedimientos son llamados usando instrucciones ABAP. 
-	
-\subsubsection{Includes en ABAP/4}
+\subsection{Includes en ABAP/4}
 	Un Include es un programa especial el cual se hace en SAP con el objetivo de lograr mayor modularizaci'on del programa principal.
+\newline
+\newline
 	Este tiene dos funciones principales:
 \begin{itemize}
 \item Librer'ia: Los programas Include permiten el uso del mismo c'odigo fuente en diferentes programas. Por ejemplo, en los Includes se pueden realizar las declaraciones globales, la definici'on de clases y procedimientos, etc.
@@ -307,26 +257,18 @@ Dentro de las caracter'isticas que posee el lenguaje, se pueden mencionar las si
 	
 \subsubsection{Smartforms}
 	\textbf{Los Smartforms} fueron introducidos dentro del lenguaje a trav'es de la versi'on 4.6 de \textbf{SAP R/3}. Su funci'on principal es la impresi'on y env'io de documentos a trav'es del correo electr'onico, o por fax. 
+\newline
+\newline
 	Con esta herramienta es posible hacer el dise\~no de formularios, archivos PDF y documentos en general. 
 	Esta herramienta provee una interfaz capaz de construir y mantener la disposici'on y l'ogica del formulario.
-	Una ventaja que tiene esta herramienta es el uso  de una interfaz gr'afica para modificar formularios, ya que con esto, se evita el uso de la programaci'on. 
+	Una ventaja que tiene esta herramienta es el uso  de una interfaz gr'afica para modificar formularios, ya que con esto, se evita el uso de la programaci'on.
+\newline 
+\newline
 	En un smartform, los datos son transmitidos a trav'es de t'ablas din'amicas o est'aticas. Adicionalmente permite incluir gr'aficos que pueden ser visibles en el formulario. En los pr'oximos segmentos se explicar'a los componentes de esta herramienta.
-\subsubsection{Constructor de Formularios Inteligentes (Smart Form Builder)}
-	Esta componente es la interfaz principal que es usada para la construcci'on de Smartforms a trav'es de la pantalla inicial que se muestra en la Figura ~\ref{fig:smartforms1}, en donde a trav'es de esta transacci'on es posible crear, modificar o visualizar un smartform. Al darle click a cualquier opci'on, la misma lleva a otra pantalla, la cual es la que permite la construcci'on de un smartform. 'Esta es conocida como \textbf{Smart Form Builder}. En la Figura ~\ref{fig:builder} en donde es posible visualizar varias partes bien diferenciadas, las cuales se explican a continuaci'on:
-\begin{itemize}
-\item Men'u de Navegaci'on: Es el que est'a representado por la columna izquierda. 'Este expone al formulario en forma de jerarqu'ia, dode cada elemento es un nodo
-\item Marco de Mantenimiento: Est'a conformado por los atributos principales del formulario (Nombre y significado)
-\item Lista de Campos: Esta lista muestra los datos que est'an definidos actualmente en el formulario
-\item Form Painter: 'Esta es una herramienta gr'afica la cual permite dise\~nar cada una de las partes que tendr'a el formulario.
-\end{itemize}
-\subsubsection{Template de impresi'on para el Smartform (Smart Form Print Form Template}
-	Un template de impresi'on para el Smartform ofrece un dise\~no ya creado por el sistema para as'i crear un Smartform que pueda ser imprimible.
-\subsubsection{M'odulo de Funciones del Smart Form (Smart Form Function Module)}
-	El M'odulo de Funciones del Smart Form es una secuencia de instrucciones generadas de forma autom'atica al momento de la activaci'on del  mismo.
-\subsubsection{Programa de Impresi'on de Smart Forms (Smart Form Print Program)}
-	El Programa de Impresi'on de Smartforms es el programa control encargado de manejar la informaci'on que es enviada al smartform y de su posterior impresi'on. 
 	
 \subsection{Sesi'on de Batch Input (Carga Masiva de Datos)}
 	Esta es una herramienta que provee ABAP/4 con el fin de introducir datos de manera no interactiva dentro del Sistema SAP. La Carga Masiva o por Lotes (Batch Input) es usuado muy frecuentemente para transferir datos desde sistemas externos a un sistema SAP, o entre sistemas SAP. Una sesi'on de Batch Input, m'as espec'ificamente, es un conjunto de una o varias llamadas a transacciones con los datos a ser procesados por dichas transacciones.  
+\newline
+\newline
 	Para poder lograr esta tarea, existen dos transacciones en SAP: la SHDB y la SM35. A partir de la ejecuci'on de alguna de las transacciones antes mencionadas, el sistema se encarga de realizar una grabaci'on sobre la(s) transacción(es) involucrada(s) junto con los datos en un formato especial el cuan puede ser interpretado por SAP. Cuando el sistema ejecuta una sesi'on, utiliza la data almacenada en dicha sesi'on para comenzar la simulaci'on de la entrada on-line de los datos. El sistema llama a las transacciones y carga los datos en ella. En la Figura~\ref{fig:process}  se puede apreciar los pasos a seguir para poder llevar a cabo una sesi'on de Batch Input. Para ello, el sistema a trav'es de una interfaz recibe el archivo que contiene los datos a ser cargados, y 'este es pasado al programa de Carga Masiva (Batch Input), el cual se encarga de procesar dichos datos y colocarlos en una cola, para luego procesar uno por uno a trav'es de la simulaci'on de la ejecuci'on de la transacci'on involucrada. 
 

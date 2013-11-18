@@ -1,24 +1,28 @@
 % Marco Metodologico
 \chapter{Marco Metodol'ogico} \label{chap:metodologia}
 Para el desarrollo de un buen software es necesario la utilizaci'on de una metodolog'ia, ya que la misma brinda una serie de mecanismos y fases para el desarrollo organizado de la aplicaci'on en cuesti'on.
+\newline
+\newline
 Para este proyecto, se decidi'o utilizar la metodolog'ia \textbf{ASAP (Ascendant SAP)}, ya que es la m'as utilizada para el desarrollo de aplicaciones en SAP ERP.
 \section{Descripci'on de la metodolog'ia}
-\textbf{ASAP (Ascendant SAP 'o Accelerated SAP como tambi'en se le conoce)} es una metodolog'ia que fue dise\~nada por SAP para agilizar el desarrollo de sus aplicaciones, ya que con la metodolog'ia actual, un desarrollo se pod'ia llevar mucho m'as tiempo del esperado. Mientras un proyecto usando la metolodog'ia convencional se puede llevar dos a\~nos o m'as en realizarse, el mismo proyecto bas'andose en la metodolog'ia \textbf{ASAP}, puede ser realizado en menos de un a\~no. 
-Es importante resaltar que esta tecnolog'ia no es utilizada en todos los desarrollos con SAP, ya que la misma se recomienda para aquellas empresas que no tienen una extensa modificaci'on en sus requerimientos, o para aquellas empresas que requieren del uso de la re-ingenier'ia.
+\textbf{ASAP (Ascendant SAP 'o Accelerated SAP como tambi'en se le conoce)} es una metodolog'ia que fue dise\~nada por SAP para agilizar el desarrollo de sus aplicaciones, ya que con otras metodolog'ias, un desarrollo se pod'ia llevar mucho m'as tiempo del esperado. Mientras un proyecto usando la metolodog'ia convencional se puede llevar dos a\~nos o m'as en realizarse, el mismo proyecto bas'andose en la metodolog'ia \textbf{ASAP}, puede ser realizado en menos de un a\~no. 
+
 \section{Caracter'isticas Principales}
 ASAP ha sido dise\~nado con el objetivo de estandarizar y de llevar de una forma coordinada una implementaci'on SAP.  Esta metodolog'ia posee las siguientes caracter'isticas:
 \begin{enumerate}
 \item Es capaz de optimizar tiempo, calidad y recursos.
 \item Es capaz de aprovechar las mejores pr'acticas del negocio.
-\item Es capaz de entregar un proceso orientado a un mapa de proyecto (Hoja de Ruta ASAP). Una hoja de ruta ASAP es un gr'afico que presenta los pasos o fases a seguir, como se muestra en la figura ~\ref{roadmap}.
+\item Es capaz de entregar un proceso orientado a un mapa de proyecto (Hoja de Ruta ASAP). Una hoja de ruta ASAP es un gr'afico que presenta los pasos o fases a seguir, como se muestra en la figura ~\ref{fig:roadmap}.
 
 \end{enumerate}
 
 \section{Fases de la metodolog'ia ASAP}
-Esta metodolog'ia est'a dividida en 4 fases, las cu'ales se listan en la siguiente secci'on.
+Esta metodolog'ia est'a dividida en 4 fases, las cu'ales se listan en los siguientes puntos.
 \subsection{Fase 1: Preparaci'on del Proyecto}
-En esta fase se evalúan dos factores cr'iticos del proyecto: en primer lugar la preparaci'on de la organizaci'on del mismo, ya que en este punto se realizan algunas tareas de gesti'on que son claves, como por ejemplo: Proveer un compromiso de la alta gerencia y apoyo, establecer metas claras y objetivos claros, acordar en los próximos pasos a dar dentro del proyecto, proveer un proceso eficiente de toma de decisiones, escoger un equipo que sea calificado y que represente las distintas 'areas funcionales.
-En segundo lugar, la planificaci'on del proyecto, ya que en este punto se deben identificar aquellos elementos que sean cr'iticos, dentro de los cuales se puede mencionar los que se listan a continuaci'on:
+\indent En esta fase se evalúan dos factores cr'iticos del proyecto: en primer lugar la preparaci'on de la organizaci'on del mismo, ya que en este punto se realizan algunas tareas de gesti'on que son claves, como por ejemplo: Proveer un compromiso de la alta gerencia y apoyo, establecer metas y objetivos claros, acordar en los próximos pasos a dar dentro del proyecto, proveer un proceso eficiente de toma de decisiones, escoger un equipo que sea calificado y que represente las distintas 'areas funcionales.
+\newline
+\newline
+\indent En segundo lugar, la planificaci'on del proyecto, ya que en este punto se deben identificar aquellos elementos que sean cr'iticos, dentro de los cuales se puede mencionar los que se listan a continuaci'on:
 \begin{itemize}
 \item Principios Rectores: Estos son principios de alto nivel que pueden ser establecidos al inicio del proyecto. Estos definen y comunican la visi'on de la empresa, ayuda a mantener el proyecto enfocado, y en el caso en que exista alg'un conflicto, sirve de base para su soluci'on. 
 \item Principios estrat'egicos:  Estos son principios de negocio que direccionan las estrategias a utilizar. Al tener unas estrategias bien definidas, la implementaci'on se torna mas f'acil, y as'i se pueden lograr los objetivos establecidos.
@@ -35,8 +39,10 @@ El equipo de clientes est'a integrado por:
 \item Miembros del equipo central: Tienen dedicaci'on al 100 del tiempo disponible dedicado al proyecto.
 \item Equipo de extensi'on: Son los que tienen dedicaci'on del 20-50 del tiempo al proyecto, dependiendo de la fase en la cual se encuentre.
 \end{itemize}
-En este punto, los equipos definidos son organizados por los distintos m'odulos o funcionalidades. Por ejemplo, se pueden tener equipos para el m'odulo de Finanzas (FI), Ventas y Distribuci'on (SD), Gesti'on de Materiales (MM), entre otros. 
-Es fundamental que el equipo escogido tenga las siguientes capacidades:
+\indent En este punto, los equipos definidos son organizados por los distintos m'odulos o funcionalidades. Por ejemplo, se pueden tener equipos para el m'odulo de Finanzas (FI), Ventas y Distribuci'on (SD), Gesti'on de Materiales (MM), entre otros. 
+\newline
+\newline
+\indent Es fundamental que el equipo escogido tenga las siguientes capacidades:
 \begin{itemize}
 \item Analizar el impacto del nuevo sistema ERP sobre los procesos del negocio contra el proceso actual.
 \item Analizar los requerimientos funcionales y de implementaci'on. 
@@ -45,7 +51,9 @@ Es fundamental que el equipo escogido tenga las siguientes capacidades:
 \end{itemize}
 \subsection{Fase 2: Business Blueprint}
 El objetivo principal de esta fase es comprender el funcionamiento actual de la empresa, para as'i poder determinar los requerimientos de implementaci'on basados en las necesidades que la organizaci'on pueda presentar en un futuro. Para esto, se realiza un an'alisis exhaustivo del negocio de la compa\~n'ia, c'omo se desenvuelve actualmente, e identificando las funcionalidades soportadas por el sistema actual. Luego se compara las pr'acticas existentes y sus funcionalidades  con las que son soportadas por SAP. 
-Durante esta fase, los ejecutivos y gerentes de la compa\~n'ia son entrevistados. Dichas entrevistas son realizadas dentro de grupos peque\~nos, o de manera individual. Luego, basado en las respuestas obtenidas, los consultores pueden entender y definir los siguientes par'ametros:
+\newline
+\newline
+\indent Durante esta fase, los ejecutivos y gerentes de la compa\~n'ia son entrevistados. Dichas entrevistas son realizadas dentro de grupos peque\~nos, o de manera individual. Luego, basado en las respuestas obtenidas, los consultores pueden entender y definir los siguientes par'ametros:
 \begin{itemize}
 \item El negocio de la compa\~nia
 \item La forma de operar
@@ -65,74 +73,33 @@ Este documento puede ser descrito como un modelo visual de la empresa. En este d
 \item Estructura organizacional
 \item Funcionalidad diferida
 \item Riesgos potenciales
-\item
 \end{itemize}
-Una decisi'on fundamental que se toma en esta fase es la definici'on de una estructura organizacional SAP basada en los procesos de organizaci'on del negocio. 
-	Esta estructura determina como los datos son definidos dentro del sistema, la complejidad de los datos de entrada, y el tama\~no de los archivos que contienen datos maestros. 
-	La estructura definida debe haberse analizado bien en esta etapa, ya que cualquier cambio que fuera realizado en las fases siguientes, derivar'ia en un costo elevado.
-	Uno de los elementos m'as importantes de la estructura organizacional es el c'odigo que se le asigna a la compa\~n'ia, ya que 'este es el elemento m'as alto dentro de esta estructura armada. El c'odigo de la compa\~n'ia una uniad legal e organizacionalmente independiente. 'Este representa a una unidad de contabilidad independiente, lo cual hace que posea sus propias componentes financieras.
-	Una de las partes de esta estructura es el \textbf{'Area de Control}. La misma simboliza a un elemento organizacional con la cual se manejan como estructura organizativa es la estructura del negocio. Esto no es m'as que la organizaci'on de la empresa en s'i. En otras palabras, las distintas 'areas funcionales, como Log'istica, Recursos Humanos, etc.
+\indent Una decisi'on fundamental que se toma en esta fase es la definici'on de una estructura organizacional SAP basada en los procesos de organizaci'on del negocio. 
+\newline
+\newline
+\indent Esta estructura determina como los datos son definidos dentro del sistema, la complejidad de los datos de entrada, y el tama\~no de los archivos que contienen datos maestros. 
+\newline
+\newline
+\indent La estructura definida debe haberse analizado bien en esta etapa, ya que cualquier cambio que fuera realizado en las fases siguientes, derivar'ia en un costo elevado.
+\newline
+\newline
+\indent Uno de los elementos m'as importantes de la estructura organizacional es el c'odigo que se le asigna a la compa\~n'ia, ya que 'este es el elemento m'as alto dentro de esta estructura armada. El c'odigo de la compa\~n'ia es una unidad legal e organizacionalmente independiente. 'Este representa a una unidad de contabilidad independiente, lo cual hace que posea sus propias componentes financieras.
+\newline
+\newline
+\indent Una de las partes de esta estructura es el \textbf{'Area de Control}. La misma simboliza a un elemento organizacional con la cual se manejan como estructura organizativa es la estructura del negocio. Esto no es m'as que la organizaci'on de la empresa en s'i. En otras palabras, las distintas 'areas funcionales, como Log'istica, Recursos Humanos, etc.
 \subsection{Fase 3: Realizaci'on}
-	Durante esta fase, el sistema es configurado basado en los requerimientos obtenidos en la fase anterior, y luego es probado. Esta fase no es r'igida, es decir, que la aplicaci'on de la misma es progresiva. En otras palabras, se construye, se prueba, se refinan los detalles y se vuelve a probar. En las pr'oximas sub-secciones se describen un poco las etapas por las cuales se pasa dentro de esta fase.
+	Durante esta fase, el sistema es configurado bas'andose en los requerimientos obtenidos en la fase anterior, y luego es probado. Esta fase no es r'igida, es decir, que la aplicaci'on de la misma es progresiva. En otras palabras, se construye, se prueba, se refinan los detalles y se vuelve a probar. En el Ap'endice A.3 se describen un poco las etapas por las cuales se pasa dentro de esta fase.
 
-\subsubsection{Simulaci'on}
-	El primer paso que se lleva en esta etapa es la configuraci'on. Aqu'i, los distintos consultores configuran el sistema SAP de acuerdo al documento del Negocio previamente definido.  Esta configuraci'on cubre el 80 de los procesos del negocio de la compa\~n'ia y de las transacciones diarias. Este proceso implica modificar el software de SAP a trav'es de procedimientos no programables, como por ejemplo:  modificaciones de entrada a tabla, herramientas base, etc.
-	El siguiente paso dentro de esta etapa es la Reproducci'on. 'Este consiste en introducir un conjunto reducido de usuarios en el nuevo sistema para hacer las pruebas a la configuraci'on realizada previamente, y as'i poder obtener una retroalimentaci'on. Las reproducciones son realizadas de forma peri'odica bas'andose en las preferencias de los usuarios. 
-	
-\subsubsection{Validaci'on}
-	Durante esta etapa, el dise\~no es refinado y finalizado. El equipo de trabajo refina el sistema de tal modo que todos los requerimientos del negocio se encuentren configurados. 
-	Un punto importante durante la realizaci'on de esta fase es la elaboraci'on de una lista de procesos maestros. 	El equipo involucrado comienza a desarrollar los procedimientos del procedimiento del Negocio (Gu'ia de Configuraci'on), con la cual se documenta toda la configuraci'on realizada al sistema. 
-\subsubsection{Uni'on y Pruebas de Integraci'on}
-	Para que un software sea colocado en producci'on debe haber recibido todas las pruebas necesarias. Un software que no es probado de la manera adecuada, puede traer consecuencias a la hora de ponerse en reproducci'on, como por ejemplo que se presente alguna falla inesperada, lo que derivar'ia en descartar el programa.
-	El hecho de realizar una prueba a un sistema ERP integrado representa un gran desaf'io, pero dentro de los beneficios a obtener est'an los siguientes: 
-\begin{itemize}
-\item Se confirma que el proceso trabaja adecuadamente
-\item Se obtiene una configuraci'on 'agil
-\item Tiene rendimiento garantizado
-\item La integraci'on es mejorada
-\item Sus costos son bajos
-\item Los riesgos se reducen al m'inimo
-\end{itemize}
-Las pruebas de todo el sistema implementado se realiza en dos grandes grupos: El primer grupo es el conjunto de pruebas unitarias. Estas consisten en realizar pruebas a peque\~nas transacciones, como por ejemplo: crear una orden de venta, crear un cliente, etc. Para esto, se hace por cada 'area funcional o m'odulo cumpliendo un ciclo b'asico, como por ejemplo, en Ventas y Distribuci'on el ciclo b'asico consiste en: Realizar el pedido de Venta, luego efectuar la entrega para as'i finalmente generar la factura correspondiente. 
-El segundo grupo de pruebas est'a conformado por las \textbf{Pruebas Integrales}. 'Estas consisten en crear un conjunto de escenarios que involucren todas las 'areas funcionales implementadas. Estas pruebas son dise\~nadas con una perspectiva orientada a procesos. Por ejemplo, se prueba cada paso requerido para realizar un Pedido de Venta. En este punto, es fundamental contar con la presencia de los usuarios finales, ya que son ellos los que pueden brindar una retroalimentaci'on oportuna, y as'i poder detectar posibles fallas.
-	Existen dos maneras de aplicar estas pruebas unitarias. La primera, se conoce como \textbf{Aseguramiento de Calidad (QA por su nombre en ingl'es)}, es realizada por un conjunto de miembros de tiempo completo en compa\~n'ia de usuarios del negocio pertenecientes a las distintas 'areas funcionales. Cada grupo es asignado a un peque\~no escenario, y es responsable de verificar que todo el proceso involucrado se lleve a cabo sin errores desde el inicio hasta el final. La segunda opci'on es tener distintos grupos que realizen las distintas pruebas por cada 'area funcional. En el caso de que la prueba involucre varias 'areas funcionales, por ejemplo, se tienen las 'areas funcionales A, B y C. En el momento en que el 'area A necesite enviar recursos al 'area B, la responsabilidad de las pruebas pasa del miembro del equipo A que est'a ejecutando la prueba, a alg'un miembro del equipo B.
-
-\subsubsection{Conversi'on y Carga de los Datos}
-	Para que el sistema implementado en SAP pueda funcionar correctamente, es necesario realizar la carga de una gran cantidad de datos. 
-	Existen dos m'etodos para la migraci'on de los datos dentro del sistema SAP, estos son los que se listan a continuaci'on:
-\begin{itemize}
-\item Entrada por Lote: Consiste en simular la entrada de datos a trav'es de las pantallas de las distintas transacciones.
-\item Entrada Directa: Se recibe el archivo de forma directa, se procesa, se realizan los chequeos previos a los datos, y luego se realiza la actualizaci'on en la Base de Datos.
-\end{itemize}
-	Es importante que la migraci'on de los datos se realice lo m'as temprano posible. Se recomienda agrupar los datos en peque\~nos grupos, e ir carg'andolos poco a poco. Sin embargo, esto deriva en una limitaci'on de la efectividad a la hora de continuar con las configuraciones, dado que el sistema se encuentra incompleto y puede presentar fallas a la hora de la carga de estos datos.
-	En SAP, los datos se pueden agrupar en 5 grupos principales:
-\begin{itemize}
-\item Datos Maestros Automatizados
-\item Datos Maestros Manuales
-\item Datos de Transacci'on Automatizados
-\item Datos de Transacci'on Manuales
-\item Datos de Limpieza
-\end{itemize}
-	Existe un problema muy importante que hay que tomar en cuenta, y que por lo general se ignora o no se le da la debida importancia: El problema de los datos sucios o inconsistentes. Esto es fundamental, ya que pueden generar prblemas con el sistema implementado en SAP por la calidad de los datos que han sido cargados. 
-	Otro problema con el que se debe estar alerta es con la duplicidad de los datos, ya que por ejemplo, se puede tener un material con m'ultiples entradas. Esto se debe a que dentro de la entrada de un material, el 'unico campo un'ivoco correspondiente a dicho material es un c'odigo asignado por SAP. 
-	Existen dos maneras de chequear que los datos no tengan duplicados: La primera, se realiza en el sistema original de donde provienen los datos. La segunda, se realiza una vez que los datos hayan sido ingresados a SAP, se procede a su chequeo correspondiente.
-	Las personas encargadas del chequeo de los datos son los usuarios finales, ya que, son ellos quienes conocen dichos datos y pueden ser capaces de descartar cualquier inconsistencia que pueda ser encontrada.
-
-\subsubsection{Interfaces, Ampliaciones y Reportes}
-
-	Para poder asegurar aquellos peque\~nos sub-sistemas que se pierden del sistema original a la hora de adaptar el negocio de una empresa en SAP, es necesario la creaci'on de interfaces. Las interfaces en SAP se encargan de ayudar en la integraci'on del proceso del negocio y la sincronizaci'on de los datos entre dos o m'as sistemas SAP, o entre SAP y un sistema externo.
-	Adicionalmente, para poder adaptar las implementaciones realizadas a las necesidades espec'ificas de la empresa, es posible que sea necesario la creaci'on de una \textbf{Ampliaci'on}. Una Ampliaci'on b'asicamente es una modificaci'on peque\~na que se les puede aplicar a programas est'andares ya existentes dentro del Sistema SAP. Para esto, es necesario que dentro del equipo del proyecto, existan personas que sepan programar en ABAP, ya que dichas ampliaciones son realizadas en este lenguaje. El problema con esto, es que necesita ser probado constantemente, sobre todo cuando existan actualizaciones al software de SAP. 
-	Otra herramienta que suele ser importante durante esta fase son los reportes realizados, ya que hay muchas cosas que quiz'as la empresa necesite, que con las transacciones existentes no se pueden realizar.
-	Los requerimientos para realizar dichos reportes deben ser establecidos lo m'as temprano posible, para que as'i puedan ser agrupados de acuerdo a la prioridad que tenga dicho requerimiento. Para la realizaci'on de dichos requerimientos, es necesario contar con el grupo de programadores en ABAP. 
-	
 \subsection{Fase 4: Preparaci'on Final}
 	En esta 'ultima fase hay varias tareas que deben ser llevadas a cabo para la culminaci'on de un proyecto realizado en SAP. Estas tareas son las que se listan a continuaci'on:
 	
-\subsubsection{Refinar el Sistema creado}
+\subsubsection*{Refinar el Sistema creado}
 	Una vez que se han realizado todas las pruebas al sistema y se haya recibido la retroalimentaci'on del usuario final, se proceder'a a hacer las modificaciones pertinentes para adaptar el sistema a los posibles cambios que puedan surgir. Es posible que tanto las configuraciones, como las interfaces e ampliaciones tengan que sufrir alguna modificaci'on.
 	 
-\subsubsection{Planeacion de la preparaci'on de la Salida en Vivo}
+\subsubsection*{Planeacion de la preparaci'on de la Salida en Vivo}
 Este plan consiste en el conjunto de actividades que deben ser ejecutadas las 'ultimas semanas antes de salir en vivo. Este 'ultimo t'ermino se refiere a la ejecuci'on integral y puesta en producci'on de todo el sistema por parte de los usuarios finales. 
+\newline
+\newline
 	Algunas de estas actividades a realizar, son las que se listan a continuación:
 \begin{itemize}
 \item Tareas variadas
@@ -144,23 +111,26 @@ Este plan consiste en el conjunto de actividades que deben ser ejecutadas las 'u
 \end{itemize}
 	Este plan puede ser revisado por los gerentes del proyecto, los ejecutivos, equipo t'ecnico y l'ideres para su posterior aprobaci'on. 
 	
-\subsubsection{Entrenamiento del Usuario Final}
-	El autor se\~nala que una regla general que se deber'ia seguir en todo desarrollo en SAP es que el 10 de todo el tiempo invertido en el desarrollo deber'a ser tomado para el entrenamiento. De este tiempo, al menos el 1 deber'ia ser tomado para el entrenamiento de los ejecutivos de la empresa. 
-	El entrenamiento se hace necesario, ya que las personas que laboran en una empresa, por lo general realizan sus tareas diarias de una forma ya establecida. Por lo tanto, es necesario que sean ense\~nados para poder adaptarse a las nuevas tecnolog'ias. 
+\subsubsection*{Entrenamiento del Usuario Final}
+	El autor se\~nala que una regla general que se deber'ia seguir en todo desarrollo en SAP es que el 10 \% de todo el tiempo invertido en el desarrollo deber'a ser tomado para el entrenamiento. De este tiempo, al menos el 1\% deber'ia ser tomado para el entrenamiento de los ejecutivos de la empresa. 
+\newline
+\newline
+\indent El entrenamiento se hace necesario, ya que las personas que laboran en una empresa, por lo general realizan sus tareas diarias de una forma ya establecida. Por lo tanto, es necesario que sean ense\~nados para poder adaptarse a las nuevas tecnolog'ias. 
 	
-\subsubsection{Transferencia de Conocimiento}
-	En este punto es importante que todos los conocimientos adquiridos por los consultores durante el proceso del desarrollo del proyecto, como lo es la instalaci'on detallada, sean ense\~nados a los empleados de la compa\~'ia, para que as'i, puedan replicar el sistema en otros lugares. Ellos deben transmitirles los conocimientos acerca de SAP adicionalmente, ya que los empleados en muchas ocasiones no tienen conocimiento acerca de este tipo de tecnolog'ias. 
+\subsubsection*{Transferencia de Conocimiento}
+	En este punto es importante que todos los conocimientos adquiridos por los consultores durante el proceso del desarrollo del proyecto, como lo es la instalaci'on detallada, sean transmitidos a los empleados de la compa\~n'ia, para que as'i, puedan replicar el sistema en otros lugares. Ellos deben transmitirles los conocimientos acerca de SAP adicionalmente, ya que los empleados en muchas ocasiones no tienen conocimiento acerca de este tipo de tecnolog'ias. 
 	
-\subsubsection{Administraci'on del Sistema}
+\subsubsection*{Administraci'on del Sistema}
 	En este punto, el equipo encargado de realizar las pruebas al sistema y a los servidores es el equipo de T'ecnicos (Basis). Aqu'i es donde se verifica si son necesarios m'as servidores o m'as hadwares.
 	
-\subsubsection{Migraci'on de Datos}
+\subsubsection*{Migraci'on de Datos}
 	En esta etapa se realiza la migraci'on de los datos restantes desde el sistema existente al nuevo sistema creado en SAP. En este momento, el sistema antiguo permanece funcionando por un tiempo hasta que toda la data migrada sea validada. 
 	
-\subsubsection{Pruebas Finales y Entonaci'on}
+\subsubsection*{Pruebas Finales y Entonaci'on}
 	En este punto se realizan pruebas de vol'umen y se procede  a colapsar el sistema, para verificar que puede atender gran cantidad de solicitudes concurrentes, y se realizan las modificaciones pertinentes. En este punto comienza la puesta en vivo del sistema completo.
 
 \section{Aplicaci'on para el Proyecto de Pasant'ia}
 	Para este proyecto, se llegaron aplicar cada una de las fases de esta metodolog'ia, en su respectivo orden.
-	
-	En el pr'oximo cap'itulo se va a explicar el conjunto de actividades realizadas en las fases que formaron parte de este proyecto.
+\newline
+\newline
+\indent En el pr'oximo cap'itulo se va a explicar el conjunto de actividades realizadas en las fases que formaron parte de este proyecto.

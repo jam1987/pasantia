@@ -15,92 +15,78 @@
 \BOOKMARK [1][-]{section.2.2}{SAP}{chapter.2}% 11
 \BOOKMARK [2][-]{subsection.2.2.1}{Definici\363n}{section.2.2}% 12
 \BOOKMARK [2][-]{subsection.2.2.2}{Caracter\355sticas de SAP R/3}{section.2.2}% 13
-\BOOKMARK [3][-]{subsubsection.2.2.2.1}{Caracter\355sticas Generales}{subsection.2.2.2}% 14
-\BOOKMARK [3][-]{subsubsection.2.2.2.2}{Caracter\355sticas de Negocio}{subsection.2.2.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.2.2.3}{Caracter\355sticas de Flexibilidad}{subsection.2.2.2}% 16
-\BOOKMARK [3][-]{subsubsection.2.2.2.4}{Caracter\355sticas T\351cnicas}{subsection.2.2.2}% 17
-\BOOKMARK [3][-]{subsubsection.2.2.2.5}{Otras Caracter\355sticas}{subsection.2.2.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.3}{Adaptaci\363n del Software a las Empresas}{section.2.2}% 19
-\BOOKMARK [2][-]{subsection.2.2.4}{M\363dulos de SAP R/3}{section.2.2}% 20
-\BOOKMARK [1][-]{section.2.3}{M\363dulo de Ventas y Distribuci\363n \(SD\)}{chapter.2}% 21
-\BOOKMARK [2][-]{subsection.2.3.1}{Estructura de una Empresa en SAP}{section.2.3}% 22
-\BOOKMARK [3][-]{subsubsection.2.3.1.1}{Organizaci\363n de Venta}{subsection.2.3.1}% 23
-\BOOKMARK [3][-]{subsubsection.2.3.1.2}{Canal de Distribuci\363n}{subsection.2.3.1}% 24
-\BOOKMARK [3][-]{subsubsection.2.3.1.3}{Sector}{subsection.2.3.1}% 25
-\BOOKMARK [3][-]{subsubsection.2.3.1.4}{\301rea de Ventas}{subsection.2.3.1}% 26
-\BOOKMARK [3][-]{subsubsection.2.3.1.5}{Oficina de Ventas}{subsection.2.3.1}% 27
-\BOOKMARK [3][-]{subsubsection.2.3.1.6}{Puestos de Expedici\363n}{subsection.2.3.1}% 28
-\BOOKMARK [3][-]{subsubsection.2.3.1.7}{Puestos de Carga}{subsection.2.3.1}% 29
-\BOOKMARK [2][-]{subsection.2.3.2}{Herramientas Principales}{section.2.3}% 30
-\BOOKMARK [3][-]{subsubsection.2.3.2.1}{Manejo de Precios e Impuestos}{subsection.2.3.2}% 31
-\BOOKMARK [3][-]{subsubsection.2.3.2.2}{Chequeo de Disponibilidad}{subsection.2.3.2}% 32
-\BOOKMARK [3][-]{subsubsection.2.3.2.3}{Manejo de Cr\351dito}{subsection.2.3.2}% 33
-\BOOKMARK [3][-]{subsubsection.2.3.2.4}{Facturaci\363n}{subsection.2.3.2}% 34
-\BOOKMARK [3][-]{subsubsection.2.3.2.5}{Determinaci\363n del Material}{subsection.2.3.2}% 35
-\BOOKMARK [3][-]{subsubsection.2.3.2.6}{Determinaci\363n de Cuentas}{subsection.2.3.2}% 36
-\BOOKMARK [3][-]{subsubsection.2.3.2.7}{Procesamiento de Textos}{subsection.2.3.2}% 37
-\BOOKMARK [2][-]{subsection.2.3.3}{Clasificaci\363n de los Datos en el M\363dulo SD}{section.2.3}% 38
-\BOOKMARK [3][-]{subsubsection.2.3.3.1}{Datos Maestros}{subsection.2.3.3}% 39
-\BOOKMARK [2][-]{subsection.2.3.4}{Proceso de Ventas utilizando el M\363dulo SD}{section.2.3}% 40
-\BOOKMARK [3][-]{subsubsection.2.3.4.1}{Solicitud de Informaci\363n de Productos}{subsection.2.3.4}% 41
-\BOOKMARK [3][-]{subsubsection.2.3.4.2}{Creaci\363n de Orden de Ventas}{subsection.2.3.4}% 42
-\BOOKMARK [3][-]{subsubsection.2.3.4.3}{Entrega de Bienes y/o Servicios}{subsection.2.3.4}% 43
-\BOOKMARK [3][-]{subsubsection.2.3.4.4}{Facturaci\363n}{subsection.2.3.4}% 44
-\BOOKMARK [3][-]{subsubsection.2.3.4.5}{Pago por los bienes y/o servicios adquiridos}{subsection.2.3.4}% 45
-\BOOKMARK [2][-]{subsection.2.3.5}{Relaci\363n existente entre el M\363dulo SD y otros M\363dulos}{section.2.3}% 46
-\BOOKMARK [1][-]{section.2.4}{Lenguaje de Programaci\363n ABAP/4}{chapter.2}% 47
-\BOOKMARK [2][-]{subsection.2.4.1}{Estructura de un programa ABAP/4}{section.2.4}% 48
-\BOOKMARK [3][-]{subsubsection.2.4.1.1}{Includes en ABAP/4}{subsection.2.4.1}% 49
-\BOOKMARK [2][-]{subsection.2.4.2}{Herramientas provistas por ABAP/4}{section.2.4}% 50
-\BOOKMARK [3][-]{subsubsection.2.4.2.1}{Smartforms}{subsection.2.4.2}% 51
-\BOOKMARK [3][-]{subsubsection.2.4.2.2}{Constructor de Formularios Inteligentes \(Smart Form Builder\)}{subsection.2.4.2}% 52
-\BOOKMARK [3][-]{subsubsection.2.4.2.3}{Template de impresi\363n para el Smartform \(Smart Form Print Form Template}{subsection.2.4.2}% 53
-\BOOKMARK [3][-]{subsubsection.2.4.2.4}{M\363dulo de Funciones del Smart Form \(Smart Form Function Module\)}{subsection.2.4.2}% 54
-\BOOKMARK [3][-]{subsubsection.2.4.2.5}{Programa de Impresi\363n de Smart Forms \(Smart Form Print Program\)}{subsection.2.4.2}% 55
-\BOOKMARK [2][-]{subsection.2.4.3}{Sesi\363n de Batch Input \(Carga Masiva de Datos\)}{section.2.4}% 56
-\BOOKMARK [0][-]{chapter.3}{Marco Metodol\363gico}{}% 57
-\BOOKMARK [1][-]{section.3.1}{Descripci\363n de la metodolog\355a}{chapter.3}% 58
-\BOOKMARK [1][-]{section.3.2}{Caracter\355sticas Principales}{chapter.3}% 59
-\BOOKMARK [1][-]{section.3.3}{Fases de la metodolog\355a ASAP}{chapter.3}% 60
-\BOOKMARK [2][-]{subsection.3.3.1}{Fase 1: Preparaci\363n del Proyecto}{section.3.3}% 61
-\BOOKMARK [2][-]{subsection.3.3.2}{Fase 2: Business Blueprint}{section.3.3}% 62
-\BOOKMARK [2][-]{subsection.3.3.3}{Fase 3: Realizaci\363n}{section.3.3}% 63
-\BOOKMARK [3][-]{subsubsection.3.3.3.1}{Simulaci\363n}{subsection.3.3.3}% 64
-\BOOKMARK [3][-]{subsubsection.3.3.3.2}{Validaci\363n}{subsection.3.3.3}% 65
-\BOOKMARK [3][-]{subsubsection.3.3.3.3}{Uni\363n y Pruebas de Integraci\363n}{subsection.3.3.3}% 66
-\BOOKMARK [3][-]{subsubsection.3.3.3.4}{Conversi\363n y Carga de los Datos}{subsection.3.3.3}% 67
-\BOOKMARK [3][-]{subsubsection.3.3.3.5}{Interfaces, Ampliaciones y Reportes}{subsection.3.3.3}% 68
-\BOOKMARK [2][-]{subsection.3.3.4}{Fase 4: Preparaci\363n Final}{section.3.3}% 69
-\BOOKMARK [3][-]{subsubsection.3.3.4.1}{Refinar el Sistema creado}{subsection.3.3.4}% 70
-\BOOKMARK [3][-]{subsubsection.3.3.4.2}{Planeacion de la preparaci\363n de la Salida en Vivo}{subsection.3.3.4}% 71
-\BOOKMARK [3][-]{subsubsection.3.3.4.3}{Entrenamiento del Usuario Final}{subsection.3.3.4}% 72
-\BOOKMARK [3][-]{subsubsection.3.3.4.4}{Transferencia de Conocimiento}{subsection.3.3.4}% 73
-\BOOKMARK [3][-]{subsubsection.3.3.4.5}{Administraci\363n del Sistema}{subsection.3.3.4}% 74
-\BOOKMARK [3][-]{subsubsection.3.3.4.6}{Migraci\363n de Datos}{subsection.3.3.4}% 75
-\BOOKMARK [3][-]{subsubsection.3.3.4.7}{Pruebas Finales y Entonaci\363n}{subsection.3.3.4}% 76
-\BOOKMARK [1][-]{section.3.4}{Aplicaci\363n para el Proyecto de Pasant\355a}{chapter.3}% 77
-\BOOKMARK [0][-]{chapter.4}{Desarrollo}{}% 78
-\BOOKMARK [1][-]{section.4.1}{Fase 1: Preparaci\363n Previa}{chapter.4}% 79
-\BOOKMARK [1][-]{section.4.2}{Fase 2: Business Blueprint}{chapter.4}% 80
-\BOOKMARK [2][-]{subsection.4.2.1}{Identificaci\363n del proceso de Master Data \(Datos Maestros\)}{section.4.2}% 81
-\BOOKMARK [2][-]{subsection.4.2.2}{Identificaci\363n del proceso de Sales \(Pedidos de Ventas\)}{section.4.2}% 82
-\BOOKMARK [2][-]{subsection.4.2.3}{Identificaci\363n del proceso de Shipping and Transportation \(Embarque y Transporte\)}{section.4.2}% 83
-\BOOKMARK [2][-]{subsection.4.2.4}{Identificaci\363n del proceso de Billing \(Facturaci\363n\)}{section.4.2}% 84
-\BOOKMARK [1][-]{section.4.3}{Fase 3: Realizaci\363n \(Construcci\363n y Pruebas\)}{chapter.4}% 85
-\BOOKMARK [2][-]{subsection.4.3.1}{Configuraci\363n Base del M\363dulo de Ventas y Distribuci\363n para SSA Beverage}{section.4.3}% 86
-\BOOKMARK [3][-]{subsubsection.4.3.1.1}{Configuraci\363n de la parte organizativa de la Empresa}{subsection.4.3.1}% 87
-\BOOKMARK [2][-]{subsection.4.3.2}{Elaboraci\363n de las Facturas Legales}{section.4.3}% 88
-\BOOKMARK [2][-]{subsection.4.3.3}{Elaboraci\363n del programa de Carga Masiva de Datos para el Maestro de Clientes}{section.4.3}% 89
-\BOOKMARK [1][-]{section.4.4}{Fase 4: Presentaci\363n y Resultados Finales}{chapter.4}% 90
-\BOOKMARK [0][-]{chapter.5}{Conclusiones y recomendaciones}{}% 91
-\BOOKMARK [0][-]{chapter*.12}{Bibliograf\355a}{}% 92
-\BOOKMARK [0][-]{appendix.Alph1}{Informaci\363n Adicional de SAP R/3}{}% 93
-\BOOKMARK [1][-]{section.Alph1.1}{Figuras Adicionales de SAP}{appendix.Alph1}% 94
-\BOOKMARK [1][-]{section.Alph1.2}{Im\341genes Adicionales de ABAP/4}{appendix.Alph1}% 95
-\BOOKMARK [1][-]{section.Alph1.3}{Im\341genes Adicionales de la Metodolog\355a ASAP}{appendix.Alph1}% 96
-\BOOKMARK [0][-]{appendix.Alph2}{Configuraciones Realizadas en el Proyecto}{}% 97
-\BOOKMARK [1][-]{section.Alph2.1}{Configuraci\363n de la Estructura de SSA Beverage}{appendix.Alph2}% 98
-\BOOKMARK [0][-]{appendix.Alph3}{Desarrollos realizados en ABAP/4}{}% 99
-\BOOKMARK [1][-]{section.Alph3.1}{Programa de Carga Masiva de Datos del Maestro de Clientes}{appendix.Alph3}% 100
-\BOOKMARK [1][-]{section.Alph3.2}{Creaci\363n del Formulario de la Factura Legal}{appendix.Alph3}% 101
-\BOOKMARK [1][-]{section.Alph3.3}{Creaci\363n de Xtdata}{appendix.Alph3}% 102
+\BOOKMARK [2][-]{subsection.2.2.3}{Adaptaci\363n del Software a las Empresas}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.4}{M\363dulos de SAP R/3}{section.2.2}% 15
+\BOOKMARK [1][-]{section.2.3}{M\363dulo de Ventas y Distribuci\363n \(SD\)}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.3.1}{Herramientas Principales}{section.2.3}% 17
+\BOOKMARK [3][-]{subsubsection.2.3.1.1}{Manejo de Precios e Impuestos}{subsection.2.3.1}% 18
+\BOOKMARK [3][-]{subsubsection.2.3.1.2}{Chequeo de Disponibilidad}{subsection.2.3.1}% 19
+\BOOKMARK [3][-]{subsubsection.2.3.1.3}{Manejo de Cr\351dito}{subsection.2.3.1}% 20
+\BOOKMARK [3][-]{subsubsection.2.3.1.4}{Facturaci\363n}{subsection.2.3.1}% 21
+\BOOKMARK [3][-]{subsubsection.2.3.1.5}{Determinaci\363n del Material}{subsection.2.3.1}% 22
+\BOOKMARK [3][-]{subsubsection.2.3.1.6}{Determinaci\363n de Cuentas}{subsection.2.3.1}% 23
+\BOOKMARK [3][-]{subsubsection.2.3.1.7}{Procesamiento de Textos}{subsection.2.3.1}% 24
+\BOOKMARK [2][-]{subsection.2.3.2}{Clasificaci\363n de los Datos en el M\363dulo SD}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.3}{Proceso de Ventas utilizando el M\363dulo SD}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.4}{Relaci\363n existente entre el M\363dulo SD y otros M\363dulos}{section.2.3}% 27
+\BOOKMARK [1][-]{section.2.4}{Lenguaje de Programaci\363n ABAP/4}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.4.1}{Estructura de un programa ABAP/4}{section.2.4}% 29
+\BOOKMARK [2][-]{subsection.2.4.2}{Includes en ABAP/4}{section.2.4}% 30
+\BOOKMARK [2][-]{subsection.2.4.3}{Herramientas provistas por ABAP/4}{section.2.4}% 31
+\BOOKMARK [3][-]{subsubsection.2.4.3.1}{Smartforms}{subsection.2.4.3}% 32
+\BOOKMARK [2][-]{subsection.2.4.4}{Sesi\363n de Batch Input \(Carga Masiva de Datos\)}{section.2.4}% 33
+\BOOKMARK [0][-]{chapter.3}{Marco Metodol\363gico}{}% 34
+\BOOKMARK [1][-]{section.3.1}{Descripci\363n de la metodolog\355a}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.2}{Caracter\355sticas Principales}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.3}{Fases de la metodolog\355a ASAP}{chapter.3}% 37
+\BOOKMARK [2][-]{subsection.3.3.1}{Fase 1: Preparaci\363n del Proyecto}{section.3.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.2}{Fase 2: Business Blueprint}{section.3.3}% 39
+\BOOKMARK [2][-]{subsection.3.3.3}{Fase 3: Realizaci\363n}{section.3.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.4}{Fase 4: Preparaci\363n Final}{section.3.3}% 41
+\BOOKMARK [1][-]{section.3.4}{Aplicaci\363n para el Proyecto de Pasant\355a}{chapter.3}% 42
+\BOOKMARK [0][-]{chapter.4}{Desarrollo}{}% 43
+\BOOKMARK [1][-]{section.4.1}{Fase 1: Preparaci\363n Previa}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.2}{Fase 2: Business Blueprint}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.2.1}{Identificaci\363n del proceso de Master Data \(Datos Maestros\)}{section.4.2}% 46
+\BOOKMARK [2][-]{subsection.4.2.2}{Identificaci\363n del proceso de Sales \(Pedidos de Ventas\)}{section.4.2}% 47
+\BOOKMARK [2][-]{subsection.4.2.3}{Identificaci\363n del proceso de Shipping and Transportation \(Embarque y Transporte\)}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.4}{Identificaci\363n del proceso de Billing \(Facturaci\363n\)}{section.4.2}% 49
+\BOOKMARK [1][-]{section.4.3}{Fase 3: Realizaci\363n \(Construcci\363n y Pruebas\)}{chapter.4}% 50
+\BOOKMARK [2][-]{subsection.4.3.1}{Configuraci\363n Base del M\363dulo de Ventas y Distribuci\363n para SSA Beverage}{section.4.3}% 51
+\BOOKMARK [3][-]{subsubsection.4.3.1.1}{Configuraci\363n de la parte organizativa de la Empresa}{subsection.4.3.1}% 52
+\BOOKMARK [2][-]{subsection.4.3.2}{Elaboraci\363n de las Facturas Legales}{section.4.3}% 53
+\BOOKMARK [2][-]{subsection.4.3.3}{Elaboraci\363n del programa de Carga Masiva de Datos para el Maestro de Clientes}{section.4.3}% 54
+\BOOKMARK [1][-]{section.4.4}{Fase 4: Presentaci\363n y Resultados Finales}{chapter.4}% 55
+\BOOKMARK [0][-]{chapter.5}{Conclusiones y recomendaciones}{}% 56
+\BOOKMARK [0][-]{chapter*.23}{Bibliograf\355a}{}% 57
+\BOOKMARK [0][-]{appendix.Alph1}{Informaci\363n Adicional de SAP R/3}{}% 58
+\BOOKMARK [1][-]{subsection.Alph1.0.1}{Estructura de una Empresa en el M\363dulo SD de SAP}{appendix.Alph1}% 59
+\BOOKMARK [2][-]{subsubsection.Alph1.0.1.1}{Organizaci\363n de Venta}{subsection.Alph1.0.1}% 60
+\BOOKMARK [3][-]{subsubsection.Alph1.0.1.2}{Canal de Distribuci\363n}{subsubsection.Alph1.0.1.1}% 61
+\BOOKMARK [3][-]{subsubsection.Alph1.0.1.3}{Sector}{subsubsection.Alph1.0.1.1}% 62
+\BOOKMARK [3][-]{subsubsection.Alph1.0.1.4}{\301rea de Ventas}{subsubsection.Alph1.0.1.1}% 63
+\BOOKMARK [3][-]{subsubsection.Alph1.0.1.5}{Oficina de Ventas}{subsubsection.Alph1.0.1.1}% 64
+\BOOKMARK [3][-]{subsubsection.Alph1.0.1.6}{Puestos de Expedici\363n}{subsubsection.Alph1.0.1.1}% 65
+\BOOKMARK [3][-]{subsubsection.Alph1.0.1.7}{Puestos de Carga}{subsubsection.Alph1.0.1.1}% 66
+\BOOKMARK [1][-]{section.Alph1.1}{Componentes de un Programa en ABAP/4}{appendix.Alph1}% 67
+\BOOKMARK [1][-]{section.Alph1.2}{Componentes de un Smartform}{appendix.Alph1}% 68
+\BOOKMARK [2][-]{subsubsection.Alph1.2.0.8}{Constructor de Formularios Inteligentes \(Smart Form Builder\)}{section.Alph1.2}% 69
+\BOOKMARK [3][-]{subsubsection.Alph1.2.0.9}{Template de impresi\363n para el Smartform \(Smart Form Print Form Template}{subsubsection.Alph1.2.0.8}% 70
+\BOOKMARK [3][-]{subsubsection.Alph1.2.0.10}{M\363dulo de Funciones del Smart Form \(Smart Form Function Module\)}{subsubsection.Alph1.2.0.8}% 71
+\BOOKMARK [3][-]{subsubsection.Alph1.2.0.11}{Programa de Impresi\363n de Smart Forms \(Smart Form Print Program\)}{subsubsection.Alph1.2.0.8}% 72
+\BOOKMARK [1][-]{section.Alph1.3}{Etapas pertenecientes a la Fase de la Realizaci\363n de ASAP}{appendix.Alph1}% 73
+\BOOKMARK [2][-]{subsubsection.Alph1.3.0.12}{Simulaci\363n}{section.Alph1.3}% 74
+\BOOKMARK [3][-]{subsubsection.Alph1.3.0.13}{Validaci\363n}{subsubsection.Alph1.3.0.12}% 75
+\BOOKMARK [3][-]{subsubsection.Alph1.3.0.14}{Uni\363n y Pruebas de Integraci\363n}{subsubsection.Alph1.3.0.12}% 76
+\BOOKMARK [3][-]{subsubsection.Alph1.3.0.15}{Conversi\363n y Carga de los Datos}{subsubsection.Alph1.3.0.12}% 77
+\BOOKMARK [3][-]{subsubsection.Alph1.3.0.16}{Interfaces, Ampliaciones y Reportes}{subsubsection.Alph1.3.0.12}% 78
+\BOOKMARK [1][-]{section.Alph1.4}{Figuras Adicionales de SAP}{appendix.Alph1}% 79
+\BOOKMARK [1][-]{section.Alph1.5}{Im\341genes Adicionales de ABAP/4}{appendix.Alph1}% 80
+\BOOKMARK [1][-]{section.Alph1.6}{Im\341genes Adicionales de la Metodolog\355a ASAP}{appendix.Alph1}% 81
+\BOOKMARK [0][-]{appendix.Alph2}{Configuraciones Realizadas en el Proyecto}{}% 82
+\BOOKMARK [1][-]{section.Alph2.1}{Configuraci\363n de la Estructura de SSA Beverage}{appendix.Alph2}% 83
+\BOOKMARK [1][-]{section.Alph2.2}{Ciclo de Ventas presentado en la \332ltima Fase del Desarrollo}{appendix.Alph2}% 84
+\BOOKMARK [0][-]{appendix.Alph3}{Desarrollos realizados en ABAP/4}{}% 85
+\BOOKMARK [1][-]{section.Alph3.1}{Programa de Carga Masiva de Datos del Maestro de Clientes}{appendix.Alph3}% 86
+\BOOKMARK [1][-]{section.Alph3.2}{Creaci\363n del Formulario de la Factura Legal}{appendix.Alph3}% 87
+\BOOKMARK [1][-]{section.Alph3.3}{Creaci\363n de Xtdata}{appendix.Alph3}% 88
