@@ -9,7 +9,7 @@
 % Actualizado ligeramente por:
 % Alexander Tough 
 
-\documentclass[oneside,12pt,letterpaper,openany]{report}
+\documentclass[oneside,12pt,letterpaper,openany]{book}
 \tolerance=1000  
 \hbadness=10000  
 \raggedbottom
@@ -17,8 +17,11 @@
 % Paquetes para manejar graficos
 \usepackage{epsf}
 \usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
 \usepackage[pdftex]{graphicx}
 \usepackage{epsfig}
+\usepackage[tableposition=top]{caption}
 \usepackage{booktabs}
 
 % Simbolos matematicos
@@ -66,6 +69,8 @@
 
 % Para la creacion de los pdfs
 \usepackage{hyperref}
+\usepackage[acronym] {glossaries}
+
 
 % Para resolver el lio del Unicode para la informacion de los PDFs
 % En pdftitle coloca el nombre de su proyecto de grado/pasantia.
@@ -82,11 +87,6 @@
     pdftex
 }
 
-% Crea el glosario
-\makeglossaries
-
-
-
 
 % Para crear la hoja escaneada de las firmas
 \usepackage[absolute]{textpos}
@@ -97,18 +97,21 @@
         basicstyle=\footnotesize, captionpos=b }
 \renewcommand{\lstlistingname}{C\'{o}digo fuente}
 \renewcommand{\lstlistlistingname}{\'{I}ndice de c\'{o}digos fuentes}
-
+\renewcommand\spanishtablename{Tabla}
 % Dimensiones de la pagina
 \setlength{\headheight}{15pt}
 \marginsize{3cm}{2cm}{2cm}{2cm}
 
 % Se pueden omitir para que no compile ciertos capitulos.
-\includeonly{header, intro, ssimilar, herramienta, resultados, conclusiones}
+\includeonly{header, intro, glossary, ssimilar, herramienta, resultados, conclusiones, myrefs}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%      end of preamble and start of document     %%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
+
+
+
 
 % Pagina de titulo
 \input{title.tex}
@@ -127,7 +130,7 @@
 
 \renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter:\,\ #1}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\,\ #1}}
-
+\renewcommand{\listtablename}{'Indice de Tablas}
 \onehalfspacing
 
 \lhead{}
@@ -151,23 +154,20 @@
 
 
 % Crea la tabla de contenidos
-\tableofcontents
+\tableofcontents*
 
 % Crea la lista de cuadros
 \listoftables
 
 % Crea la lista de figuras
 \listoffigures
-% Incluye el glosario
-\include{glossary}
-\printglossary
+\input{glossary.tex}
 
 % Crea la lista de codigos fuentes
 %\lstlistoflistings
 
-\clearpage
-
 % Define encabezado en numeros arabicos  
+
 \pagenumbering{arabic}
 
 \fancyhf{} % Redefine el encabezado 
@@ -184,6 +184,8 @@
 
 % Incluye los archivos deseados - El contenido de
 % su proyecto de grado/pasantia larga.
+% Incluye el glosario
+
 \input{intro.tex}
 \input{empresa.tex}
 \input{ssimilar.tex}
@@ -202,6 +204,4 @@
 \appendix
 \input{paxson.tex}
 \input{paxsonb.tex}
-\input{paxsonc.tex}
-
 \end{document}

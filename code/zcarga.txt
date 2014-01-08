@@ -1,0 +1,370 @@
+*& Nombre del Archivo: Z_CARGA_CLIENTES_SD_INC_F01
+*& Creado por: Julio De Abreu Molina
+*& Fecha de Creacion: 26/08/2013
+*& Descripcion: Include para funciones a utilizar en el programa de Carga
+*& masiva de clientes para el modulo de Ventas y distribucion (SD)
+*& de SSA BEVERAGE.
+*&---------------------------------------------------------------------*
+*&
+*&
+*&---------------------------------------------------------------------*
+
+
+*----------------------------------------------------------------------*
+*        Start new screen                                              *
+*----------------------------------------------------------------------*
+FORM bdc_dynpro USING program dynpro.
+  CLEAR bdcdata.
+  bdcdata-program  = program.
+  bdcdata-dynpro   = dynpro.
+  bdcdata-dynbegin = 'X'.
+  APPEND bdcdata.
+ENDFORM.                    "BDC_DYNPRO
+
+
+
+
+*----------------------------------------------------------------------*
+*        Insert field                                                  *
+*----------------------------------------------------------------------*
+FORM bdc_field USING fnam fval.
+  IF fval <> space .
+    CLEAR bdcdata.
+    bdcdata-fnam = fnam.
+    bdcdata-fval = fval.
+    APPEND bdcdata.
+  ENDIF.
+ENDFORM.                    "BDC_FIELD
+
+*&---------------------------------------------------------------------*
+*&      Form  F_OBTENER_ARCHIVO
+*&---------------------------------------------------------------------*
+*       Este procedimiento se encarga de leer el archivo que contiene
+*       la data a ser procesada en lotes.
+*----------------------------------------------------------------------*
+*----------------------------------------------------------------------*
+FORM f_obtener_archivo .
+  CALL FUNCTION 'F4_DXFILENAME_TOPRECURSION'
+    EXPORTING
+      i_location_flag = 'P'
+      i_server        = ''
+      filemask        = '*.*'
+    IMPORTING
+      o_path          = archivo
+    EXCEPTIONS
+      rfc_error       = 1
+      error_with_gui  = 2
+      OTHERS          = 3.
+
+  IF sy-subrc <> 0.
+    MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno
+            WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
+  ENDIF.
+ENDFORM.                    " OBTENER_ARCHIVO
+*&---------------------------------------------------------------------*
+*&      Form  F_LEER_ARCHIVO
+*&---------------------------------------------------------------------*
+*       Esta funcion permite leer el archivo obtenido localmente.
+*----------------------------------------------------------------------*
+*----------------------------------------------------------------------*
+FORM f_leer_archivo .
+  DATA: l_filename TYPE string,
+        l_filename1 LIKE  rlgrap-filename,
+        l_table TYPE alsmex_tabline OCCURS 0 WITH HEADER LINE.
+  DATA: l_wa_client TYPE ty_client.
+
+  MOVE archivo TO l_filename.
+  MOVE archivo TO l_filename1.
+
+*  CALL FUNCTION 'GUI_UPLOAD'
+*    EXPORTING
+*      filename                = l_filename
+*      filetype                = 'ASC'
+*      has_field_separator     = 'X'
+*    TABLES
+*      data_tab                = t_client
+*    EXCEPTIONS
+*      conversion_error        = 1
+*      file_open_error         = 2
+*      file_read_error         = 3
+*      invalid_type            = 4
+*      no_batch                = 5
+*      unknown_error           = 6
+*      invalid_table_width     = 7
+*      gui_refuse_filetransfer = 8
+*      customer_error          = 9
+*      no_authority            = 10
+*      OTHERS                  = 11.
+
+  CALL FUNCTION 'ALSM_EXCEL_TO_INTERNAL_TABLE'
+    EXPORTING
+      filename                = l_filename1
+      i_begin_col             = 2
+      i_begin_row             = 9
+      i_end_col               = 20
+      i_end_row               = 99
+    TABLES
+      intern                  = l_table
+    EXCEPTIONS
+      inconsistent_parameters = 1
+      upload_ole              = 2
+      OTHERS                  = 3.
+  IF sy-subrc <> 0.
+    MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno
+            WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
+*  ELSE.
+*    DELETE t_client INDEX 1.
+  ENDIF.
+
+  SELECT ktokd
+         txt30
+  INTO TABLE t_t077x
+  FROM t077x.
+
+  LOOP AT l_table.
+    CASE l_table-col.
+      WHEN 1.
+        l_wa_client-land1 = l_table-value.
+      WHEN 2.
+        l_wa_client-name1 = l_table-value.
+      WHEN 3.
+        l_wa_client-pstlz = l_table-value.
+      WHEN 4.
+        l_wa_client-regio = l_table-value.
+      WHEN 5.
+        l_wa_client-sortl = l_table-value.
+      WHEN 6.
+        l_wa_client-stras = l_table-value.
+      WHEN 7.
+        l_wa_client-telf1 = l_table-value.
+      WHEN 8.
+        l_wa_client-telf2 = l_table-value.
+      WHEN 9.
+        l_wa_client-knurl = l_table-value.
+      WHEN 10.
+        l_wa_client-mcod1 = l_table-value.
+      WHEN 11.
+        l_wa_client-anred = l_table-value.
+        READ TABLE t_t077x INTO wa_t_t077x WITH KEY txt30 = l_table-value.
+        IF sy-subrc = 0.
+          l_wa_client-ktokd = wa_t_t077x-ktokd.
+        ENDIF.
+      WHEN 12.
+        l_wa_client-akont = l_table-value.
+      WHEN 13.
+        l_wa_client-vkorg = l_table-value.
+      WHEN 14.
+        l_wa_client-vtweg = l_table-value.
+      WHEN 15.
+        l_wa_client-spart = l_table-value.
+      WHEN 16.
+        l_wa_client-vsbed = l_table-value.
+      WHEN 17.
+        l_wa_client-lifnr = l_table-value.
+      WHEN 18.
+        l_wa_client-vkbur = l_table-value.
+      WHEN 19.
+        l_wa_client-vwerk = l_table-value.
+      WHEN 20.
+        l_wa_client-ktgrd = l_table-value.
+    ENDCASE.
+
+    AT END OF row.
+      APPEND l_wa_client TO t_client.
+      CLEAR l_wa_client.
+    ENDAT.
+  ENDLOOP.
+ENDFORM.                    " LEER_ARCHIVO
+*&---------------------------------------------------------------------*
+*&      Form  F_PROCESAR
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+*  -->  p1        text
+*  <--  p2        text
+*----------------------------------------------------------------------*
+FORM f_procesar .
+  DATA: l_mstring(480).
+*  PERFORM open_group.
+  LOOP AT t_client INTO wa_client.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0100'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'RF02D-KTOKD'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '/00'.
+    PERFORM bdc_field       USING 'RF02D-BUKRS'
+                                  '1000'.
+    PERFORM bdc_field       USING 'RF02D-VKORG'
+                                  wa_client-vkorg.
+    PERFORM bdc_field       USING 'RF02D-VTWEG'
+                                  wa_client-vtweg.
+    PERFORM bdc_field       USING 'RF02D-SPART'
+                                  wa_client-spart.
+    PERFORM bdc_field       USING 'RF02D-KTOKD'
+                                  wa_client-ktokd.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0110'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNA1-KNURL'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '/00'.
+    PERFORM bdc_field       USING 'KNA1-ANRED'
+                                  wa_client-anred.
+    PERFORM bdc_field       USING 'KNA1-NAME1'
+                                  wa_client-name1.
+    PERFORM bdc_field       USING 'KNA1-SORTL'
+                                  wa_client-sortl.
+    PERFORM bdc_field       USING 'KNA1-STRAS'
+                                  wa_client-stras.
+    PERFORM bdc_field       USING 'KNA1-PSTLZ'
+                                  wa_client-pstlz.
+    PERFORM bdc_field       USING 'KNA1-LAND1'
+                                  wa_client-land1.
+    PERFORM bdc_field       USING 'KNA1-REGIO'
+                                  wa_client-regio.
+    PERFORM bdc_field       USING 'KNA1-SPRAS'
+                                  'ES'.
+    PERFORM bdc_field       USING 'KNA1-TELF1'
+                                  wa_client-telf1.
+    PERFORM bdc_field       USING 'KNA1-TELF2'
+                                  wa_client-telf2.
+    PERFORM bdc_field       USING 'KNA1-KNURL'
+                                  wa_client-knurl.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0120'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNA1-LIFNR'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '/00'.
+    PERFORM bdc_field       USING 'KNA1-LIFNR'
+                                  wa_client-lifnr.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0125'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNA1-NIELS'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '/00'.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0130'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNBK-BANKS(01)'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '=ENTR'.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0340'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'RF02D-KUNNR'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '=ENTR'.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0370'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'RF02D-KUNNR'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '=ENTR'.
+    PERFORM bdc_field       USING 'KNA1-CIVVE'
+                                  'X'.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0360'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNVK-NAMEV(01)'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '=ENTR'.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0210'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNB1-AKONT'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '/00'.
+    PERFORM bdc_field       USING 'KNB1-AKONT'
+                                  wa_client-akont.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0215'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNB1-ZTERM'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '/00'.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0220'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNB5-MAHNA'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '/00'.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0230'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNB1-VRSNR'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '/00'.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0310'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNVV-AWAHR'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '/00'.
+    PERFORM bdc_field       USING 'KNVV-AWAHR'
+                                  '100'.
+    PERFORM bdc_field       USING 'KNVV-VKBUR'
+                                  wa_client-vkbur.
+    PERFORM bdc_field       USING 'KNVV-WAERS'
+                                  'VEF'.
+    PERFORM bdc_field       USING 'KNVV-KALKS'
+                                  '1'.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0315'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'RF02D-TEXT1'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '/00'.
+    PERFORM bdc_field       USING 'KNVV-KZAZU'
+                                  'X'.
+    PERFORM bdc_field       USING 'KNVV-VSBED'
+                                  wa_client-vsbed.
+    PERFORM bdc_field       USING 'KNVV-VWERK'
+                                  wa_client-vwerk.
+    PERFORM bdc_field       USING 'KNVV-ANTLF'
+                                  '9'.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0320'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNVV-KTGRD'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '/00'.
+    PERFORM bdc_field       USING 'KNVV-KTGRD'
+                                  wa_client-ktgrd.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '1350'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNVI-TAXKD(01)'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '=ENTR'.
+    PERFORM bdc_field       USING 'KNVI-TAXKD(01)'
+                                  '1'.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '1350'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'RF02D-KUNNR'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '=ENTR'.
+    PERFORM bdc_dynpro      USING 'SAPMF02D' '0324'.
+    PERFORM bdc_field       USING 'BDC_CURSOR'
+                                  'KNVP-PARVW(01)'.
+    PERFORM bdc_field       USING 'BDC_OKCODE'
+                                  '=ENTR'.
+    CALL TRANSACTION 'XD01' USING bdcdata MODE 'N'
+                            MESSAGES INTO messtab.
+    FREE bdcdata.
+*    PERFORM bdc_transaction USING 'XD01'.
+  ENDLOOP.
+
+  LOOP AT messtab.
+    SELECT SINGLE * FROM t100 WHERE sprsl = messtab-msgspra
+                              AND   arbgb = messtab-msgid
+                              AND   msgnr = messtab-msgnr.
+    IF sy-subrc = 0.
+      l_mstring = t100-text.
+      IF l_mstring CS '&1'.
+        REPLACE '&1' WITH messtab-msgv1 INTO l_mstring.
+        REPLACE '&2' WITH messtab-msgv2 INTO l_mstring.
+        REPLACE '&3' WITH messtab-msgv3 INTO l_mstring.
+        REPLACE '&4' WITH messtab-msgv4 INTO l_mstring.
+      ELSE.
+        REPLACE '&' WITH messtab-msgv1 INTO l_mstring.
+        REPLACE '&' WITH messtab-msgv2 INTO l_mstring.
+        REPLACE '&' WITH messtab-msgv3 INTO l_mstring.
+        REPLACE '&' WITH messtab-msgv4 INTO l_mstring.
+      ENDIF.
+      CONDENSE l_mstring.
+      WRITE: / messtab-msgtyp, l_mstring(250).
+    ELSE.
+      WRITE: / messtab.
+    ENDIF.
+  ENDLOOP.
+
+* PERFORM close_group.
+
+ENDFORM.                    " F_PROCESAR

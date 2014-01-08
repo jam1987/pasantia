@@ -1,7 +1,8 @@
 \select@language {spanish}
 \contentsline {chapter}{\'Indice general}{\es@scroman {viii}}{chapter*.2}
-\contentsline {chapter}{\'{I}ndice de cuadros}{\es@scroman {xii}}{chapter*.3}
+\contentsline {chapter}{'Indice de Tablas}{\es@scroman {xii}}{chapter*.3}
 \contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xiii}}{chapter*.4}
+\contentsline {chapter}{Lista de Abreviaturas}{\es@scroman {xiv}}{chapter*.4}
 \contentsline {chapter}{Introducci\'on}{1}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Entorno Empresarial}{5}{chapter.1}
 \contentsline {section}{\numberline {1.1}Descripci'on General}{5}{section.1.1}
@@ -10,83 +11,78 @@
 \contentsline {section}{\numberline {1.4}Estructura Organizacional}{6}{section.1.4}
 \contentsline {section}{\numberline {1.5}Ubicaci'on del Pasante}{6}{section.1.5}
 \contentsline {chapter}{\numberline {2}Marco te'orico}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Sistemas de Informaci'on ERP}{8}{section.2.1}
+\contentsline {section}{\numberline {2.1} ERP}{8}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Definiciones}{8}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}SAP}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Definici'on}{9}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Beneficios que aporta los Sistemas ERP}{9}{subsubsection.2.1.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.2}Desventajas de un Sistema ERP}{10}{subsubsection.2.1.1.2}
+\contentsline {section}{\numberline {2.2}SAP}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Definici'on}{10}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Caracter'isticas de SAP R/3}{10}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Adaptaci'on del Software a las Empresas}{12}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}M'odulos de SAP R/3}{12}{subsection.2.2.4}
 \contentsline {section}{\numberline {2.3}M'odulo de Ventas y Distribuci'on (SD)}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Herramientas Principales}{14}{subsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.1.1}Manejo de Precios e Impuestos}{14}{subsubsection.2.3.1.1}
-\contentsline {subsubsection}{\numberline {2.3.1.2}Chequeo de Disponibilidad}{14}{subsubsection.2.3.1.2}
+\contentsline {subsection}{\numberline {2.3.1}Componentes Principales}{13}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Manejo de Precios e Impuestos}{13}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Chequeo de Disponibilidad}{13}{subsubsection.2.3.1.2}
 \contentsline {subsubsection}{\numberline {2.3.1.3}Manejo de Cr'edito}{14}{subsubsection.2.3.1.3}
 \contentsline {subsubsection}{\numberline {2.3.1.4}Facturaci'on}{14}{subsubsection.2.3.1.4}
 \contentsline {subsubsection}{\numberline {2.3.1.5}Determinaci'on del Material}{14}{subsubsection.2.3.1.5}
 \contentsline {subsubsection}{\numberline {2.3.1.6}Determinaci'on de Cuentas}{14}{subsubsection.2.3.1.6}
-\contentsline {subsubsection}{\numberline {2.3.1.7}Procesamiento de Textos}{15}{subsubsection.2.3.1.7}
-\contentsline {subsection}{\numberline {2.3.2}Clasificaci'on de los Datos en el M'odulo SD}{15}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.1.7}Procesamiento de Textos}{14}{subsubsection.2.3.1.7}
+\contentsline {subsection}{\numberline {2.3.2}Clasificaci'on de los Datos en el M'odulo SD}{14}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Proceso de Ventas utilizando el M'odulo SD}{15}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Relaci'on existente entre el M'odulo SD y otros M'odulos}{19}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Lenguaje de Programaci'on ABAP/4}{19}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Estructura de un programa ABAP/4}{20}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Includes en ABAP/4}{21}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Herramientas provistas por ABAP/4}{21}{subsection.2.4.3}
-\contentsline {subsubsection}{\numberline {2.4.3.1}Smartforms}{22}{subsubsection.2.4.3.1}
-\contentsline {subsection}{\numberline {2.4.4}Sesi'on de Batch Input (Carga Masiva de Datos)}{22}{subsection.2.4.4}
-\contentsline {chapter}{\numberline {3}Marco Metodol'ogico}{24}{chapter.3}
-\contentsline {section}{\numberline {3.1}Descripci'on de la metodolog'ia}{24}{section.3.1}
-\contentsline {section}{\numberline {3.2}Caracter'isticas Principales}{25}{section.3.2}
-\contentsline {section}{\numberline {3.3}Fases de la metodolog'ia ASAP}{25}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Fase 1: Preparaci'on del Proyecto}{25}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Fase 2: Business Blueprint}{27}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Fase 3: Realizaci'on}{29}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Fase 4: Preparaci'on Final}{30}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Aplicaci'on para el Proyecto de Pasant'ia}{32}{section.3.4}
-\contentsline {chapter}{\numberline {4}Desarrollo}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fase 1: Preparaci'on Previa}{33}{section.4.1}
-\contentsline {section}{\numberline {4.2}Fase 2: Business Blueprint}{34}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Identificaci'on del proceso de Master Data (Datos Maestros)}{35}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Identificaci'on del proceso de Sales (Pedidos de Ventas)}{37}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Identificaci'on del proceso de Shipping and Transportation (Embarque y Transporte)}{38}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Identificaci'on del proceso de Billing (Facturaci'on)}{39}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Fase 3: Realizaci'on (Construcci'on y Pruebas)}{39}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Configuraci'on Base del M'odulo de Ventas y Distribuci'on para SSA Beverage}{40}{subsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.1.1}Configuraci'on de la parte organizativa de la Empresa}{40}{subsubsection.4.3.1.1}
-\contentsline {subsection}{\numberline {4.3.2}Elaboraci'on de las Facturas Legales}{41}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Elaboraci'on del programa de Carga Masiva de Datos para el Maestro de Clientes}{41}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Fase 4: Presentaci'on y Resultados Finales}{43}{section.4.4}
-\contentsline {chapter}{\numberline {5}Conclusiones y recomendaciones}{44}{chapter.5}
-\contentsline {chapter}{Bibliograf\'{\i }a}{47}{chapter*.23}
-\contentsline {chapter}{\numberline {A}Informaci'on Adicional de SAP R/3}{48}{appendix.Alph1}
-\contentsline {subsection}{\numberline {A.0.1}Estructura de una Empresa en el M'odulo SD de SAP}{48}{subsection.Alph1.0.1}
-\contentsline {subsubsection}{\numberline {A.0.1.1}Organizaci'on de Venta}{49}{subsubsection.Alph1.0.1.1}
-\contentsline {subsubsection}{\numberline {A.0.1.2}Canal de Distribuci'on}{49}{subsubsection.Alph1.0.1.2}
-\contentsline {subsubsection}{\numberline {A.0.1.3}Sector}{49}{subsubsection.Alph1.0.1.3}
-\contentsline {subsubsection}{\numberline {A.0.1.4}'Area de Ventas}{50}{subsubsection.Alph1.0.1.4}
-\contentsline {subsubsection}{\numberline {A.0.1.5}Oficina de Ventas}{50}{subsubsection.Alph1.0.1.5}
-\contentsline {subsubsection}{\numberline {A.0.1.6}Puestos de Expedici'on}{50}{subsubsection.Alph1.0.1.6}
-\contentsline {subsubsection}{\numberline {A.0.1.7}Puestos de Carga}{50}{subsubsection.Alph1.0.1.7}
-\contentsline {section}{\numberline {A.1}Componentes de un Programa en ABAP/4}{50}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}Componentes de un Smartform}{52}{section.Alph1.2}
-\contentsline {subsubsection}{\numberline {A.2.0.8}Constructor de Formularios Inteligentes (Smart Form Builder)}{52}{subsubsection.Alph1.2.0.8}
-\contentsline {subsubsection}{\numberline {A.2.0.9}Template de impresi'on para el Smartform (Smart Form Print Form Template}{53}{subsubsection.Alph1.2.0.9}
-\contentsline {subsubsection}{\numberline {A.2.0.10}M'odulo de Funciones del Smart Form (Smart Form Function Module)}{53}{subsubsection.Alph1.2.0.10}
-\contentsline {subsubsection}{\numberline {A.2.0.11}Programa de Impresi'on de Smart Forms (Smart Form Print Program)}{54}{subsubsection.Alph1.2.0.11}
-\contentsline {section}{\numberline {A.3}Etapas pertenecientes a la Fase de la Realizaci'on de ASAP}{54}{section.Alph1.3}
-\contentsline {subsubsection}{\numberline {A.3.0.12}Simulaci'on}{54}{subsubsection.Alph1.3.0.12}
-\contentsline {subsubsection}{\numberline {A.3.0.13}Validaci'on}{54}{subsubsection.Alph1.3.0.13}
-\contentsline {subsubsection}{\numberline {A.3.0.14}Uni'on y Pruebas de Integraci'on}{55}{subsubsection.Alph1.3.0.14}
-\contentsline {subsubsection}{\numberline {A.3.0.15}Conversi'on y Carga de los Datos}{56}{subsubsection.Alph1.3.0.15}
-\contentsline {subsubsection}{\numberline {A.3.0.16}Interfaces, Ampliaciones y Reportes}{58}{subsubsection.Alph1.3.0.16}
-\contentsline {section}{\numberline {A.4}Figuras Adicionales de SAP}{59}{section.Alph1.4}
-\contentsline {section}{\numberline {A.5}Im'agenes Adicionales de ABAP/4}{60}{section.Alph1.5}
-\contentsline {section}{\numberline {A.6}Im'agenes Adicionales de la Metodolog'ia ASAP}{62}{section.Alph1.6}
-\contentsline {chapter}{\numberline {B}Configuraciones Realizadas en el Proyecto}{63}{appendix.Alph2}
-\contentsline {section}{\numberline {B.1}Configuraci'on de la Estructura de SSA Beverage}{63}{section.Alph2.1}
-\contentsline {section}{\numberline {B.2}Ciclo de Ventas presentado en la 'Ultima Fase del Desarrollo}{68}{section.Alph2.2}
-\contentsline {chapter}{\numberline {C}Desarrollos realizados en ABAP/4}{71}{appendix.Alph3}
-\contentsline {section}{\numberline {C.1}Programa de Carga Masiva de Datos del Maestro de Clientes}{72}{section.Alph3.1}
-\contentsline {section}{\numberline {C.2}Creaci'on del Formulario de la Factura Legal}{75}{section.Alph3.2}
-\contentsline {section}{\numberline {C.3}Creaci'on de $Xtdata$}{76}{section.Alph3.3}
+\contentsline {subsection}{\numberline {2.3.4}Relaci'on existente entre el M'odulo SD y otros M'odulos}{17}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Lenguaje de Programaci'on ABAP/4}{18}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Herramientas provistas por ABAP/4}{19}{subsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.1.1}Smartforms}{19}{subsubsection.2.4.1.1}
+\contentsline {subsubsection}{\numberline {2.4.1.2}Sesi'on de Batch Input (Carga Masiva de Datos)}{20}{subsubsection.2.4.1.2}
+\contentsline {chapter}{\numberline {3}Marco Metodol'ogico}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Descripci'on de la metodolog'ia}{22}{section.3.1}
+\contentsline {section}{\numberline {3.2}Caracter'isticas Principales}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Fases de la metodolog'ia ASAP}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Fase 1: Preparaci'on Previa}{24}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Fase 2: Business Blueprint}{26}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Fase 3: Realizaci'on (Construcci'on y Pruebas)}{28}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Fase 4: Preparaci'on y Resultados Finales}{28}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Aplicaci'on para el Proyecto de Pasant'ia}{30}{section.3.4}
+\contentsline {chapter}{\numberline {4}Desarrollo}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Fase 1: Preparaci'on Previa}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Fase 2: Business Blueprint}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Identificaci'on del proceso de Master Data (Datos Maestros)}{33}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Identificaci'on del proceso de Sales (Pedidos de Ventas)}{35}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Identificaci'on del proceso de Shipping and Transportation (Embarque y Transporte)}{36}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Identificaci'on del proceso de Billing (Facturaci'on)}{37}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Fase 3: Realizaci'on (Construcci'on y Pruebas)}{37}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Configuraci'on Base del M'odulo de Ventas y Distribuci'on para SSA Beverage}{37}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Configuraci'on de la parte organizativa de la Empresa}{38}{subsubsection.4.3.1.1}
+\contentsline {subsection}{\numberline {4.3.2}Elaboraci'on de las Facturas Legales}{43}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Elaboraci'on del programa de Carga Masiva de Datos para el Maestro de Clientes}{47}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Fase 4: Presentaci'on y Resultados Finales}{52}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusiones y recomendaciones}{54}{chapter.5}
+\contentsline {chapter}{Bibliograf\'{\i }a}{57}{chapter*.33}
+\contentsline {chapter}{\numberline {A}Informaci'on Adicional de SAP R/3}{59}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Estructura de una Empresa en el M'odulo SD de SAP}{59}{section.Alph1.1}
+\contentsline {subsection}{\numberline {A.1.1}Organizaci'on de Venta}{60}{subsection.Alph1.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Canal de Distribuci'on}{60}{subsection.Alph1.1.2}
+\contentsline {subsection}{\numberline {A.1.3}Sector}{61}{subsection.Alph1.1.3}
+\contentsline {subsection}{\numberline {A.1.4}'Area de Ventas}{61}{subsection.Alph1.1.4}
+\contentsline {subsection}{\numberline {A.1.5}Oficina de Ventas}{61}{subsection.Alph1.1.5}
+\contentsline {subsection}{\numberline {A.1.6}Puestos de Expedici'on}{61}{subsection.Alph1.1.6}
+\contentsline {subsection}{\numberline {A.1.7}Puestos de Carga}{62}{subsection.Alph1.1.7}
+\contentsline {section}{\numberline {A.2}Componentes de un Programa en ABAP/4}{62}{section.Alph1.2}
+\contentsline {subsection}{\numberline {A.2.1}Declaraci'on de datos globales, Clases y Selection Screens (Pantallas De Selecci'on)}{62}{subsection.Alph1.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Contenedor de Bloques de Procesamiento}{63}{subsection.Alph1.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Bloque de Programa}{63}{subsection.Alph1.2.3}
+\contentsline {subsection}{\numberline {A.2.4}Bloque de Proceso de Llamadas}{63}{subsection.Alph1.2.4}
+\contentsline {section}{\numberline {A.3}Componentes de un Smartform}{64}{section.Alph1.3}
+\contentsline {subsection}{\numberline {A.3.1}Constructor de Formularios Inteligentes (Smart Form Builder)}{64}{subsection.Alph1.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Template de impresi'on para el Smartform (Smart Form Print Form Template}{66}{subsection.Alph1.3.2}
+\contentsline {subsection}{\numberline {A.3.3}M'odulo de Funciones del Smart Form (Smart Form Function Module)}{66}{subsection.Alph1.3.3}
+\contentsline {subsection}{\numberline {A.3.4}Programa de Impresi'on de Smart Forms (Smart Form Print Program)}{67}{subsection.Alph1.3.4}
+\contentsline {section}{\numberline {A.4}Etapas pertenecientes a la Fase de la Realizaci'on de ASAP}{67}{section.Alph1.4}
+\contentsline {subsection}{\numberline {A.4.1}Simulaci'on}{67}{subsection.Alph1.4.1}
+\contentsline {subsection}{\numberline {A.4.2}Validaci'on}{68}{subsection.Alph1.4.2}
+\contentsline {subsection}{\numberline {A.4.3}Uni'on y Pruebas de Integraci'on}{68}{subsection.Alph1.4.3}
+\contentsline {subsection}{\numberline {A.4.4}Conversi'on y Carga de los Datos}{70}{subsection.Alph1.4.4}
+\contentsline {subsection}{\numberline {A.4.5}Interfaces, Ampliaciones y Reportes}{71}{subsection.Alph1.4.5}
+\contentsline {chapter}{\numberline {B}Informaci'on Adicional de $Z\_CARGA\_CLIENTES\_SD$}{73}{appendix.Alph2}
+\contentsline {section}{\numberline {B.1}Creaci'on del Include de Funciones $Z\_CARGA\_CLIENTES\_SD\_INC\_F01$}{73}{section.Alph2.1}

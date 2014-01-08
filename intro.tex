@@ -7,26 +7,23 @@
 
 \label{sect:motivacion}
 
-	A mediados del Siglo XX, cuando ocurre el ``Boom'' de los sistemas de informaci'on, muchas empresas ve'ian en ellos otra manera de realizar sus actividades diarias, de forma m'as automatizada. M'as a'un, con la creaci'on de los Sistemas ERP, las empresas de bebidas de consumo masivo (las cuales son objetos de estudio en el presente trabajo) han podido automatizar sus procesos de producci'on, como por ejemplo: El manejo de los materiales, la calidad de los mismos, el proceso de ventas, el manejo de las finanzas, etc. El problema que se presentaba era la limitante que exist'ia en estos sistemas a la hora de migrar datos desde los sistemas legales ya existentes a estos nuevos sistemas.
+	A mediados del Siglo XX, cuando ocurre el ``Boom'' de los sistemas de informaci'on, muchas empresas ve'ian en ellos otra manera de realizar sus actividades diarias, de forma m'as automatizada. M'as a'un, con la creaci'on de los Sistemas ERP, las empresas de bebidas de consumo masivo (las cuales son objetos de estudio en el presente trabajo) han podido automatizar sus procesos de producci'on. El problema que se presentaba era la limitante que exist'ia en estos sistemas legados (Legacy Systems) a la hora de migrar datos desde los sistemas ya existentes a estos nuevos sistemas.
 \newline
 \newline
-\indent Adicionalmente, otro problema que se presentaba era la integraci'on del trabajo de las distintas 'areas de estas empresas. Por ejemplo, el manejo de las ventas con el 'area de finanzas. Cuando esta empresa de consumo de bebidas realizaba una venta de refrescos o jugos por ejemplo, dicha venta se ve'ia reflejada en el sistema de ventas, pero habia que hacer el registro en el sistema financiero para que quedara registrado en el libro contable, y as'i llevar una consistencia. Esto implicaba un doble trabajo, dado que no existe una integraci'on entre ambos sistemas. Otro ejemplo interesante es el sistema de ventas de dicha empresa con el sistema de manejo de materiales, ya que al registrar una venta de un producto, hay que realizar la actualizaci'on del mismo en el otro sistema, esto es para que quede reflejado la cantidad de dicho producto disponible para su venta.
+\indent Adicionalmente, otro problema que se presentaba era la integraci'on del trabajo de las distintas 'areas de estas empresas. Cuando esta empresa de consumo de bebidas realizaba una venta de refrescos o jugos por ejemplo, dicha venta se ve'ia reflejada en el sistema de ventas, pero habia que hacer el registro en el sistema financiero para que quedara registrado en el libro contable, y as'i llevar una consistencia. Esto implicaba un doble trabajo, dado que no existe una integraci'on entre ambos sistemas. Otro caso de no integraci'on es el sistema de ventas de dicha empresa con el sistema de manejo de materiales, ya que al registrar una venta de un producto, hay que realizar la actualizaci'on del mismo en el otro sistema, esto es para que quede reflejado la cantidad de dicho producto disponible para su venta.
 \newline
 \newline
-\indent Otro problema era los costos que deb'ia mantener las empresas con estos sistemas, ya que existen pocas versiones en software libre. La gran mayor'ia son privativos, y muchos de 'estos son costosos.
+\indent Es por esta raz'on que se decidi'o utilizar el software \textbf{SAP R/3} provisto por \textbf{IBM de Venezuela}, para configurar el m'odulo de Ventas y Distribuci'on (SD por sus siglas en ingl'es) para una empresa de bebidas de consumo masivo, que estar'a fuertemente integrado con las otras 'areas que dicha empresa maneja.
 \newline
 \newline
-\indent Es por esta raz'on que se decidi'o utilizar el software \textbf{SAP R/3} provisto por \textbf{IBM de Venezuela}, para configurar el m'odulo de Ventas y Distribuci'on (SD) para una empresa de bebidas de consumo masivo, que estar'a fuertemente integrado con las otras 'areas que dicha empresa maneja.
-\newline
-\newline
-\indent En este documento se plasma la manera en como se realiz'o el proceso de an'alisis y la configuraci'on sucesiva del M'odulo de Ventas y Distribuci'on de SAP. En primera instancia, se presenta la Introducci'on, la cual abarca el Planteamiento del Problema, el Objetivo General y los Objetivos Espec'ificos. Posteriormente, en el Cap'itulo~\ref{chap:empresa} se muestra el entorno empresarial donde dicho proyecto tuvo a lugar. En el Cap'itulo~\ref{chap:ssimilar} se presentan los fundamentos te'oricos en los cuales fue basada la soluci'on presentada; en el Cap'itulo~\ref{chap:metodologia} se muestra la metodolog'ia a seguir para la configuraci'on del m'odulo; en el Cap'itulo~\ref{chap:desarrollo} detalla como fue el proceso de la configuraci'on del m'odulo en cada una de sus fases. Para finalizar, se presentan las conclusiones y algunas recomendaciones a seguir en un futuro.
+\indent En este documento se plasma la manera c'omo se realiz'o el proceso de an'alisis y la configuraci'on sucesiva del M'odulo de Ventas y Distribuci'on de SAP. En primera instancia, se presenta la Introducci'on, la cual abarca el Planteamiento del Problema, el Objetivo General y los Objetivos Espec'ificos. Posteriormente, en el Cap'itulo~\ref{chap:empresa} se muestra el entorno empresarial donde dicho proyecto tuvo a lugar. En el Cap'itulo~\ref{chap:ssimilar} se presentan los fundamentos te'oricos en los cuales fue basada la soluci'on presentada; en el Cap'itulo~\ref{chap:metodologia} se muestra la metodolog'ia a seguir para la configuraci'on del m'odulo; en el Cap'itulo~\ref{chap:desarrollo} detalla c'omo fue el proceso de la configuraci'on del m'odulo en cada una de sus fases. Para finalizar, se presentan las conclusiones y algunas recomendaciones a seguir en un futuro.
 \newline
 \newline
 \label{sect:justificacion}
 \textbf{Justificaci'on}
 \newline
 \newline
-\indent Este proyecto es realizado para que en un futuro pueda servir como un sistema demostrativo para aquellas empresas de bebidas de consumo masivo que soliciten servicios de consultor'ia a IBM. Esto es, porque SAP es un sistema integrado por distintos m'odulos, con los cuales 'esta puede llevar un mejor control de sus procesos. Adem'as, el sistema es configurable, lo que implica que se puede adaptar a las necesidades de dicha empresa, algo que no es muy com'un dentro de este grupo de sistemas. Adicionalmente, ya no ser'a necesario gastar dinero en m'ultiples sistemas, cuando uno ya cubre las necesidades de cada uno.
+\indent Este proyecto es realizado para que en un futuro pueda servir como un sistema demostrativo para aquellas empresas de bebidas de consumo masivo que soliciten servicios de consultor'ia a IBM. Esto es, porque SAP es un sistema integrado por distintos m'odulos, con los cuales es posible llevar un mejor control de sus procesos. Adem'as, el sistema es configurable, lo que implica que se puede adaptar a las necesidades de dicha empresa. Adicionalmente, ya no ser'a necesario gastar dinero en m'ultiples sistemas.
 \label{sect:planteamiento}
 \newline
 \newline
@@ -34,7 +31,7 @@
 \textbf{Planteamiento del Problema}
 \newline
 \newline
-\indent Actualmente las empresas de consumo masivo afrontan la problem'atica de no  contar con sistemas que apoyen la gesti'on, automatizaci'on y estandarizaci'on de los procesos del 'area de ventas y que se cuente con informaci'on para el an'alisis y toma de decisiones. Esto es, porque  existen muchos sistemas de ventas en el mercado, tanto privativos como libres. La situaci'on que se presenta es que dichos sistemas por s'i solos no pueden ser integrados con las otras 'areas que componen la compa\~n'ia, lo que dificulta el manejo de la misma. 
+\indent Actualmente las empresas de consumo masivo todav'ia tienen sistemas aislados para cada una de sus operaciones (gesti'on de ventas, distribuci'on, etc). Esto es, porque  existen muchos sistemas de ventas en el mercado, tanto privativos como libres. La situaci'on que se presenta es que dichos sistemas por s'i solos no pueden ser integrados con las otras 'areas que componen la compa\~n'ia, lo que dificulta el manejo de la misma. 
 		
 		Con base a esta situaci'on se plantea en este proyecto la configuraci'on de la soluci'on de Ventas y Distribuci'on para un modelo de industria de consumo masivo bas'andose en las mejores pr'acticas de los procesos comerciales y de la industria, mediante la configuraci'on del sistema empresarial SAP en su funcionalidad SD (Sales and Distribution o Ventas y Distribuci'on como se le conoce en castellano) empleando la metodolog'ia Ascendant SAP y la base de conocimientos de IBM.
 \newline
@@ -44,7 +41,7 @@
 \textbf{Objetivo General}
 \newline
 \newline
-\indent El objetivo principal del proyecto es la de la implementaci'on de una soluci'on \emph{SAP SD} en una empresa de bebidas de consumo masivo \emph{SSA CPG} para gestionar los procedimientos comerciales. 
+\indent Iimplementar \emph{SAP SD} en una empresa de bebidas de consumo masivo \emph{SSA CPG} para gestionar los procedimientos comerciales. 
 \newline
 \newline
 \label{sect:objetivos_especificos}
@@ -53,7 +50,7 @@
 \newline
  Los objetivos espe'ificos planteados en este proyecto son los que se listan a continuaci'on:
 \begin{enumerate}
-\item Adquirir los conocimientos de la Metodología Ascendant SAP y el funcionamiento del Sistema SAP en la funcionalidad Ventas y Distribuci'on (SD).
+\item Adquirir los conocimientos de la Metodología Ascendant SAP y el funcionamiento del Sistema SAP en la funcionalidad Ventas y Distribuci'on.
 
 \item Analizar los procesos de Ventas y Distribuci'on con las funcionalidades SAP que los soportan. Adquirir los conocimientos generales del negocio, procesos y visi'on global de la soluci'on SAP a implantar.
 

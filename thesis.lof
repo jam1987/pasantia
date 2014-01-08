@@ -1,31 +1,32 @@
 \select@language {spanish}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Clasificaci'on de los datos en el M'odulo SD\relax }}{15}{figure.caption.10}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Proceso de Batch Input ejecutado en SAP (Informaci'on obtenida de la p'agina web de ayuda de SAP)\relax }}{21}{figure.caption.12}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Mapa de Rutas usado en ASAP (Informaci'on obtenida en Waseen (2010) \relax }}{23}{figure.caption.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Estructura de SSA Beverage resultante de la Fase del Blueprint\relax }}{34}{figure.caption.14}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Estructura de SSA Beverage resultante de la Fase del Blueprint - Parte 2\relax }}{34}{figure.caption.15}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Organizaciones de Ventas\relax }}{38}{figure.caption.16}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Canales de Distribuci'on\relax }}{38}{figure.caption.17}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Sectores\relax }}{38}{figure.caption.18}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 'Areas de Ventas\relax }}{38}{figure.caption.19}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Oficinas de Ventas\relax }}{39}{figure.caption.20}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Puestos de Expedici'on definidos para el M'odulo SD\relax }}{39}{figure.caption.21}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Parte de los Puestos de Carga definidos para el M'odulo SD\relax }}{39}{figure.caption.22}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Asignaci'on de las Organizaciones de Ventas a la sociedad Financiera\relax }}{40}{figure.caption.23}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Asignaci'on de las Organizaciones de Ventas a los Canales de Distribuci'on\relax }}{40}{figure.caption.24}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Asignaci'on de las Organizaciones de Ventas a los Sectores\relax }}{41}{figure.caption.25}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Parte de la asignaci'on de las Oficinas de Ventas a las 'Areas de Ventas\relax }}{41}{figure.caption.26}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Parte de la asignaci'on de las Orgnanizaciones de Ventas y Canales de Distribuci'on a los Centros de Distribuci'on\relax }}{42}{figure.caption.27}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Parte de la asignaci'on de los Puestos de Expedici'on a los Centros de Distribuci'on\relax }}{43}{figure.caption.28}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Ejemplo de Factura creada para el m'odulo SD\relax }}{46}{figure.caption.29}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagrama de Actividades del programa desarrollado en ABAP/4\relax }}{48}{figure.caption.30}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Selection Screen para el Programa de Carga Masiva realizado\relax }}{50}{figure.caption.31}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Grabaci'on realizada para la Carga Masiva\relax }}{51}{figure.caption.32}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Pantalla Inicial de la transacci'on SMARTFORMS\relax }}{65}{figure.caption.37}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Smart Form Builder\relax }}{66}{figure.caption.38}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Proceso de Ventas y Distribuci'on en SAP\relax }}{59}{figure.caption.31}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Clasificaci'on de los datos en el M'odulo SD\relax }}{59}{figure.caption.32}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Pantalla Inicial de la transacci'on SMARTFORMS\relax }}{60}{figure.caption.33}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Smart Form Builder\relax }}{61}{figure.caption.34}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Proceso de Batch Input ejecutado en SAP\relax }}{62}{figure.caption.35}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Mapa de Rutas usado en ASAP\relax }}{62}{figure.caption.36}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Estructura de SSA Beverage resultante de la Fase del Blueprint\relax }}{64}{figure.caption.38}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Estructura de SSA Beverage resultante de la Fase del Blueprint - Parte 2\relax }}{64}{figure.caption.39}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Organizaciones de Ventas\relax }}{64}{figure.caption.41}
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Canales de Distribuci'on\relax }}{65}{figure.caption.43}
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Sectores\relax }}{65}{figure.caption.45}
-\contentsline {figure}{\numberline {B.6}{\ignorespaces 'Areas de Ventas\relax }}{65}{figure.caption.47}
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Oficinas de Ventas\relax }}{66}{figure.caption.49}
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Parte de los Puestos de Carga definidos para el M'odulo SD\relax }}{66}{figure.caption.51}
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Asignaci'on de las Organizaciones de Ventas a los Canales de Distribuci'on\relax }}{66}{figure.caption.53}
-\contentsline {figure}{\numberline {B.10}{\ignorespaces Asignaci'on de las Organizaciones de Ventas a los Sectores\relax }}{67}{figure.caption.55}
-\contentsline {figure}{\numberline {B.11}{\ignorespaces Parte de la asignaci'on de las Oficinas de Ventas a las 'Areas de Ventas\relax }}{67}{figure.caption.57}
-\contentsline {figure}{\numberline {B.12}{\ignorespaces Parte de la asignaci'on de las Orgnanizaciones de Ventas y Canales de Distribuci'on a los Centros de Distribuci'on\relax }}{68}{figure.caption.59}
-\contentsline {figure}{\numberline {B.13}{\ignorespaces Parte de la asignaci'on de los Puestos de Expedici'on a los Centros de Distribuci'on\relax }}{69}{figure.caption.61}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Selection Screen para el Programa de Carga Masiva realizado\relax }}{72}{figure.caption.65}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Grabaci'on realizada para la Carga Masiva\relax }}{73}{figure.caption.66}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Ejemplo de Factura creada para el m'odulo SD\relax }}{75}{figure.caption.67}

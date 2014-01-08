@@ -1,29 +1,52 @@
 \begin{thebibliography}{Kha02}
 
-\bibitem[Inc11]{SD01}
+\bibitem[1]{SD01}
 Kogent Inc.
 \newblock {\em SAP SD Handbook}.
 \newblock Jonas and Bartlett Publishers, Sudbury, MA, USA, 2011.
 
-\bibitem[Kha02]{SAP01}
+\bibitem[2]{SAP01}
 Arshad Khan.
 \newblock {\em Implementing SAP with an ASAP methology focus}.
 \newblock iUniverse, Inc., Lincoln, NE, USA, 2002.
 
-\bibitem[Inc11]{ABAP01}
+\bibitem[3]{ABAP01}
 Kogent Inc.
 \newblock {\em SAP ABAP Handbook}
 \newblock Jonas and Bartlett Publishers, Sudbury, MA, USA, 2011.
 
-\bibitem[And03]{SAP02}
+\bibitem[4]{SAP02}
 George W. Anderson.
 \newblock {\em SAP Planning: Best Practices in Implementation}
 \newblock Sams Publishing, USA, 2003.
 
-\bibitem[Kap10]{SD02}
-Kapil Sharma.
+\bibitem[5]{SD02}
+Kapil Sharma,
 Ashutosh Mutsaddi.
 \newblock {\em Configuring SAP ERP Sales and Distribution}
 \newblock Wiley Publishing Inc. Indianapolis, IN, USA, 2010.
+
+\bibitem[6]{IBM01}
+IBM de Venezuela. 2013.
+\newblock {\em IBM VENEZUELA: Nuestra Propuesta de Valor}
+\newblock Disponible en Internet: http://www.ibm.com/ve/values/index.phtml
+\newblock 'Ultima vez visitado el 18/11/2013.
+
+\bibitem[7]{SAP03}
+Mohammed Waseem. 2010.
+\newblock {\em ASAP Methodology}
+\newblock Disponible en Internet: http://wiki.scn.sap.com/wiki/display/SM/ASAP+Methodology
+\newblock 'Ultima vez visitado el 18/11/2013.
+
+\bibitem[8]
+Maria Manuela Cruz-Cunha.
+\newblock {\em Enterprise Information Systems for Business Integration in SMEs- Technological, Organizational, and Social Dimensions}
+\newblock IGI Global, Hershey, PA, USA , 2010.
+
+\bibitem[9]
+Scott Hamilton.
+\newblock {\em Maximing Your ERP System: A Practical Guide for Managers}
+\newblock McGraw Hill, New York, NY, USA, 2003.
+
 
 \end{thebibliography}
