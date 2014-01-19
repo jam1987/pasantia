@@ -1,7 +1,7 @@
 \select@language {spanish}
 \contentsline {chapter}{\'Indice general}{\es@scroman {viii}}{chapter*.2}
-\contentsline {chapter}{'Indice de Tablas}{\es@scroman {xii}}{chapter*.3}
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xiii}}{chapter*.4}
+\contentsline {chapter}{'Indice de Tablas}{\es@scroman {ix}}{chapter*.3}
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {xiv}}{chapter*.4}
 \contentsline {chapter}{Lista de Abreviaturas}{\es@scroman {xiv}}{chapter*.4}
 \contentsline {chapter}{Introducci\'on}{1}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Entorno Empresarial}{5}{chapter.1}
@@ -59,30 +59,30 @@
 \contentsline {section}{\numberline {4.4}Fase 4: Presentaci'on y Resultados Finales}{52}{section.4.4}
 \contentsline {chapter}{\numberline {5}Conclusiones y recomendaciones}{54}{chapter.5}
 \contentsline {chapter}{Bibliograf\'{\i }a}{57}{chapter*.33}
-\contentsline {chapter}{\numberline {A}Informaci'on Adicional de SAP R/3}{59}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Estructura de una Empresa en el M'odulo SD de SAP}{59}{section.Alph1.1}
-\contentsline {subsection}{\numberline {A.1.1}Organizaci'on de Venta}{60}{subsection.Alph1.1.1}
-\contentsline {subsection}{\numberline {A.1.2}Canal de Distribuci'on}{60}{subsection.Alph1.1.2}
-\contentsline {subsection}{\numberline {A.1.3}Sector}{61}{subsection.Alph1.1.3}
-\contentsline {subsection}{\numberline {A.1.4}'Area de Ventas}{61}{subsection.Alph1.1.4}
-\contentsline {subsection}{\numberline {A.1.5}Oficina de Ventas}{61}{subsection.Alph1.1.5}
-\contentsline {subsection}{\numberline {A.1.6}Puestos de Expedici'on}{61}{subsection.Alph1.1.6}
-\contentsline {subsection}{\numberline {A.1.7}Puestos de Carga}{62}{subsection.Alph1.1.7}
-\contentsline {section}{\numberline {A.2}Componentes de un Programa en ABAP/4}{62}{section.Alph1.2}
-\contentsline {subsection}{\numberline {A.2.1}Declaraci'on de datos globales, Clases y Selection Screens (Pantallas De Selecci'on)}{62}{subsection.Alph1.2.1}
-\contentsline {subsection}{\numberline {A.2.2}Contenedor de Bloques de Procesamiento}{63}{subsection.Alph1.2.2}
-\contentsline {subsection}{\numberline {A.2.3}Bloque de Programa}{63}{subsection.Alph1.2.3}
-\contentsline {subsection}{\numberline {A.2.4}Bloque de Proceso de Llamadas}{63}{subsection.Alph1.2.4}
-\contentsline {section}{\numberline {A.3}Componentes de un Smartform}{64}{section.Alph1.3}
-\contentsline {subsection}{\numberline {A.3.1}Constructor de Formularios Inteligentes (Smart Form Builder)}{64}{subsection.Alph1.3.1}
-\contentsline {subsection}{\numberline {A.3.2}Template de impresi'on para el Smartform (Smart Form Print Form Template}{66}{subsection.Alph1.3.2}
-\contentsline {subsection}{\numberline {A.3.3}M'odulo de Funciones del Smart Form (Smart Form Function Module)}{66}{subsection.Alph1.3.3}
-\contentsline {subsection}{\numberline {A.3.4}Programa de Impresi'on de Smart Forms (Smart Form Print Program)}{67}{subsection.Alph1.3.4}
-\contentsline {section}{\numberline {A.4}Etapas pertenecientes a la Fase de la Realizaci'on de ASAP}{67}{section.Alph1.4}
-\contentsline {subsection}{\numberline {A.4.1}Simulaci'on}{67}{subsection.Alph1.4.1}
-\contentsline {subsection}{\numberline {A.4.2}Validaci'on}{68}{subsection.Alph1.4.2}
-\contentsline {subsection}{\numberline {A.4.3}Uni'on y Pruebas de Integraci'on}{68}{subsection.Alph1.4.3}
-\contentsline {subsection}{\numberline {A.4.4}Conversi'on y Carga de los Datos}{70}{subsection.Alph1.4.4}
-\contentsline {subsection}{\numberline {A.4.5}Interfaces, Ampliaciones y Reportes}{71}{subsection.Alph1.4.5}
-\contentsline {chapter}{\numberline {B}Informaci'on Adicional de $Z\_CARGA\_CLIENTES\_SD$}{73}{appendix.Alph2}
-\contentsline {section}{\numberline {B.1}Creaci'on del Include de Funciones $Z\_CARGA\_CLIENTES\_SD\_INC\_F01$}{73}{section.Alph2.1}
+\contentsline {chapter}{\numberline {A}Informaci'on Adicional de SAP R/3}{58}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Estructura de una Empresa en el M'odulo SD de SAP}{58}{section.Alph1.1}
+\contentsline {subsection}{\numberline {A.1.1}Organizaci'on de Venta}{59}{subsection.Alph1.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Canal de Distribuci'on}{59}{subsection.Alph1.1.2}
+\contentsline {subsection}{\numberline {A.1.3}Sector}{60}{subsection.Alph1.1.3}
+\contentsline {subsection}{\numberline {A.1.4}'Area de Ventas}{60}{subsection.Alph1.1.4}
+\contentsline {subsection}{\numberline {A.1.5}Oficina de Ventas}{60}{subsection.Alph1.1.5}
+\contentsline {subsection}{\numberline {A.1.6}Puestos de Expedici'on}{60}{subsection.Alph1.1.6}
+\contentsline {subsection}{\numberline {A.1.7}Puestos de Carga}{61}{subsection.Alph1.1.7}
+\contentsline {section}{\numberline {A.2}Componentes de un Programa en ABAP/4}{61}{section.Alph1.2}
+\contentsline {subsection}{\numberline {A.2.1}Declaraci'on de datos globales, Clases y Selection Screens (Pantallas De Selecci'on)}{61}{subsection.Alph1.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Contenedor de Bloques de Procesamiento}{62}{subsection.Alph1.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Bloque de Programa}{62}{subsection.Alph1.2.3}
+\contentsline {subsection}{\numberline {A.2.4}Bloque de Proceso de Llamadas}{62}{subsection.Alph1.2.4}
+\contentsline {section}{\numberline {A.3}Componentes de un Smartform}{63}{section.Alph1.3}
+\contentsline {subsection}{\numberline {A.3.1}Constructor de Formularios Inteligentes (Smart Form Builder)}{63}{subsection.Alph1.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Template de impresi'on para el Smartform (Smart Form Print Form Template}{65}{subsection.Alph1.3.2}
+\contentsline {subsection}{\numberline {A.3.3}M'odulo de Funciones del Smart Form (Smart Form Function Module)}{65}{subsection.Alph1.3.3}
+\contentsline {subsection}{\numberline {A.3.4}Programa de Impresi'on de Smart Forms (Smart Form Print Program)}{66}{subsection.Alph1.3.4}
+\contentsline {section}{\numberline {A.4}Etapas pertenecientes a la Fase de la Realizaci'on de ASAP}{66}{section.Alph1.4}
+\contentsline {subsection}{\numberline {A.4.1}Simulaci'on}{66}{subsection.Alph1.4.1}
+\contentsline {subsection}{\numberline {A.4.2}Validaci'on}{67}{subsection.Alph1.4.2}
+\contentsline {subsection}{\numberline {A.4.3}Uni'on y Pruebas de Integraci'on}{67}{subsection.Alph1.4.3}
+\contentsline {subsection}{\numberline {A.4.4}Conversi'on y Carga de los Datos}{69}{subsection.Alph1.4.4}
+\contentsline {subsection}{\numberline {A.4.5}Interfaces, Ampliaciones y Reportes}{70}{subsection.Alph1.4.5}
+\contentsline {chapter}{\numberline {B}Informaci'on Adicional de $Z\_CARGA\_CLIENTES\_SD$}{72}{appendix.Alph2}
+\contentsline {section}{\numberline {B.1}Creaci'on del Include $Z\_CARGA\_CLIENTES\_SD\_INC\_F01$}{72}{section.Alph2.1}

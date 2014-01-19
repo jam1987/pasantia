@@ -1,5 +1,0 @@
------------------------------------------------
-REPORT: Probable 95% DDoS attack at Sun Apr 16 16:04:20 2000
-REPORT: Hurst change of 0.353363 seen between window 2243 and 2244
-REPORT: Values of 0.466236 and 0.112873
------------------------------------------------

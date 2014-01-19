@@ -1,8 +1,0 @@
-Testing for DDoS attacks with:
-Hthreshold of 0.836106--0.516170
-Chgthreshold of 0.043621
------------------------------------------------
-REPORT: Probable 95% DDoS attack at Tue Mar  7 11:57:29 2000
-REPORT: Hurst change of 0.124192 seen between window 337 and 338
-REPORT: Values of 0.636339 and 0.512147
------------------------------------------------
